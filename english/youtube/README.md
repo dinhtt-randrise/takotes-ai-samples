@@ -21,4 +21,17 @@ MIT OpenCourseWare - 1. What is Computation?
 + Sample Info: https://github.com/dinhtt-randrise/takotes-ai-samples/blob/main/english/youtube/nykOeWgQcHM.md
 
 
+============================================
+MIT OpenCourseWare - Lecture 1: Algorithmic Thinking, Peak Finding
+  ----------------------------------------
+
++ Lecture URL: https://www.youtube.com/watch?v=HtSuA80QTyo
+
++ Language: en
+
+  ----------------------------------------
+
++ Sample Info: https://github.com/dinhtt-randrise/takotes-ai-samples/blob/main/english/youtube/HtSuA80QTyo.md
+
+
 ```
