@@ -13,11 +13,13 @@ MIT OpenCourseWare - 1. What is Computation?
 
 --------------------------------------------
 
-+ Cardset URL: https://study.takotesai.com/sl/cs74591/takotes-ai-https---www-youtube-com-watch-v-nykOeWgQcHM.html
++ Cardset URL: https://study.takotesai.com/sl/cs819917/takotes-ai-https---www-youtube-com-watch-v-nykOeWgQcHM.html
 
 + Notes File: https://github.com/dinhtt-randrise/takotes-ai-samples/raw/main/english/youtube/nykOeWgQcHM.txt
 
 + Cardset Data File: https://github.com/dinhtt-randrise/takotes-ai-samples/raw/main/english/youtube/nykOeWgQcHM.json
+
++ Transcription File: https://github.com/dinhtt-randrise/takotes-ai-samples/raw/main/english/youtube/nykOeWgQcHM.trans
 
 + Email Screenshot:
 ```
