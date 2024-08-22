@@ -13,11 +13,13 @@ MIT OpenCourseWare - Lecture 1: Algorithmic Thinking, Peak Finding
 
 --------------------------------------------
 
-+ Cardset URL: https://study.takotesai.com/sl/cs340302/takotes-ai-https---www-youtube-com-watch-v-HtSuA80QTyo.html
++ Cardset URL: https://study.takotesai.com/sl/cs723404/takotes-ai-https---www-youtube-com-watch-v-HtSuA80QTyo.html
 
 + Notes File: https://github.com/dinhtt-randrise/takotes-ai-samples/raw/main/english/youtube/HtSuA80QTyo.txt
 
 + Cardset Data File: https://github.com/dinhtt-randrise/takotes-ai-samples/raw/main/english/youtube/HtSuA80QTyo.json
+
++ Transcription File: https://github.com/dinhtt-randrise/takotes-ai-samples/raw/main/english/youtube/HtSuA80QTyo.trans
 
 + Email Screenshot:
 ```
