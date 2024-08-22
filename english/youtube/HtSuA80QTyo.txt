@@ -1,0 +1,6289 @@
+=====>] TAKOTES AI (en): 2024.08.22 : 13.48.49 : https://www.youtube.com/watch?v=HtSuA80QTyo [<=====
+
+
+
+
+=====>] Paragraph 1 [<=====
+
+Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free.
+
+To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu.
+
+
+==> Creative Commons license
+
++ What is the Creative Commons license for the following content?
++ What kind of license does this content have?
+
+-----
+
+The following content is provided under a Creative Commons license.
+
+
+==> MIT OpenCourseWare continue
+
++ How will your support help MIT OpenCourseWare continue to offer high quality educational resources for free?
+
+-----
+
+Your support will help MIT OpenCourseWare continue to offer high quality educational resources for free.
+
+
+==> visit MIT OpenCourseWare , view additional materials
+
++ How many courses does MIT OpenCourseWare have?
++ Where can you make a donation or view additional materials from MIT courses?
+
+-----
+
+To make a donation or view additional materials from hundreds of MIT courses, visit MIT OpenCourseWare at ocw.mit.edu.
+
+
+
+
+
+=====>] Paragraph 2 [<=====
+
+Hi, I'm Srini Devadas.
+
+
+==> Srini Devadas
+
++ Who is Srini Devadas?
+
+-----
+
+Hi, I'm Srini Devadas.
+
+
+
+
+
+=====>] Paragraph 3 [<=====
+
+I'm a professor of lecture engineering and computer science.
+
+
+==> computer science
+
++ What field of study do I teach?
+
+-----
+
+I'm a professor of lecture engineering and computer science.
+
+
+
+
+
+=====>] Paragraph 4 [<=====
+
+I'm going to be co-lecturing 6006, Introduction to Algorithms this term, with Professor Eric Demaine.
+
+
+==> Professor Eric Demaine
+
++ What term will I be co-lecturing 6006, Introduction to Algorithms?
+
+-----
+
+I'm going to be co-lecturing 6006, Introduction to Algorithms this term, with Professor Eric Demaine.
+
+
+
+
+
+=====>] Paragraph 5 [<=====
+
+Eric, say hi.
+
+
+==> Eric
+
++ What is Eric's name?
+
+-----
+
+Eric, say hi.
+
+
+
+
+
+=====>] Paragraph 6 [<=====
+
+And you'll get all the information you need about what this class is about from a standpoint of syllabus, what's expected of you, the problem set schedule, the quiz schedule, and so on and so forth.
+
+And then we're going to dive right in and look at a particular problem of peak finding, both the one-dimensional version and a two-dimensional version, and talk about algorithms to solve this peak finding problem, both varieties of it.
+
+And what I mean by that is you're going to have different runtimes of these algorithms, depending on input size, based on how efficient these algorithms are.
+
+
+==> learning a variety , variety of algorithms
+
++ How many algorithms can you learn in 6006?
+
+-----
+
+And we hope you're going to have a fun time in 6006 learning a variety of algorithms.
+
+
+==> administrative details , today is spend
+
++ What do I want to spend a minute or so on today?
+
+-----
+
+What I want to do today is spend literally a minute or so on administrative details, maybe even less.
+
+
+==> website that listed
+
++ What's the name of the website that's listed up there?
+
+-----
+
+What I'd like to do is to tell you to go to the website that's listed up there and read it.
+
+
+==> problem set schedule , standpoint of syllabus , quiz schedule
+
++ What will you get from the standpoint of syllabus, what's expected of you?
+
+-----
+
+And you'll get all the information you need about what this class is about from a standpoint of syllabus, what's expected of you, the problem set schedule, the quiz schedule, and so on and so forth.
+
+
+==> interesting things , algorithms and complexity
+
++ What do I want to tell you about algorithms and complexity of algorithms?
+
+-----
+
+I want to dive right in and tell you about interesting things like algorithms and complexity of algorithms.
+
+
+==> spend some time
+
++ What do I want to give you an overview of?
+
+-----
+
+I want to spend some time giving you an overview of the course content.
+
+
+==> peak finding problem , talk about algorithms , algorithms to solve
+
++ What is the one-dimensional version of the peak finding problem?
++ What are the two-dimensional versions?
+
+-----
+
+And then we're going to dive right in and look at a particular problem of peak finding, both the one-dimensional version and a two-dimensional version, and talk about algorithms to solve this peak finding problem, both varieties of it.
+
+
+==> complexity , find
+
++ What will we look at in terms of the complexity of algorithms?
+
+-----
+
+And you'll find that there's really a difference between these various algorithms that we'll look at in terms of their complexity.
+
+
+==> depending on input , input size , efficient these algorithms
+
++ What do you're going to have different runtimes of?
++ How efficient are these algorithms?
+
+-----
+
+And what I mean by that is you're going to have different runtimes of these algorithms, depending on input size, based on how efficient these algorithms are.
+
+
+
+
+
+=====>] Paragraph 7 [<=====
+
+And a prerequisite for this class is 6.042.
+
+And in 6.042, you learned about asymptotic complexity.
+
+
+==> prerequisite
+
++ What is a prerequisite for this class?
+
+-----
+
+And a prerequisite for this class is 6.042.
+
+
+==> asymptotic complexity
+
++ In 6.042, what did you learn about asymptotic complexity?
+
+-----
+
+And in 6.042, you learned about asymptotic complexity.
+
+
+
+
+
+=====>] Paragraph 8 [<=====
+
+And you'll be able to compare and say that this algorithm is faster than this other one, assuming that you have large inputs because it's asymptotically less complex.
+
+And when I say large inputs, I mean things like the US highway system, a map of all of the highways in the United States, the human genome, which has a billion letters in its alphabet.
+
+
+==> simple algorithms today , asymptotic complexity
+
++ In this lecture, we'll analyze how simple algorithms are today?
+
+-----
+
+And you'll see that in this lecture, we'll analyze relatively simple algorithms today in terms of their asymptotic complexity.
+
+
+==> asymptotically less complex , algorithm is faster , large inputs
+
++ Which algorithm is faster than the other?
++ Why is this algorithm faster?
+
+-----
+
+And you'll be able to compare and say that this algorithm is faster than this other one, assuming that you have large inputs because it's asymptotically less complex.
+
+
+==> class
+
++ What's the name of the class that we're going to take?
+
+-----
+
+So let's dive right in and talk about the class.
+
+
+==> large inputs , one-sentence summary
+
++ What class is about efficient procedures for solving problems on large inputs?
+
+-----
+
+So the one-sentence summary of this class is that this is about efficient procedures for solving problems on large inputs.
+
+
+==> United States , large inputs , human genome , highway system
+
++ How many letters does the human genome have in its alphabet?
++ What is a map of all of the highways in the US?
+
+-----
+
+And when I say large inputs, I mean things like the US highway system, a map of all of the highways in the United States, the human genome, which has a billion letters in its alphabet.
+
+
+==> million nodes
+
++ How many nodes does Facebook have?
++ What is the name of a social network similar to Facebook?
+
+-----
+
+A social network corresponding to Facebook that, I guess, has 500 million nodes or so.
+
+
+
+
+
+=====>] Paragraph 9 [<=====
+
+Now, our definition of large has really changed with the times.
+
+And so really, the 21st century definition of large is, I guess, a trillion.
+
+
+==> large inputs
+
++ What are large inputs?
+
+-----
+
+So these are large inputs.
+
+
+==> definition of large
+
++ What has our definition of large really changed with the times?
+
+-----
+
+Now, our definition of large has really changed with the times.
+
+
+==> century definition
+
++ What is the definition of large in the 21st century?
++ What is a trillion?
+
+-----
+
+And so really, the 21st century definition of large is, I guess, a trillion.
+
+
+==> Back
+
++ What was the size of a car when you were younger?
++ What was your age?
+
+-----
+
+Back when I was your age, large was like 1,000.
+
+
+==> guess I dating
+
++ What's the name of the person I'm dating?
+
+-----
+
+I guess I'm dating myself here.
+
+
+
+
+
+=====>] Paragraph 10 [<=====
+
+Back when Eric was your age, it was a million.
+
+But what's happening, really, the world is moving faster.
+
+
+==> Back when Eric
+
++ When was Eric your age?
++ What was Eric's age when he was a million?
+
+-----
+
+Back when Eric was your age, it was a million.
+
+
+==> moving faster
+
++ What's happening, really, the world is moving faster?
+
+-----
+
+But what's happening, really, the world is moving faster.
+
+
+
+
+
+=====>] Paragraph 11 [<=====
+
+Things are getting bigger.
+
+
+==> Things
+
++ What are things getting bigger and bigger?
+
+-----
+
+Things are getting bigger.
+
+
+
+
+
+=====>] Paragraph 12 [<=====
+
+The fact of the matter is that you can maybe scan a billion elements in a matter of seconds.
+
+
+==> large inputs
+
++ What do we have the capability of computing on large inputs?
+
+-----
+
+We have the capability of computing on large inputs.
+
+
+==> paramount concern
+
++ What isn't of paramount concern?
+
+-----
+
+But that doesn't mean that efficiency isn't of paramount concern.
+
+
+==> scan a billion , billion elements
+
++ How many elements can you scan in a matter of seconds?
+
+-----
+
+The fact of the matter is that you can maybe scan a billion elements in a matter of seconds.
+
+
+
+
+
+=====>] Paragraph 13 [<=====
+
+But if you had an algorithm that required cubic complexity, suddenly you're not talking about 10 raised to 9.
+
+
+==> required cubic complexity
+
++ What would happen if you had an algorithm that required cubic complexity?
++ How many raised to 9 raised to 10?
+
+-----
+
+But if you had an algorithm that required cubic complexity, suddenly you're not talking about 10 raised to 9.
+
+
+==> raised
+
++ How many people are talking about raised to 27?
++ What is the number of people that you're talking about?
+
+-----
+
+You're talking about 10 raised to 27.
+
+
+
+
+
+=====>] Paragraph 14 [<=====
+
+And even current computers can't really handle those kinds of numbers.
+
+
+==> kinds of numbers
+
++ What kind of numbers can't even current computers handle?
+
+-----
+
+And even current computers can't really handle those kinds of numbers.
+
+
+
+
+
+=====>] Paragraph 15 [<=====
+
+So efficiency is a concern.
+
+
+==> concern
+
++ What is efficiency a concern?
+
+-----
+
+So efficiency is a concern.
+
+
+
+
+
+=====>] Paragraph 16 [<=====
+
+So we're concerned about efficient procedures for solving large scale problems in this class.
+
+
+==> inputs get larger
+
++ As inputs get larger, what becomes more of a concern?
+
+-----
+
+And as inputs get larger, it becomes more of a concern.
+
+
+==> solving large scale
+
++ In what class are we concerned about efficient procedures for solving large scale problems?
+
+-----
+
+So we're concerned about efficient procedures for solving large scale problems in this class.
+
+
+==> concerned about scalability
+
++ We're concerned about what?
+
+-----
+
+And we're concerned about scalability.
+
+
+
+
+
+=====>] Paragraph 17 [<=====
+
+Because just as 1,000 was a big number a couple of decades ago, and now it's kind of a small number, it's quite possible that by the time you guys are professors teaching this class in some university, that a trillion is going to be a small number.
+
+
+==> small number , decades ago , couple of decades , time you guys , guys are professors , professors teaching
+
++ What was a big number a couple of decades ago?
++ What is it possible that by the time you guys are professors teaching this class in some university, that a trillion is going to be a small number?
+
+-----
+
+Because just as 1,000 was a big number a couple of decades ago, and now it's kind of a small number, it's quite possible that by the time you guys are professors teaching this class in some university, that a trillion is going to be a small number.
+
+
+==> common case input
+
++ How many cases are raised to 18?
++ What is a common case input for an algorithm?
+
+-----
+
+And we're going to be talking about 10 raised to 18 as being something that we're concerned from a standpoint of a common case input for an algorithm.
+
+
+
+
+
+=====>] Paragraph 18 [<=====
+
+So scalability is important.
+
+
+==> scalability is important
+
++ What is important to a company?
+
+-----
+
+So scalability is important.
+
+
+
+
+
+=====>] Paragraph 19 [<=====
+
+We'll call them classic data structures, like binary search trees, hash tables that are called dictionaries in Python, and data structures such as balanced binary search trees that are more efficient than just the regular binary search trees.
+
+
+==> inputs get larger
+
++ What do we want to be able to track as inputs get larger?
+
+-----
+
+And we want to be able to track how our algorithms are going to do as inputs get larger and larger.
+
+
+==> data structures
+
++ How many different data structures are you going to learn?
+
+-----
+
+You're going to learn a bunch of different data structures.
+
+
+==> binary search trees , balanced binary search , regular binary search , classic data structures
+
++ What are hash tables called in Python?
++ What are more efficient than binary search trees?
+
+-----
+
+We'll call them classic data structures, like binary search trees, hash tables that are called dictionaries in Python, and data structures such as balanced binary search trees that are more efficient than just the regular binary search trees.
+
+
+
+
+
+=====>] Paragraph 20 [<=====
+
+And these are all data structures that were invented many decades ago.
+
+
+==> decades ago
+
++ What are data structures that were invented many decades ago?
+
+-----
+
+And these are all data structures that were invented many decades ago.
+
+
+
+
+
+=====>] Paragraph 21 [<=====
+
+But they've stood the test of time.
+
+
+==> test of time
+
++ What's the name of the product that's stood the test of time?
+
+-----
+
+But they've stood the test of time.
+
+
+
+
+
+=====>] Paragraph 22 [<=====
+
+And while you're not going to be doing a whole lot of algorithm design in this class, you will be doing some design and a whole lot of analysis.
+
+The class following this one, 6.046, Design Analysis of Algorithms, is a class that you should take if you like this one.
+
+But you will look at classic data structures and classical algorithms for these data structures, including things like sorting and matching and so on.
+
+And in particular, each of the problem sets in this class are going to have both a theory part to them and a programming part to them.
+
+
+==> continue
+
++ What do they continue to be useful for?
+
+-----
+
+And they continue to be useful.
+
+
+==> kinds of problems , augment these data
+
++ What are we going to do with the data structures?
++ What is one way we're going to make them more efficient?
+
+-----
+
+We're going to augment these data structures in various ways to make them more efficient for certain kinds of problems.
+
+
+==> lot of analysis , lot of algorithm , algorithm design
+
++ What will you be doing in this class?
+
+-----
+
+And while you're not going to be doing a whole lot of algorithm design in this class, you will be doing some design and a whole lot of analysis.
+
+
+==> Design Analysis , Analysis of Algorithms
+
++ What is the name of the class following 6.046?
++ What should you take if you like this one?
+
+-----
+
+The class following this one, 6.046, Design Analysis of Algorithms, is a class that you should take if you like this one.
+
+
+==> lot more design
+
++ In what version of 6.046 can you do a whole lot more design of algorithms?
+
+-----
+
+And you can do a whole lot more design of algorithms in 6.046.
+
+
+==> classic data structures , including things
+
++ What are some examples of data structures that you will look at?
+
+-----
+
+But you will look at classic data structures and classical algorithms for these data structures, including things like sorting and matching and so on.
+
+
+==> algorithms in Python , nice things , real implementations
+
++ What is one of the nice things about this class?
++ What will you be doing real implementations of?
+
+-----
+
+And one of the nice things about this class is that you'll be doing real implementations of these data structures and algorithms in Python.
+
+
+==> problem sets , theory part , programming part
+
++ What part of the problem sets in this class is going to have a theory part?
+
+-----
+
+And in particular, each of the problem sets in this class are going to have both a theory part to them and a programming part to them.
+
+
+==> tie
+
++ What's the name of the show that's going to tie together?
+
+-----
+
+So hopefully, it'll all tie together.
+
+
+==> problem sets , kinds of things , lectures and recitations
+
++ What are the kinds of things we're going to be talking about in lectures and recitations connected to?
+
+-----
+
+The kinds of things we're going to be talking about in lectures and recitations are going to be directly connected to the theory parts of the problem sets.
+
+
+==> programming the algorithms , lecture or augmenting , large inputs
+
++ What will you be doing with the algorithms that we talk about in lecture?
+
+-----
+
+And you'll be programming the algorithms that we talk about in lecture or augmenting them, running them, figuring out whether they work well on large inputs or not.
+
+
+==> problem sets
+
++ What are the modules in this class?
++ What is the problem set?
+
+-----
+
+So let me talk a little bit about the modules in this class and the problem sets.
+
+
+==> problem sets
+
++ What kind of fun are these problem sets going to be?
+
+-----
+
+And we hope that these problem sets are going to be fun for you.
+
+
+
+
+
+=====>] Paragraph 23 [<=====
+
+And by fun, I don't mean easy.
+
+
+==> fun
+
++ What do I mean by fun?
++ What does fun mean?
+
+-----
+
+And by fun, I don't mean easy.
+
+
+
+
+
+=====>] Paragraph 24 [<=====
+
+I mean challenging and worthwhile.
+
+
+==> challenging and worthwhile
+
++ What do I mean challenging and worthwhile?
+
+-----
+
+I mean challenging and worthwhile.
+
+
+
+
+
+=====>] Paragraph 25 [<=====
+
+So at the end of it, you feel like you've learned something.
+
+So content-wise, we have eight modules in the class, each of which, roughly speaking, has a problem set associated with it.
+
+
+==> end
+
++ What do you feel at the end of the course?
+
+-----
+
+So at the end of it, you feel like you've learned something.
+
+
+==> fun
+
++ What kind of fun did you have along the way?
+
+-----
+
+And you've had some fun along the way.
+
+
+==> roughly speaking , problem set
+
++ How many modules do we have in the class?
++ How many problems do each module have?
+
+-----
+
+So content-wise, we have eight modules in the class, each of which, roughly speaking, has a problem set associated with it.
+
+
+==> call algorithmic thinking
+
++ What is the first type of thinking?
++ What is it called?
+
+-----
+
+The first of these is what we call algorithmic thinking.
+
+
+==> kick start
+
++ What's the name of the program that we're going to start today?
+
+-----
+
+And we'll kick start that one today.
+
+
+
+
+
+=====>] Paragraph 26 [<=====
+
+And as part of this, you're going to have a problem set that's going to go out today as well.
+
+And you'll find that in this problem set, some of these algorithms I've talked about today will be coded in Python and given to you.
+
+So you'll get a better sense of this by the end of the day today, for sure, or a concrete sense of this, because we'll be done with lecture, and you'll see your first problem set.
+
+
+==> peak finding
+
++ What's the problem with peak finding?
+
+-----
+
+We'll look at a particular problem, as I mentioned, of peak finding.
+
+
+==> problem set , part
+
++ What's going to go out today as part of the problem set?
+
+-----
+
+And as part of this, you're going to have a problem set that's going to go out today as well.
+
+
+==> coded in Python , problem set , algorithms I talked
+
++ In what language will some of the algorithms I've talked about today be coded?
+
+-----
+
+And you'll find that in this problem set, some of these algorithms I've talked about today will be coded in Python and given to you.
+
+
+==> couple
+
++ How many of these are going to have bugs in them?
+
+-----
+
+A couple of them are going to have bugs in them.
+
+
+==> correct and efficient , analyze the complexity , write a proof
+
++ What will you have to do to analyze the complexity of algorithms?
++ What must you do to figure out which algorithms are correct and efficient?
+
+-----
+
+You'll have to analyze the complexity of these algorithms, figure out which ones are correct and efficient, and write a proof for one of them.
+
+
+==> problem set
+
++ What's the name of an example problem set?
+
+-----
+
+So that's sort of an example problem set.
+
+
+==> sort of template , problem sets
+
++ What kind of template are most of the problem sets going to follow?
+
+-----
+
+And you can expect that most of the problem sets are going to follow that sort of template.
+
+
+==> day today , problem set , concrete sense
+
++ What will you get by the end of the day today?
++ What is the first problem set?
+
+-----
+
+So you'll get a better sense of this by the end of the day today, for sure, or a concrete sense of this, because we'll be done with lecture, and you'll see your first problem set.
+
+
+==> sorting in trees
+
++ What module will we be doing on sorting in trees?
+
+-----
+
+We're going to be doing a module on sorting in trees.
+
+
+
+
+
+=====>] Paragraph 27 [<=====
+
+Sorting, you know about sorting a bunch of numbers.
+
+
+==> bunch of numbers
+
++ What do you know about sorting a bunch of numbers?
+
+-----
+
+Sorting, you know about sorting a bunch of numbers.
+
+
+==> trillion numbers
+
++ Imagine if you had a trillion numbers and you wanted to sort them?
+
+-----
+
+Imagine if you had a trillion numbers and you wanted to sort them.
+
+
+==> kind of algorithm
+
++ What kind of algorithm could you use for that?
+
+-----
+
+What kind of algorithm could you use for that?
+
+
+
+
+
+=====>] Paragraph 28 [<=====
+
+Trees are a wonderful data structure.
+
+
+==> wonderful data structure
+
++ What is a wonderful data structure?
+
+-----
+
+Trees are a wonderful data structure.
+
+
+
+
+
+=====>] Paragraph 29 [<=====
+
+And there's ways of doing all sorts of things like scheduling and sorting using various kinds of trees, including binary trees.
+
+
+==> binary trees
+
++ What kind of trees are the most common?
+
+-----
+
+There's different varieties, the most common being binary trees.
+
+
+==> including binary trees
+
++ What kind of trees are there?
++ What sort of trees can be used?
+
+-----
+
+And there's ways of doing all sorts of things like scheduling and sorting using various kinds of trees, including binary trees.
+
+
+==> problem set , simulating a logic , logic network
+
++ What is going to be your second problem set on simulating a logic network?
+
+-----
+
+And we have a problem set on simulating a logic network using a particular kind of sorting algorithm and a data structure that is going to be your second problem set.
+
+
+==> modules on hashing , genome comparison
+
++ What kind of modules will we have on hashing?
++ What type of comparisons will we do?
+
+-----
+
+And more quickly, we're going to have modules on hashing, where we'll do things like genome comparison.
+
+
+==> past terms , pretty similar
+
++ When did we compare a human genome to a rat genome?
++ What did we find about the similarities between the two genomes?
+
+-----
+
+In past terms, we compared a human genome to a rat genome and discovered they were pretty similar.
+
+
+
+
+
+=====>] Paragraph 30 [<=====
+
+99% similar, which is kind of amazing.
+
+
+==> similar
+
++ What percentage of similarity is 99% of?
+
+-----
+
+99% similar, which is kind of amazing.
+
+
+
+
+
+=====>] Paragraph 31 [<=====
+
+And you'll find that if you don't get the complexity low enough, you just won't be able to complete.
+
+Your program won't be able to finish running within the time that your problem set is due, which is a bit of a problem.
+
+And you want to keep complexity in mind as you're coding and thinking about the pseudocode, if you will, of your algorithm itself.
+
+
+==> comparison methods , things
+
++ What do you have to have in the comparison methods that you use?
+
+-----
+
+But again, these things are so large that you have to have efficiency in the comparison methods that you use.
+
+
+==> complexity low , complete
+
++ What will you find that if you don't get the complexity low enough, you won't be able to complete?
+
+-----
+
+And you'll find that if you don't get the complexity low enough, you just won't be able to complete.
+
+
+==> set is due , finish running , problem set
+
++ What is a bit of a problem with a program that won't be able to finish running?
+
+-----
+
+Your program won't be able to finish running within the time that your problem set is due, which is a bit of a problem.
+
+
+==> test your code
+
++ What should you keep in mind as you test your code?
+
+-----
+
+So that's something to keep in mind as you test your code.
+
+
+==> run your code
+
++ What will you get large inputs to run your code?
+
+-----
+
+The fact is that you will get large inputs to run your code.
+
+
+==> complexity in mind , coding and thinking
+
++ What do you want to keep in mind when you're coding and thinking about the pseudocode?
+
+-----
+
+And you want to keep complexity in mind as you're coding and thinking about the pseudocode, if you will, of your algorithm itself.
+
+
+==> talk about numerics
+
++ When will we talk about numerics?
+
+-----
+
+We will talk about numerics.
+
+
+
+
+
+=====>] Paragraph 32 [<=====
+
+A lot of the time, we talk about such large numbers that 32 bits isn't enough, or 64 bits isn't enough to represent these numbers.
+
+
+==> bits , large numbers , time
+
++ How many bits isn't enough to represent large numbers?
++ What is 64 bits?
++ How often do we talk about numbers that are so large that 32 bits is not enough?
+
+-----
+
+A lot of the time, we talk about such large numbers that 32 bits isn't enough, or 64 bits isn't enough to represent these numbers.
+
+
+
+
+
+=====>] Paragraph 33 [<=====
+
+These numbers have thousands of bits.
+
+
+==> thousands of bits
+
++ What do these numbers have thousands of bits of?
+
+-----
+
+These numbers have thousands of bits.
+
+
+
+
+
+=====>] Paragraph 34 [<=====
+
+A good example is RSA encryption that is used in SSL, for example.
+
+
+==> RSA encryption
+
++ What type of encryption is used in SSL?
+
+-----
+
+A good example is RSA encryption that is used in SSL, for example.
+
+
+
+
+
+=====>] Paragraph 35 [<=====
+
+And when you go use HTTPS on websites, RSA is used at the back end.
+
+And typically, you work with prime numbers that are thousands of bits long in RSA.
+
+
+==> HTTPS on websites
+
++ What is used at the back end when you use HTTPS?
+
+-----
+
+And when you go use HTTPS on websites, RSA is used at the back end.
+
+
+==> long in RSA
+
++ How many bits long are prime numbers in RSA?
+
+-----
+
+And typically, you work with prime numbers that are thousands of bits long in RSA.
+
+
+
+
+
+=====>] Paragraph 36 [<=====
+
+How does Python handle that?
+
+
+==> handle
+
++ How do you deal with that?
+
+-----
+
+So how do you handle that?
+
+
+==> Python handle
+
++ How does Python handle that?
+
+-----
+
+How does Python handle that?
+
+
+
+
+
+=====>] Paragraph 37 [<=====
+
+Graphs, really a fundamental data structure in all of computer science.
+
+
+==> infinite precision numbers
+
++ How do you write algorithms that can deal with what are called infinite precision numbers?
+
+-----
+
+How do you write algorithms that can deal with what are called infinite precision numbers?
+
+
+==> module on numerics , term that talks
+
++ What module is in the middle of the term that talks about numerics?
+
+-----
+
+So we have a module on numerics in the middle of the term that talks about that.
+
+
+==> fundamental data structure
+
++ What is really a fundamental data structure in all of computer science?
+
+-----
+
+Graphs, really a fundamental data structure in all of computer science.
+
+
+
+
+
+=====>] Paragraph 38 [<=====
+
+A 2 by 2 by 2 Rubik's Cube, what's the minimum number of moves necessary to go from a given starting configuration to the final end configuration where each of the faces has uniform color?
+
+
+==> famous Rubik Cube
+
++ What is the name of the famous Rubik's Cube assignment from 006?
+
+-----
+
+You might have heard of the famous Rubik's Cube assignment from 006.
+
+
+==> Rubik Cube , final end configuration , uniform color , minimum number
+
++ What's the minimum number of moves needed to go from a given starting configuration to the final end configuration?
++ What does each of the faces have uniform color?
+
+-----
+
+A 2 by 2 by 2 Rubik's Cube, what's the minimum number of moves necessary to go from a given starting configuration to the final end configuration where each of the faces has uniform color?
+
+
+
+
+
+=====>] Paragraph 39 [<=====
+
+And that can be posed as a graph problem.
+
+
+==> graph problem
+
++ What can be posed as a graph problem?
+
+-----
+
+And that can be posed as a graph problem.
+
+
+
+
+
+=====>] Paragraph 40 [<=====
+
+This term, in previous terms, we've done other things like the 15 puzzle.
+
+
+==> previous terms
+
++ How many puzzles have we done in previous terms?
+
+-----
+
+This term, in previous terms, we've done other things like the 15 puzzle.
+
+
+
+
+
+=====>] Paragraph 41 [<=====
+
+And so some of these are tentative.
+
+
+==> tentative
+
++ Some of these are what?
++ What are some of these?
+
+-----
+
+And so some of these are tentative.
+
+
+
+
+
+=====>] Paragraph 42 [<=====
+
+We definitely know what the first problem set is like.
+
+
+==> problem set
+
++ What do we know about the first problem set?
+
+-----
+
+We definitely know what the first problem set is like.
+
+
+
+
+
+=====>] Paragraph 43 [<=====
+
+But the rest of them are, at this moment, tentative.
+
+And to finish up, shortest paths.
+
+
+==> tentative
+
++ What are the rest of them at this moment?
+
+-----
+
+But the rest of them are, at this moment, tentative.
+
+
+==> shortest paths
+
++ What are the shortest paths?
+
+-----
+
+And to finish up, shortest paths.
+
+
+
+
+
+=====>] Paragraph 44 [<=====
+
+Again, in terms past, we've asked you to write code using a particular algorithm that finds the shortest path from Caltech to MIT.
+
+
+==> Caltech to MIT , path from Caltech
+
++ What is the name of the algorithm that finds the shortest path from Caltech to MIT?
+
+-----
+
+Again, in terms past, we've asked you to write code using a particular algorithm that finds the shortest path from Caltech to MIT.
+
+
+==> bit differently
+
++ What may we do this time?
+
+-----
+
+This time, we may do things a little bit differently.
+
+
+
+
+
+=====>] Paragraph 45 [<=====
+
+We're thinking maybe we'll give you a street map of Boston and go figure it out if Paul Revere used the shortest path to get to where he was going or things like that.
+
+
+==> Paul Revere , map of Boston , street map , shortest path
+
++ What did Paul Revere use to get to where he was going?
++ What is the name of the street map of Boston?
+
+-----
+
+We're thinking maybe we'll give you a street map of Boston and go figure it out if Paul Revere used the shortest path to get to where he was going or things like that.
+
+
+==> make it fun
+
++ What will we try to make it fun?
+
+-----
+
+We'll try and make it fun.
+
+
+
+
+
+=====>] Paragraph 46 [<=====
+
+Dynamic programming is an important algorithm design technique that's used in many, many problems.
+
+
+==> important algorithm design
+
++ What is an important algorithm design technique that's used in many, many problems?
+
+-----
+
+Dynamic programming is an important algorithm design technique that's used in many, many problems.
+
+
+==> including image compression
+
++ What can be used to do a variety of things?
+
+-----
+
+And it can be used to do a variety of things, including image compression.
+
+
+
+
+
+=====>] Paragraph 47 [<=====
+
+How do you compress an image?
+
+
+==> compress an image
+
++ How do you compress an image?
+
+-----
+
+How do you compress an image?
+
+
+
+
+
+=====>] Paragraph 48 [<=====
+
+And finally, advanced topics, complexity theory, research and algorithms.
+
+Hopefully, by this time in the course, you would have been sold on algorithms.
+
+And most, if not all of you, would want to pursue a career in algorithms.
+
+And there's many, many classes that you can possibly take if you want to continue to learn about algorithms or to pursue a career in algorithms.
+
+
+==> pixels reduces
+
++ How does the number of pixels decrease?
+
+-----
+
+So the number of pixels reduces.
+
+
+==> pixels , image
+
++ How many pixels did the image that you started with have?
+
+-----
+
+But it still looks like the image that you started out with that had many more pixels.
+
+
+==> dynamic programming
+
++ What kind of programming could be used for dynamic programming?
+
+-----
+
+So you could use dynamic programming for that.
+
+
+==> advanced topics
+
++ What do advanced topics, complexity theory, research and algorithms have in common?
+
+-----
+
+And finally, advanced topics, complexity theory, research and algorithms.
+
+
+==> sold on algorithms
+
++ What would you have been sold on by the end of the course?
+
+-----
+
+Hopefully, by this time in the course, you would have been sold on algorithms.
+
+
+==> career in algorithms
+
++ What would most of you want to pursue?
+
+-----
+
+And most, if not all of you, would want to pursue a career in algorithms.
+
+
+==> give
+
++ What's the name of the book that will give you a sense of what else?
+
+-----
+
+And we'll give you a sense of what else is there.
+
+
+==> scratching the surface
+
++ What are we just scratching the surface of in this class?
+
+-----
+
+We're just scratching the surface in this class.
+
+
+==> continue to learn , pursue a career , learn about algorithms
+
++ How many classes can you take if you want to continue to learn about algorithms or pursue a career in algorithms?
+
+-----
+
+And there's many, many classes that you can possibly take if you want to continue to learn about algorithms or to pursue a career in algorithms.
+
+
+
+
+
+=====>] Paragraph 49 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 50 [<=====
+
+So that's the story of the class, of the synopsis of the class.
+
+
+==> class
+
++ What's the name of the class?
++ What is the title of the synopsis?
+
+-----
+
+So that's the story of the class, of the synopsis of the class.
+
+
+
+
+
+=====>] Paragraph 51 [<=====
+
+In particular, please read the collaboration policy and get a sense of what is expected of you, what the rules are in terms of doing the problem sets.
+
+
+==> website
+
++ What is the name of the website you can visit?
++ How many minutes do you spend on the website?
+
+-----
+
+And I encourage you to go spend a few minutes on the website.
+
+
+==> problem sets , read the collaboration , collaboration policy
+
++ What is expected of you?
++ What are the rules for doing problem sets?
+
+-----
+
+In particular, please read the collaboration policy and get a sense of what is expected of you, what the rules are in terms of doing the problem sets.
+
+
+==> grading breakdown , grading policies
+
++ What is the course grading breakdown?
++ What are all the policies listed on the website?
+
+-----
+
+And the course grading breakdown and the grading policies are all listed on the website as well.
+
+
+
+
+
+=====>] Paragraph 52 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 53 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 54 [<=====
+
+So let's get started.
+
+
+==> started
+
++ What's the name of the game that we're going to play?
+
+-----
+
+So let's get started.
+
+
+
+
+
+=====>] Paragraph 55 [<=====
+
+But like a lot of toy problems, it's very evocative in that it points out the issues involved in designing efficient algorithms.
+
+
+==> specific problem , talk about algorithms
+
++ What do I want to talk about?
++ What are algorithms for a specific problem?
+
+-----
+
+I want to talk about a specific problem and talk about algorithms for a specific problem.
+
+
+==> easy to understand
+
++ We picked this problem because it's so easy to understand?
+
+-----
+
+We picked this problem because it's so easy to understand.
+
+
+==> fairly straightforward algorithms
+
++ What kind of algorithms aren't particularly efficient to solve this problem?
+
+-----
+
+And they're fairly straightforward algorithms that are not particularly efficient to solve this problem.
+
+
+==> toy problem
+
++ Is this a toy problem?
+
+-----
+
+And so this is kind of a toy problem.
+
+
+==> designing efficient algorithms , toy problems
+
++ What is evocative about the problem of designing efficient algorithms?
++ What does the problem point out?
+
+-----
+
+But like a lot of toy problems, it's very evocative in that it points out the issues involved in designing efficient algorithms.
+
+
+==> call peak finding
+
++ What's the name of the one-dimensional version of peak finding?
+
+-----
+
+So we'll start with a one-dimensional version of what we call peak finding.
+
+
+==> one-dimensional case runs , array of numbers
+
++ What is a peak finder in the one-dimensional case runs on an array of numbers?
+
+-----
+
+And a peak finder is something in the one-dimensional case runs on an array of numbers.
+
+
+==> putting symbols
+
++ What are I just putting symbols for?
+
+-----
+
+And I'm just putting symbols for each of these numbers here.
+
+
+==> negative
+
++ What are the numbers of the positive and negative numbers?
+
+-----
+
+And the numbers are positive, negative.
+
+
+
+
+
+=====>] Paragraph 56 [<=====
+
+We'll just assume they're all positive.
+
+
+==> positive
+
++ We'll assume they're all positive.?
+
+-----
+
+We'll just assume they're all positive.
+
+
+
+
+
+=====>] Paragraph 57 [<=====
+
+It doesn't really matter.
+
+
+==> matter
+
++ What does it really matter?
+
+-----
+
+It doesn't really matter.
+
+
+
+
+
+=====>] Paragraph 58 [<=====
+
+The algorithms we describe will work.
+
+
+==> describe will work
+
++ What kind of algorithms do we describe?
+
+-----
+
+The algorithms we describe will work.
+
+
+
+
+
+=====>] Paragraph 59 [<=====
+
+And so we have this one-dimensional array that has nine different positions and A through I numbers.
+
+
+==> one-dimensional array , numbers
+
++ How many different positions does the one-dimensional array have?
+
+-----
+
+And so we have this one-dimensional array that has nine different positions and A through I numbers.
+
+
+
+
+
+=====>] Paragraph 60 [<=====
+
+And we want to find a peak.
+
+And so we have to define what we mean by a peak.
+
+
+==> find a peak
+
++ What do we want to find?
+
+-----
+
+And we want to find a peak.
+
+
+==> peak
+
++ What do we mean by a peak?
+
+-----
+
+And so we have to define what we mean by a peak.
+
+
+
+
+
+=====>] Paragraph 61 [<=====
+
+And so in particular, as an example, position two is a peak if and only if B greater than or equal to A and B greater than or equal to C. So it's really a very local property corresponding to a peak.
+
+
+==> greater , equal , position , peak , local property
+
++ What is a peak if and only if B greater than or equal to A?
++ What is position two really a local property corresponding to?
+
+-----
+
+And so in particular, as an example, position two is a peak if and only if B greater than or equal to A and B greater than or equal to C. So it's really a very local property corresponding to a peak.
+
+
+
+
+
+=====>] Paragraph 62 [<=====
+
+In the one-dimensional case, it's trivial.
+
+
+==> one-dimensional case
+
++ In the one-dimensional case, what is trivial?
+
+-----
+
+In the one-dimensional case, it's trivial.
+
+
+
+
+
+=====>] Paragraph 63 [<=====
+
+Look to your left.
+
+
+==> left
+
++ What direction do you look to your left?
+
+-----
+
+Look to your left.
+
+
+
+
+
+=====>] Paragraph 64 [<=====
+
+If you're equal or greater than both of the elements that you see on the left and the right, you're a peak.
+
+And in the case of the edges, you only have to look to one side.
+
+
+==> equal or greater , peak
+
++ What is a peak if you're equal or greater than both of the elements on the left and the right?
+
+-----
+
+If you're equal or greater than both of the elements that you see on the left and the right, you're a peak.
+
+
+==> edges
+
++ What do you have to look to in order to see the edges?
++ What is the only side that you can look at?
+
+-----
+
+And in the case of the edges, you only have to look to one side.
+
+
+
+
+
+=====>] Paragraph 65 [<=====
+
+So position nine is a peak if I greater than or equal to H. So you just have to look to your left there because you're all the way on the right-hand side.
+
+
+==> right-hand side , position , peak , greater
+
++ What is a peak if I greater than or equal to H?
+
+-----
+
+So position nine is a peak if I greater than or equal to H. So you just have to look to your left there because you're all the way on the right-hand side.
+
+
+
+
+
+=====>] Paragraph 66 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 67 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 68 [<=====
+
+And the statement of the problem, the one-dimensional version, is find a peak if it exists.
+
+
+==> one-dimensional version , find a peak
+
++ What is the one-dimensional version of the problem?
+
+-----
+
+And the statement of the problem, the one-dimensional version, is find a peak if it exists.
+
+
+
+
+
+=====>] Paragraph 69 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 70 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 71 [<=====
+
+You can imagine that the straightforward algorithm is something that just walks across the array.
+
+
+==> straightforward algorithm
+
++ What's the name of the algorithm I'm giving you?
+
+-----
+
+I'm going to give you a straightforward algorithm.
+
+
+==> improve
+
++ What will we see if we can improve it?
+
+-----
+
+And then we'll see if you can improve it.
+
+
+==> straightforward algorithm
+
++ What is a straightforward algorithm?
+
+-----
+
+You can imagine that the straightforward algorithm is something that just walks across the array.
+
+
+==> starting point
+
++ What do we need as a starting point for building something more sophisticated?
+
+-----
+
+But we need that as a starting point for building something more sophisticated.
+
+
+
+
+
+=====>] Paragraph 72 [<=====
+
+So let's say we start from left.
+
+
+==> start from left
+
++ Where do we start from?
+
+-----
+
+So let's say we start from left.
+
+
+
+
+
+=====>] Paragraph 73 [<=====
+
+And all we have is one traversal, really.
+
+
+==> traversal
+
++ How many traversals do we have?
+
+-----
+
+And all we have is one traversal, really.
+
+
+
+
+
+=====>] Paragraph 74 [<=====
+
+And then we have n minus 1 and n. What I'm interested in doing is not only coming up with a straightforward algorithm, but also precisely categorizing what its complexity is in relation to n, which is the number of inputs.
+
+
+==> element array
+
++ What does n over 2 correspond to in the middle of the array?
+
+-----
+
+And then we have n over 2 over here, corresponding to the middle of this n element array.
+
+
+==> minus , straightforward algorithm , number of inputs , precisely categorizing
+
++ What is n minus 1?
++ What is the number of inputs?
+
+-----
+
+And then we have n minus 1 and n. What I'm interested in doing is not only coming up with a straightforward algorithm, but also precisely categorizing what its complexity is in relation to n, which is the number of inputs.
+
+
+
+
+
+=====>] Paragraph 75 [<=====
+
+Yeah, question?
+
+
+==> Yeah
+
++ What is the name of the question?
++ What does that mean?
+
+-----
+
+Yeah, question?
+
+
+
+
+
+=====>] Paragraph 76 [<=====
+
+AUDIENCE 1.
+
+
+==> AUDIENCE
+
++ AUDIENCE 1.?
+
+-----
+
+AUDIENCE 1.
+
+
+
+
+
+=====>] Paragraph 77 [<=====
+
+Why do you say if it exists?
+
+
+==> exists
+
++ Why do you say if it exists?
+
+-----
+
+Why do you say if it exists?
+
+
+
+
+
+=====>] Paragraph 78 [<=====
+
+Like, here you have for a peak, or p guarantees a peak?
+
+
+==> guarantees a peak
+
++ What guarantees a peak?
+
+-----
+
+Like, here you have for a peak, or p guarantees a peak?
+
+
+
+
+
+=====>] Paragraph 79 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 80 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 81 [<=====
+
+So if you look at the definition of the peak, then what I have here is greater than or equal to.
+
+
+==> peak , definition
+
++ What does the definition of the peak mean?
++ What is greater than or equal to?
+
+-----
+
+So if you look at the definition of the peak, then what I have here is greater than or equal to.
+
+
+==> great question
+
++ What was the great question that was asked?
+
+-----
+
+And so that's a great question that was asked.
+
+
+
+
+
+=====>] Paragraph 82 [<=====
+
+Why is there if it exists in this problem?
+
+
+==> problem
+
++ Why is there if it exists in this problem?
+
+-----
+
+Why is there if it exists in this problem?
+
+
+
+
+
+=====>] Paragraph 83 [<=====
+
+Now, in the case where I have greater than or equal to, then this is a homework question for you and for the rest of you.
+
+
+==> homework question , case , greater
+
++ What is a homework question for you and for the rest of you?
++ What do you have greater than or equal to?
+
+-----
+
+Now, in the case where I have greater than or equal to, then this is a homework question for you and for the rest of you.
+
+
+==> Argue
+
++ What do you believe will always have a peak?
+
+-----
+
+Argue that any array will always have a peak.
+
+
+==> make that argument , greater
+
++ What argument can you make if you didn't have the greater than or equal to and you had a greater than?
+
+-----
+
+Now, if you didn't have the greater than or equal to and you had a greater than, then can you make that argument?
+
+
+
+
+
+=====>] Paragraph 84 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 85 [<=====
+
+So great question.
+
+
+==> great question
+
++ What is a great question to ask?
+
+-----
+
+So great question.
+
+
+
+
+
+=====>] Paragraph 86 [<=====
+
+But if I had a different definition of a peak, and this is part of algorithmic thinking, you want to be able to create algorithms that are general.
+
+And if, in fact, you had a different definition, well, you would have to create an algorithm that tells you for sure that a peak doesn't exist or find a peak if it exists.
+
+
+==> find the peak
+
++ What would you want to do in order to find the peak?
+
+-----
+
+In this case, you would want to modify this problem statement to find the peak.
+
+
+==> algorithmic thinking , part of algorithmic , create algorithms
+
++ What do you want to be able to create if you have a different definition of a peak?
+
+-----
+
+But if I had a different definition of a peak, and this is part of algorithmic thinking, you want to be able to create algorithms that are general.
+
+
+==> starting point , problem definition
+
++ What happens if the problem definition changes on you?
++ What is the starting point to attack the second version of the problem?
+
+-----
+
+So if the problem definition changes on you, you still have a starting point to go attack the second version of the problem.
+
+
+==> equal to definition , exists
+
++ What could be eliminated in the case of the greater than or equal to definition?
++ What will always exist?
+
+-----
+
+So you could eliminate this in the case of the greater than or equal to definition, the if it exists, because a peak will always exist.
+
+
+==> show the correctness , algorithm
+
++ When you want to show the correctness of your algorithm, you probably want to argue what?
+
+-----
+
+But you probably want to argue that when you want to show the correctness of your algorithm.
+
+
+==> create an algorithm , find a peak , exist or find
+
++ What would you have to create if you had a different definition?
+
+-----
+
+And if, in fact, you had a different definition, well, you would have to create an algorithm that tells you for sure that a peak doesn't exist or find a peak if it exists.
+
+
+
+
+
+=====>] Paragraph 87 [<=====
+
+So that's really the general case.
+
+
+==> general case
+
++ What's the general case?
+
+-----
+
+So that's really the general case.
+
+
+
+
+
+=====>] Paragraph 88 [<=====
+
+Many a time, it's possible that you're asked to do something and you can't actually give an answer to the question or find something that satisfies all the constraints required.
+
+
+==> constraints required , give an answer , question or find
+
++ What happens when you're asked to do something and you can't give an answer to the question or find something that satisfies all the constraints?
+
+-----
+
+Many a time, it's possible that you're asked to do something and you can't actually give an answer to the question or find something that satisfies all the constraints required.
+
+
+==> case , put
+
++ What do you want to be able to say in a situation like this?
+
+-----
+
+And in that case, you want to be able to put up your hand and say, you know what?
+
+
+
+
+
+=====>] Paragraph 89 [<=====
+
+Here's my argument that I searched exhaustively, and I couldn't find it.
+
+
+==> long and hard
+
++ What did I search long and hard for?
+
+-----
+
+I searched long and hard.
+
+
+==> searched exhaustively
+
++ What did I search exhaustively for?
+
+-----
+
+I searched exhaustively.
+
+
+==> searched exhaustively
+
++ What was the name of my argument that I searched exhaustively and couldn't find?
+
+-----
+
+Here's my argument that I searched exhaustively, and I couldn't find it.
+
+
+
+
+
+=====>] Paragraph 90 [<=====
+
+If you do that, you get to keep your job.
+
+
+==> job
+
++ What do you get if you keep your job?
+
+-----
+
+If you do that, you get to keep your job.
+
+
+
+
+
+=====>] Paragraph 91 [<=====
+
+Otherwise, there's always the case that you didn't search hard enough.
+
+
+==> search hard
+
++ What's the case if you didn't search hard enough?
+
+-----
+
+Otherwise, there's always the case that you didn't search hard enough.
+
+
+==> argument
+
++ What kind of argument is it nice to have?
+
+-----
+
+So it's nice to have that argument.
+
+
+
+
+
+=====>] Paragraph 92 [<=====
+
+All right, great.
+
+
+==> great
+
++ What is the name of the game?
+
+-----
+
+All right, great.
+
+
+
+
+
+=====>] Paragraph 93 [<=====
+
+Thanks for the question.
+
+
+==> question
+
++ Thank you for the question?
+
+-----
+
+Thanks for the question.
+
+
+
+
+
+=====>] Paragraph 94 [<=====
+
+Feel free to interrupt, raise your hand, and I'm watching you guys, and I'm happy to answer questions at any time.
+
+
+==> raise your hand , Feel free
+
++ What's the name of the person who's watching you guys?
++ What kind of questions can I answer?
+
+-----
+
+Feel free to interrupt, raise your hand, and I'm watching you guys, and I'm happy to answer questions at any time.
+
+
+==> straightforward algorithm
+
++ Let's talk about what algorithm?
+
+-----
+
+So let's talk about the straightforward algorithm.
+
+
+==> straightforward algorithm
+
++ What is a straightforward algorithm?
++ What does the algorithm start from?
+
+-----
+
+The straightforward algorithm is something that starts from the left and just walks across.
+
+
+
+
+
+=====>] Paragraph 95 [<=====
+
+By this, I mean the numbers are increasing as you start from the left.
+
+The peak is somewhere in the middle, and then things start decreasing.
+
+So in this case, this might be the peak.
+
+
+==> numbers are increasing
+
++ What do I mean when I say the numbers are increasing as you start from the left?
+
+-----
+
+By this, I mean the numbers are increasing as you start from the left.
+
+
+==> things start decreasing
+
++ Where is the peak?
++ What happens when things start decreasing?
+
+-----
+
+The peak is somewhere in the middle, and then things start decreasing.
+
+
+==> case
+
++ In this case, what might be the peak?
+
+-----
+
+So in this case, this might be the peak.
+
+
+
+
+
+=====>] Paragraph 96 [<=====
+
+You also may have a situation where the peak is all the way on the right.
+
+
+==> situation , peak
+
++ What may happen if the peak is all the way on the right?
+
+-----
+
+You also may have a situation where the peak is all the way on the right.
+
+
+
+
+
+=====>] Paragraph 97 [<=====
+
+You start it from the left, and it's 1, 2, 3, 4, 5, 6, literally in terms of the numbers.
+
+
+==> literally in terms , left
+
++ Where do you start a game?
++ What is the literal meaning of the game in terms of numbers?
+
+-----
+
+You start it from the left, and it's 1, 2, 3, 4, 5, 6, literally in terms of the numbers.
+
+
+
+
+
+=====>] Paragraph 98 [<=====
+
+And the complexity, worst case complexity, is what we call theta n. And it's theta n because in the worst case, you may have to look at all n elements.
+
+
+==> find the peak , order to find
+
++ What are you going to look at all the way to the right in order to find the peak?
+
+-----
+
+And you're going to look at n elements going all the way to the right in order to find the peak.
+
+
+==> middle , elements
+
++ What would you look at n over 2 elements if it was right in the middle?
+
+-----
+
+So in the case of the middle, you'd look at n over 2 elements if it was right in the middle.
+
+
+==> worst case complexity
+
++ What does theta n stand for?
++ What is it called in the worst case?
+
+-----
+
+And the complexity, worst case complexity, is what we call theta n. And it's theta n because in the worst case, you may have to look at all n elements.
+
+
+==> case , started
+
++ What would happen if you started from the left and had to go all the way to the right?
+
+-----
+
+And that would be the case where you started from the left and you had to go all the way to the right.
+
+
+==> remember , theta , essentially
+
++ What is theta n essentially?
++ What gives you both the lower bound and an upper bound?
+
+-----
+
+Now remember, theta n is essentially something that says of the order of n. So it gives you both the lower bound and an upper bound.
+
+
+==> upper bound
+
++ Big O of n is just what?
++ What is the upper bound?
+
+-----
+
+Big O of n is just the upper bound.
+
+
+
+
+
+=====>] Paragraph 99 [<=====
+
+And what we're saying here is we're saying this algorithm that starts from the left is going to essentially require, in the worst case, something that's a constant times n. And that constant could be 1.
+
+
+==> essentially require , worst case , algorithm that starts , constant times
+
++ What is the worst case for an algorithm that starts from the left?
++ What is a constant times n?
+
+-----
+
+And what we're saying here is we're saying this algorithm that starts from the left is going to essentially require, in the worst case, something that's a constant times n. And that constant could be 1.
+
+
+==> set things
+
++ What could you set things up that way?
++ What would you be able to do?
+
+-----
+
+You could certainly set things up that way.
+
+
+==> kind of algorithm
+
++ What could you work on if you had a different algorithm?
+
+-----
+
+Or if you had a different kind of algorithm, maybe you could work on the constant.
+
+
+==> bottom line
+
++ What are we concerned about at this moment?
++ What is the only thing we're concerned about?
+
+-----
+
+But bottom line, we're only concerned at this moment about asymptotic complexity.
+
+
+==> algorithm is linear
+
++ What is the asymptotic complexity of this algorithm?
+
+-----
+
+And the asymptotic complexity of this algorithm is linear.
+
+
+
+
+
+=====>] Paragraph 100 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 101 [<=====
+
+That make sense?
+
+
+==> make sense
+
++ What does that make sense?
+
+-----
+
+That make sense?
+
+
+
+
+
+=====>] Paragraph 102 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 103 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 104 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 105 [<=====
+
+How can we lower the asymptotic complexity of a one-dimensional peak finder?
+
+
+==> one-dimensional peak finder
+
++ How can we lower the asymptotic complexity of a one-dimensional peak finder?
+
+-----
+
+How can we lower the asymptotic complexity of a one-dimensional peak finder?
+
+
+
+
+
+=====>] Paragraph 106 [<=====
+
+Anybody want to take a stab at that?
+
+
+==> stab
+
++ What is the name of the game you want to try?
+
+-----
+
+Anybody want to take a stab at that?
+
+
+
+
+
+=====>] Paragraph 107 [<=====
+
+Whichever side is higher, you then put that in half because you know there's a peak.
+
+Example, if you're in the middle on the right side, there's a higher number on the right side.
+
+
+==> Yeah
+
++ What is the name of the place where you can find the answer to that question?
+
+-----
+
+Yeah, back there.
+
+
+==> binary search
+
++ What would you do if you were to look at the middle?
+
+-----
+
+You could binary search so that you look at the middle and whatever is higher.
+
+
+==> Whichever side , side is higher
+
++ Which side is higher?
++ Why do you put the side that's higher in half?
+
+-----
+
+Whichever side is higher, you then put that in half because you know there's a peak.
+
+
+==> higher number , side
+
++ What's a higher number on the right side if you're in the middle?
+
+-----
+
+Example, if you're in the middle on the right side, there's a higher number on the right side.
+
+
+==> peak
+
++ What would you look at because you know there's a peak somewhere?
+
+-----
+
+Then you would just look at that because you know there's a peak somewhere in there.
+
+
+
+
+
+=====>] Paragraph 108 [<=====
+
+And you continue cutting in half.
+
+
+==> cutting in half
+
++ What do you continue to cut in half?
+
+-----
+
+And you continue cutting in half.
+
+
+
+
+
+=====>] Paragraph 109 [<=====
+
+Excellent.
+
+Excellent.
+
+
+==> Excellent
+
++ What is the best answer to this question?
++ What is a good answer?
+
+-----
+
+Excellent.
+
+
+==> Excellent
+
++ What is the best answer to this question?
++ What is a good answer?
+
+-----
+
+Excellent.
+
+
+
+
+
+=====>] Paragraph 110 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 111 [<=====
+
+Use a divide and conquer strategy and recursively break up this one-dimensional array into smaller arrays and try and get this complexity down.
+
+
+==> problem
+
++ What can you do to try and break up the problem?
+
+-----
+
+So you can do something different, which is essentially try and break up this problem.
+
+
+==> divide and conquer , conquer strategy
+
++ What is a divide and conquer strategy?
++ How do you break up a one-dimensional array?
+
+-----
+
+Use a divide and conquer strategy and recursively break up this one-dimensional array into smaller arrays and try and get this complexity down.
+
+
+
+
+
+=====>] Paragraph 112 [<=====
+
+Yeah?
+
+
+==> Yeah
+
++ What is the name of the game?
+
+-----
+
+Yeah?
+
+
+
+
+
+=====>] Paragraph 113 [<=====
+
+Are we assuming there's only one peak?
+
+
+==> peak
+
++ Are we assuming there's only one peak?
+
+-----
+
+Are we assuming there's only one peak?
+
+
+
+
+
+=====>] Paragraph 114 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 115 [<=====
+
+It's find a peak if it exists.
+
+
+==> find a peak
+
++ What is the name of the peak that can be found?
+
+-----
+
+It's find a peak if it exists.
+
+
+
+
+
+=====>] Paragraph 116 [<=====
+
+And in this case, it's find a peak because of the definition.
+
+
+==> find a peak
+
++ What is the definition of a peak?
++ What does the definition mean?
+
+-----
+
+And in this case, it's find a peak because of the definition.
+
+
+
+
+
+=====>] Paragraph 117 [<=====
+
+We don't really need this as it was discussed.
+
+
+==> discussed
+
++ We don't really need what as it was discussed?
+
+-----
+
+We don't really need this as it was discussed.
+
+
+
+
+
+=====>] Paragraph 118 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 119 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 120 [<=====
+
+So that was a great answer.
+
+
+==> great answer
+
++ What was a great answer to that question?
+
+-----
+
+So that was a great answer.
+
+
+
+
+
+=====>] Paragraph 121 [<=====
+
+And this class, after a while, is going to get boring, right?
+
+
+==> class
+
++ What class is going to get boring after a while?
+
+-----
+
+And this class, after a while, is going to get boring, right?
+
+
+
+
+
+=====>] Paragraph 122 [<=====
+
+Every class gets boring.
+
+
+==> class gets boring
+
++ What is the name of the class that gets boring?
+
+-----
+
+Every class gets boring.
+
+
+
+
+
+=====>] Paragraph 123 [<=====
+
+So we try and break the monotony here a bit.
+
+
+==> break the monotony
+
++ What do we try to break the monotony of?
+
+-----
+
+So we try and break the monotony here a bit.
+
+
+
+
+
+=====>] Paragraph 124 [<=====
+
+And then the other thing that we realized was that these seats you're sitting on, this is a nice classroom, but the seats you're sitting on are kind of hard.
+
+So what Eric and I did was we decided we'll help you guys out, especially the ones who are interacting with us.
+
+
+==> seats you sitting , nice classroom , kind of hard
+
++ What was the other thing that we realized was that the seats you're sitting on are hard?
+
+-----
+
+And then the other thing that we realized was that these seats you're sitting on, this is a nice classroom, but the seats you're sitting on are kind of hard.
+
+
+==> Eric , decided
+
++ What did Eric and I decide we'll help you guys out with?
+
+-----
+
+So what Eric and I did was we decided we'll help you guys out, especially the ones who are interacting with us.
+
+
+
+
+
+=====>] Paragraph 125 [<=====
+
+And we have these cushions that are 6006 cushions.
+
+
+==> cushions
+
++ How many cushions do we have?
++ How many of these cushions are there?
+
+-----
+
+And we have these cushions that are 6006 cushions.
+
+
+
+
+
+=====>] Paragraph 126 [<=====
+
+And that's a 2 by 2 by 2 Rubik's Cube here.
+
+
+==> Rubik Cube
+
++ What is the size of the Rubik's Cube?
+
+-----
+
+And that's a 2 by 2 by 2 Rubik's Cube here.
+
+
+
+
+
+=====>] Paragraph 127 [<=====
+
+And since you answered the first question, you get a cushion.
+
+
+==> question
+
++ What do you get when you answer the first question?
+
+-----
+
+And since you answered the first question, you get a cushion.
+
+
+
+
+
+=====>] Paragraph 128 [<=====
+
+This is kind of like a Frisbee, but not really.
+
+
+==> Frisbee
+
++ What is a Frisbee?
++ What is the name of the game?
+
+-----
+
+This is kind of like a Frisbee, but not really.
+
+
+
+
+
+=====>] Paragraph 129 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 130 [<=====
+
+But the other thing I want to say is this is not a baseball game, right, where you just grab the balls that come by.
+
+
+==> baseball game , grab the balls
+
++ What is not a baseball game?
++ What do you grab the balls that come by?
+
+-----
+
+But the other thing I want to say is this is not a baseball game, right, where you just grab the balls that come by.
+
+
+
+
+
+=====>] Paragraph 131 [<=====
+
+This is meant for him, my friend in the red shirt.
+
+
+==> red shirt
+
++ What is the name of my friend in the red shirt?
+
+-----
+
+This is meant for him, my friend in the red shirt.
+
+
+
+
+
+=====>] Paragraph 132 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 133 [<=====
+
+Too bad.
+
+
+==> bad
+
++ What's the name of the game that's causing a lot of trouble?
+
+-----
+
+Too bad.
+
+
+
+
+
+=====>] Paragraph 134 [<=====
+
+It is soft, so it won't hurt you if it hits you.
+
+So if you've got a bunch of these, raise your hands.
+
+
+==> soft
+
++ What is the name of the product that doesn't hurt you if it hits you?
+
+-----
+
+It is soft, so it won't hurt you if it hits you.
+
+
+==> raise your hands
+
++ What do you do if you've got a bunch of these?
+
+-----
+
+So if you've got a bunch of these, raise your hands.
+
+
+
+
+
+=====>] Paragraph 135 [<=====
+
+There's some trivial questions that we're going to ask just to make sure you're awake.
+
+
+==> trivial questions
+
++ What are some trivial questions that we're going to ask to make sure you're awake?
+
+-----
+
+There's some trivial questions that we're going to ask just to make sure you're awake.
+
+
+==> cushion
+
++ What does not get you a cushion?
+
+-----
+
+So an answer to that doesn't get you a cushion.
+
+
+
+
+
+=====>] Paragraph 136 [<=====
+
+Jace, an answer like Jace just gave, that's a good answer to a non-trivial question.
+
+
+==> answer
+
++ What's your name?
+
+-----
+
+But an answer like, what's your name?
+
+
+==> non-trivial question
+
++ Jace, an answer like Jace just gave, that's a good answer to a non-trivial question?
+
+-----
+
+Jace, an answer like Jace just gave, that's a good answer to a non-trivial question.
+
+
+
+
+
+=====>] Paragraph 137 [<=====
+
+That gets you a cushion.
+
+
+==> cushion
+
++ What gets you a cushion?
+
+-----
+
+That gets you a cushion.
+
+
+
+
+
+=====>] Paragraph 138 [<=====
+
+All right, great.
+
+
+==> great
+
++ What is the name of the game?
+
+-----
+
+All right, great.
+
+
+
+
+
+=====>] Paragraph 139 [<=====
+
+So let's put up Jace's algorithm up here.
+
+
+==> put up Jace
+
++ What is Jace's algorithm?
+
+-----
+
+So let's put up Jace's algorithm up here.
+
+
+
+
+
+=====>] Paragraph 140 [<=====
+
+I'm going to write it out for the 1D version.
+
+
+==> version
+
++ What will I write out for the 1D version?
+
+-----
+
+I'm going to write it out for the 1D version.
+
+
+
+
+
+=====>] Paragraph 141 [<=====
+
+So the picture you want to keep in your head is this picture that I've put up there.
+
+
+==> recursive algorithm
+
++ What is the name of the recursive algorithm?
+
+-----
+
+So what we have here is a recursive algorithm.
+
+
+==> picture , head
+
++ What is the name of the picture that you want to keep in your head?
+
+-----
+
+So the picture you want to keep in your head is this picture that I've put up there.
+
+
+
+
+
+=====>] Paragraph 142 [<=====
+
+And this is a divide and conquer algorithm.
+
+
+==> conquer algorithm
+
++ What is the name of the algorithm?
+
+-----
+
+And this is a divide and conquer algorithm.
+
+
+
+
+
+=====>] Paragraph 143 [<=====
+
+You're going to see this over and over, this paradigm, over and over in 6006.
+
+We're going to look at the n over 2 position.
+
+And we're going to look to the left.
+
+And we're going to do that in sequence.
+
+
+==> paradigm
+
++ In 6006, you're going to see this paradigm over and over again, what?
++ What's the name of the paradigm that's going to be seen in 6006?
+
+-----
+
+You're going to see this over and over, this paradigm, over and over in 6006.
+
+
+==> position
+
++ What position are we going to look at?
+
+-----
+
+We're going to look at the n over 2 position.
+
+
+==> left
+
++ What direction are we going to look to?
+
+-----
+
+And we're going to look to the left.
+
+
+==> sequence
+
++ What are we going to do in sequence?
+
+-----
+
+And we're going to do that in sequence.
+
+
+
+
+
+=====>] Paragraph 144 [<=====
+
+So if a n over 2 is less than a n over 2 minus 1, then only look at the left half, 1 through n over 2 minus 1, to look for a peak.
+
+
+==> left half , minus , peak
+
++ What is less than a n over 2 minus 1?
++ What is the left half of the equation?
+
+-----
+
+So if a n over 2 is less than a n over 2 minus 1, then only look at the left half, 1 through n over 2 minus 1, to look for a peak.
+
+
+
+
+
+=====>] Paragraph 145 [<=====
+
+So that's step one.
+
+
+==> step
+
++ What's the first step?
+
+-----
+
+So that's step one.
+
+
+
+
+
+=====>] Paragraph 146 [<=====
+
+And I could have done the right-hand side or the left-hand side.
+
+
+==> right-hand side
+
++ What could have been done on the right-hand side or the left-handed side?
+
+-----
+
+And I could have done the right-hand side or the left-hand side.
+
+
+
+
+
+=====>] Paragraph 147 [<=====
+
+I chose to do the left-hand side first, the left half.
+
+
+==> matter
+
++ What does it really matter?
+
+-----
+
+It doesn't really matter.
+
+
+==> left half
+
++ Which side did I choose to do first?
++ What was the first part of the project?
+
+-----
+
+I chose to do the left-hand side first, the left half.
+
+
+
+
+
+=====>] Paragraph 148 [<=====
+
+And so what I've done is through that one step, if in fact you have that condition a n over 2 is less than a n over 2 minus 1, then you move to your left and you work on one half of the problem.
+
+
+==> minus , step , problem , fact , condition
+
++ What is the condition a n over 2 is less than?
++ How do you move to your left and work on one half of the problem?
+
+-----
+
+And so what I've done is through that one step, if in fact you have that condition a n over 2 is less than a n over 2 minus 1, then you move to your left and you work on one half of the problem.
+
+
+==> case , peak
+
++ If n over 2 is less than a over n by 2 plus 1, then only look at what for a peak?
+
+-----
+
+But if that's not the case, then if n over 2 is less than a over n by 2 plus 1, then only look at n over 2 plus 1 through n for a peak.
+
+
+==> bothered writing
+
++ What have I not bothered to write out?
+
+-----
+
+So I haven't bothered writing out all the words.
+
+
+
+
+
+=====>] Paragraph 149 [<=====
+
+They're exactly the same as the left-hand side.
+
+
+==> left-hand side
+
++ What's the same as the left-hand side?
+
+-----
+
+They're exactly the same as the left-hand side.
+
+
+
+
+
+=====>] Paragraph 150 [<=====
+
+You just look to the right-hand side.
+
+
+==> right-hand side
+
++ What do you look to the right-hand side?
+
+-----
+
+You just look to the right-hand side.
+
+
+
+
+
+=====>] Paragraph 151 [<=====
+
+Otherwise, if both of these conditions don't fire, you're actually done.
+
+That's actually the best case in terms of finishing early, at least in this recursive step.
+
+
+==> fire
+
++ What happens if both of these conditions don't fire?
+
+-----
+
+Otherwise, if both of these conditions don't fire, you're actually done.
+
+
+==> finishing early , recursive step
+
++ What's the best case of finishing early?
++ What is a recursive step?
+
+-----
+
+That's actually the best case in terms of finishing early, at least in this recursive step.
+
+
+
+
+
+=====>] Paragraph 152 [<=====
+
+Because what you've found is that the n over 2 position is greater than or equal to both of its adjacent positions.
+
+
+==> position
+
++ Why is the n over 2 position now a peak?
+
+-----
+
+Because now the n over 2 position is a peak.
+
+
+==> adjacent positions , position is greater
+
++ What position is greater than or equal to both of its adjacent positions?
+
+-----
+
+Because what you've found is that the n over 2 position is greater than or equal to both of its adjacent positions.
+
+
+
+
+
+=====>] Paragraph 153 [<=====
+
+And that's exactly the definition of a peak.
+
+
+==> peak
+
++ What is exactly the definition of a peak?
+
+-----
+
+And that's exactly the definition of a peak.
+
+
+
+
+
+=====>] Paragraph 154 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 155 [<=====
+
+So all of this is good.
+
+
+==> good
+
++ So all of this is good?
+
+-----
+
+So all of this is good.
+
+
+
+
+
+=====>] Paragraph 156 [<=====
+
+You want to write an argument that this algorithm is correct.
+
+
+==> algorithm is correct
+
++ What do you want to write about this algorithm?
+
+-----
+
+You want to write an argument that this algorithm is correct.
+
+
+
+
+
+=====>] Paragraph 157 [<=====
+
+And I'm not going to bother with that.
+
+I just waved my hands a bit.
+
+
+==> bother
+
++ What's not going to bother me with?
+
+-----
+
+And I'm not going to bother with that.
+
+
+==> hands a bit
+
++ What did I just wave my hands a bit?
+
+-----
+
+I just waved my hands a bit.
+
+
+
+
+
+=====>] Paragraph 158 [<=====
+
+And you all nodded, so we're done with that.
+
+
+==> nodded
+
++ What's the name of the group that nodded?
+
+-----
+
+And you all nodded, so we're done with that.
+
+
+
+
+
+=====>] Paragraph 159 [<=====
+
+But the point being, you will see in your problem set a precise argument for a more complicated algorithm, the 2D version of this.
+
+And that should be a template for you to go write a proof or an argument, a formal argument, that a particular algorithm is correct, that it does what it claims to do.
+
+And in this case, it's two, three lines of careful reasoning that essentially say, given the definition of the peak, that this is going to find a peak in the array that you're given.
+
+
+==> complicated algorithm , problem set , set a precise
+
++ What will you see in your problem set a precise argument for?
+
+-----
+
+But the point being, you will see in your problem set a precise argument for a more complicated algorithm, the 2D version of this.
+
+
+==> algorithm is correct , formal argument , write a proof
+
++ What should be a template for you to go write a proof or an argument, a formal argument?
+
+-----
+
+And that should be a template for you to go write a proof or an argument, a formal argument, that a particular algorithm is correct, that it does what it claims to do.
+
+
+==> lines of careful , careful reasoning , reasoning that essentially , find a peak
+
++ How many lines of careful reasoning do you need to use to find a peak in the array?
+
+-----
+
+And in this case, it's two, three lines of careful reasoning that essentially say, given the definition of the peak, that this is going to find a peak in the array that you're given.
+
+
+
+
+
+=====>] Paragraph 160 [<=====
+
+So we all believe that this algorithm is correct.
+
+
+==> algorithm is correct
+
++ What do we all believe about the algorithm?
+
+-----
+
+So we all believe that this algorithm is correct.
+
+
+
+
+
+=====>] Paragraph 161 [<=====
+
+Let's talk now about the complexity of this algorithm.
+
+Because the whole point of this algorithm is because we didn't like this theta n complexity corresponding to the straightforward algorithm.
+
+
+==> algorithm
+
++ Let's talk about the complexity of what?
+
+-----
+
+Let's talk now about the complexity of this algorithm.
+
+
+==> theta n complexity , straightforward algorithm
+
++ What is the whole point of this algorithm?
++ Why did we not like this theta n complexity?
+
+-----
+
+Because the whole point of this algorithm is because we didn't like this theta n complexity corresponding to the straightforward algorithm.
+
+
+
+
+
+=====>] Paragraph 162 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 163 [<=====
+
+So what I'd like to do is ask one of you to give me a recurrence relation of the kind t of n equals blah, blah, blah that would correspond to this recursive algorithm, this divide and conquer algorithm.
+
+And then using that, I'd like to get to the actual complexity in terms of what the theta of complexity corresponds to.
+
+
+==> recursive algorithm , conquer algorithm , recurrence relation , divide and conquer
+
++ What would a recurrence relation of the kind t of n equals?
++ What would be the kind of relation that would correspond to this recursive algorithm?
+
+-----
+
+So what I'd like to do is ask one of you to give me a recurrence relation of the kind t of n equals blah, blah, blah that would correspond to this recursive algorithm, this divide and conquer algorithm.
+
+
+==> actual complexity , complexity corresponds
+
++ What does theta of complexity correspond to?
+
+-----
+
+And then using that, I'd like to get to the actual complexity in terms of what the theta of complexity corresponds to.
+
+
+
+
+
+=====>] Paragraph 164 [<=====
+
+Yeah, back there.
+
+
+==> Yeah
+
++ What is the name of the place where you can find the answer to that question?
+
+-----
+
+Yeah, back there.
+
+
+
+
+
+=====>] Paragraph 165 [<=====
+
+So in the worst case scenario, the t of n is going to be some constant amount of time it takes to investigate whether a certain element is plus t of n over 2.
+
+
+==> worst case scenario , constant amount
+
++ What is going to be a constant amount of time it takes to investigate whether a certain element is plus t of n over 2?
+
+-----
+
+So in the worst case scenario, the t of n is going to be some constant amount of time it takes to investigate whether a certain element is plus t of n over 2.
+
+
+
+
+
+=====>] Paragraph 166 [<=====
+
+Great, exactly right.
+
+
+==> Great
+
++ What's the name of the product that's exactly right?
+
+-----
+
+Great, exactly right.
+
+
+
+
+
+=====>] Paragraph 167 [<=====
+
+And this theta 1 corresponds to the two comparisons that you do looking at, potentially the two comparisons that you do, looking at the left hand side and the right hand side.
+
+
+==> computation standpoint , write an equation , algorithm
+
++ What can I write from a computation standpoint if I look at this algorithm?
+
+-----
+
+So if you look at this algorithm and you say from a computation standpoint, can I write an equation corresponding to the execution of this algorithm?
+
+
+==> input of size , write this equation , work
+
++ What is the work that this algorithm does on an input of size n?
++ What does t of n do?
+
+-----
+
+And you say t of n is the work that this algorithm does on an input of size n. So then I can write this equation.
+
+
+==> left hand side , comparisons
+
++ Theta 1 corresponds to the two comparisons that you do looking at what?
+
+-----
+
+And this theta 1 corresponds to the two comparisons that you do looking at, potentially the two comparisons that you do, looking at the left hand side and the right hand side.
+
+
+==> put theta
+
++ What is a constant?
++ Why do we put theta 1?
+
+-----
+
+So 2 is a constant, so that's why we put theta 1.
+
+
+
+
+
+=====>] Paragraph 168 [<=====
+
+All right, so you get equation 2.
+
+
+==> equation
+
++ What is the name of the equation?
+
+-----
+
+All right, so you get equation 2.
+
+
+
+
+
+=====>] Paragraph 169 [<=====
+
+Watch out, guys.
+
+
+==> guys
+
++ What do you guys need to watch out for?
+
+-----
+
+Watch out, guys.
+
+
+
+
+
+=====>] Paragraph 170 [<=====
+
+Whoa.
+
+
+==> Whoa
+
++ Whoa.?
+
+-----
+
+Whoa.
+
+
+
+
+
+=====>] Paragraph 171 [<=====
+
+Actually, that wasn't so bad.
+
+
+==> bad
+
++ What was not so bad?
++ What was the name of the game?
+
+-----
+
+Actually, that wasn't so bad.
+
+
+
+
+
+=====>] Paragraph 172 [<=====
+
+We're left.
+
+Eric, we're left.
+
+
+==> left
+
++ What's the name of the group that's left?
+
+-----
+
+We're left.
+
+
+==> Eric
+
++ What's the name of Eric's wife?
+
+-----
+
+Eric, we're left.
+
+
+
+
+
+=====>] Paragraph 173 [<=====
+
+So if you take this and you start expanding it, eventually you're going to get to the base case, which is t of 1 is theta 1.
+
+
+==> base case , start expanding , eventually
+
++ What is the base case of theta 1?
+
+-----
+
+So if you take this and you start expanding it, eventually you're going to get to the base case, which is t of 1 is theta 1.
+
+
+==> element array
+
++ What is the name of the array that you're going to return for that array?
+
+-----
+
+Because you have a one element array, for that array, you're just going to return that as a peak.
+
+
+==> equals theta , expand
+
++ What is the t of n equals?
++ What does theta 1 equal?
+
+-----
+
+And so if you do that and you expand it all the way out, then you can write t of n equals theta 1 plus theta 1.
+
+
+
+
+
+=====>] Paragraph 174 [<=====
+
+And adding these all up gives you a complexity theta log 2 of n. So now you compare this with that.
+
+
+==> base
+
++ How many times are you going to log to the base 2 of n times?
+
+-----
+
+And you're going to do this log to the base 2 of n times.
+
+
+==> complexity theta log
+
++ What gives you a complexity theta log 2 of n?
+
+-----
+
+And adding these all up gives you a complexity theta log 2 of n. So now you compare this with that.
+
+
+==> huge difference
+
++ What's the difference between the two?
+
+-----
+
+And there's really a huge difference.
+
+
+==> exponential difference
+
++ Is there an exponential difference?
+
+-----
+
+There's an exponential difference.
+
+
+
+
+
+=====>] Paragraph 175 [<=====
+
+If you coded up this algorithm in Python, and I did both these algorithms for the 1D version.
+
+And if you run it on n being 10 million or so, then this algorithm takes 13 seconds.
+
+The theta n algorithm takes 13 seconds.
+
+
+==> algorithm in Python , version
+
++ What language did you code up this algorithm in?
++ What did I do for the 1D version?
+
+-----
+
+If you coded up this algorithm in Python, and I did both these algorithms for the 1D version.
+
+
+==> million , run
+
++ How long does it take to run this algorithm?
+
+-----
+
+And if you run it on n being 10 million or so, then this algorithm takes 13 seconds.
+
+
+==> theta n algorithm
+
++ How long does the theta n algorithm take?
+
+-----
+
+The theta n algorithm takes 13 seconds.
+
+
+
+
+
+=====>] Paragraph 176 [<=====
+
+Huge difference.
+
+
+==> Huge difference
+
++ What is a huge difference?
++ What is the difference between the two?
+
+-----
+
+Huge difference.
+
+
+
+
+
+=====>] Paragraph 177 [<=====
+
+So there is a big difference between theta n and theta log n. It's literally the difference between 2 raised to n and n. It makes sense to try and reduce complexity, as you can see, especially if you're talking about large inputs.
+
+
+==> theta log , big difference , difference between theta
+
++ What is a big difference between theta n and?
++ What is the difference between 2 raised to n?
+
+-----
+
+So there is a big difference between theta n and theta log n. It's literally the difference between 2 raised to n and n. It makes sense to try and reduce complexity, as you can see, especially if you're talking about large inputs.
+
+
+==> version , problem
+
++ What will you see more clearly as we go to a 2D version of this?
+
+-----
+
+And you'll see that more clearly as we go to a 2D version of this problem.
+
+
+==> straightforward problem
+
++ What is a straightforward problem with the 1D?
+
+-----
+
+The 1D is a straightforward problem.
+
+
+
+
+
+=====>] Paragraph 178 [<=====
+
+It gets a little more interesting.
+
+
+==> interesting
+
++ What is the name of the show that gets a little more interesting?
+
+-----
+
+It gets a little more interesting.
+
+
+
+
+
+=====>] Paragraph 179 [<=====
+
+The algorithms get a little more sophisticated when we look at a 2D version of peak finding.
+
+So as you can imagine, in the 2D version, you have a matrix or a two-dimensional array.
+
+
+==> version of peak , peak finding
+
++ When we look at a 2D version of peak finding, what do the algorithms get a little more sophisticated?
+
+-----
+
+The algorithms get a little more sophisticated when we look at a 2D version of peak finding.
+
+
+==> version
+
++ What's the name of the 2D version?
+
+-----
+
+So let's talk about the 2D version.
+
+
+==> two-dimensional array , version
+
++ What do you have in the 2D version?
++ What is a two-dimensional array?
+
+-----
+
+So as you can imagine, in the 2D version, you have a matrix or a two-dimensional array.
+
+
+==> columns
+
++ What is the name of the thing that has n rows and m columns?
+
+-----
+
+And we'll say this thing has n rows and m columns.
+
+
+
+
+
+=====>] Paragraph 180 [<=====
+
+And now we have to define what a peak is.
+
+
+==> define
+
++ What do we have to define?
++ What is a peak?
+
+-----
+
+And now we have to define what a peak is.
+
+
+
+
+
+=====>] Paragraph 181 [<=====
+
+And it's a hill.
+
+
+==> hill
+
++ What's the name of the hill?
+
+-----
+
+And it's a hill.
+
+
+
+
+
+=====>] Paragraph 182 [<=====
+
+It's the obvious definition of a peak.
+
+
+==> obvious definition
+
++ What is the obvious definition of a peak?
+
+-----
+
+It's the obvious definition of a peak.
+
+
+
+
+
+=====>] Paragraph 183 [<=====
+
+So if you had a in here, c, b, d, e, then as you can guess, a is a 2D peak if and only if a greater than or equal to b, a greater than or equal to d, c, and e. So it's a little hill up there.
+
+And again, I've used the greater than or equal to here.
+
+
+==> greater , equal , guess , peak , hill
+
++ What is a 2D peak if and only if a greater than or equal to b, d, c, and e?
+
+-----
+
+So if you had a in here, c, b, d, e, then as you can guess, a is a 2D peak if and only if a greater than or equal to b, a greater than or equal to d, c, and e. So it's a little hill up there.
+
+
+==> greater
+
++ What's the greater than or equal to?
+
+-----
+
+And again, I've used the greater than or equal to here.
+
+
+
+
+
+=====>] Paragraph 184 [<=====
+
+So that's similar to the 1D in the case that you'll always find a peak in any 2D matrix.
+
+
+==> find a peak , matrix
+
++ What is similar to the 1D in the case that you'll always find a peak in any 2D matrix?
+
+-----
+
+So that's similar to the 1D in the case that you'll always find a peak in any 2D matrix.
+
+
+
+
+
+=====>] Paragraph 185 [<=====
+
+And the greedy ascent algorithm essentially picks the direction and tries to follow that direction in order to find a peak.
+
+
+==> straightforward algorithm
+
++ What's the name of the algorithm?
+
+-----
+
+Now again, I'll give you the straightforward algorithm.
+
+
+==> greedy ascent algorithm
+
++ What is the greedy ascent algorithm?
+
+-----
+
+And we'll call it the greedy ascent algorithm.
+
+
+==> greedy ascent algorithm , ascent algorithm essentially
+
++ What algorithm essentially picks the direction and tries to follow that direction in order to find a peak?
++ How does the greedy ascent algorithm pick the direction?
+
+-----
+
+And the greedy ascent algorithm essentially picks the direction and tries to follow that direction in order to find a peak.
+
+
+
+
+
+=====>] Paragraph 186 [<=====
+
+So for example, if I had this particular matrix, 14, 13, 12, 15, 9, 11, then what might happen is if I started at some arbitrary midpoint, so the greedy ascent algorithm has to make choices as to where to start.
+
+
+==> greedy ascent algorithm , arbitrary midpoint , make choices
+
++ What would happen if I started at some arbitrary midpoint?
++ What has to make choices as to where to start?
+
+-----
+
+So for example, if I had this particular matrix, 14, 13, 12, 15, 9, 11, then what might happen is if I started at some arbitrary midpoint, so the greedy ascent algorithm has to make choices as to where to start.
+
+
+
+
+
+=====>] Paragraph 187 [<=====
+
+Just like we had different cases here, you have to make a choice as to where to start.
+
+You might want to start in the middle.
+
+And you might want to work your way left first.
+
+You just keep going left or keep going right.
+
+
+==> make a choice , start
+
++ What do you have to make a choice about?
+
+-----
+
+Just like we had different cases here, you have to make a choice as to where to start.
+
+
+==> middle
+
++ What might you want to start in?
+
+-----
+
+You might want to start in the middle.
+
+
+==> work
+
++ What might you want to work your way left first?
+
+-----
+
+And you might want to work your way left first.
+
+
+==> left
+
++ What do you just keep going right or left?
+
+-----
+
+You just keep going left or keep going right.
+
+
+
+
+
+=====>] Paragraph 188 [<=====
+
+And if you hit an edge, you go down.
+
+
+==> hit an edge
+
++ What happens if you hit an edge?
+
+-----
+
+And if you hit an edge, you go down.
+
+
+
+
+
+=====>] Paragraph 189 [<=====
+
+And so if you say you want to start with 12, you're going to go look for something to your left.
+
+If it's less, then you're going to go in the other direction in this case, for example.
+
+
+==> default traversal directions
+
++ What are the default traversal directions?
++ What do you make?
+
+-----
+
+So you make some choices as to what the default traversal directions are.
+
+
+==> left , start
+
++ What do you want to start with if you're going to go look for something to your left?
+
+-----
+
+And so if you say you want to start with 12, you're going to go look for something to your left.
+
+
+==> follow that direction
+
++ What direction are you going to follow if it's greater?
+
+-----
+
+And if it's greater, then you're going to follow that direction.
+
+
+==> case , direction
+
++ What would you do if it's less?
++ What is the other direction?
+
+-----
+
+If it's less, then you're going to go in the other direction in this case, for example.
+
+
+
+
+
+=====>] Paragraph 190 [<=====
+
+So in this case, you'll go 12, 13, 14, 15, 16, 17, 19, and 20.
+
+
+==> case
+
++ What's the name of the game in which you'll go 12, 13, 14, 15, 16, 17, and 19?
+
+-----
+
+So in this case, you'll go 12, 13, 14, 15, 16, 17, 19, and 20.
+
+
+
+
+
+=====>] Paragraph 191 [<=====
+
+And you'll find this peak.
+
+
+==> find this peak
+
++ Where will you find this peak?
+
+-----
+
+And you'll find this peak.
+
+
+
+
+
+=====>] Paragraph 192 [<=====
+
+But I think if you look at the worst case possibilities here with respect to a given matrix and for any given starting point and for any given strategy in terms of choosing left first versus right first or down first versus up first, you will have a situation where, just like we had in the 1D case, you may end up touching a large fraction of the elements in this 2D array.
+
+So if you do a worst case analysis of this algorithm, a particular algorithm with particular choices in terms of the starting point and the direction of search, a greedy ascent algorithm would have theta nm complexity.
+
+
+==> greedy ascent algorithm
+
++ What is a greedy ascent algorithm?
+
+-----
+
+Now, I haven't given you the specific details of a greedy ascent algorithm.
+
+
+==> worst case possibilities , left first versus , starting point , strategy in terms , terms of choosing , choosing left , end up touching , touching a large , large fraction
+
++ What is the worst case scenario for a given matrix?
++ What happens to a large fraction of the elements in a 2D array?
+
+-----
+
+But I think if you look at the worst case possibilities here with respect to a given matrix and for any given starting point and for any given strategy in terms of choosing left first versus right first or down first versus up first, you will have a situation where, just like we had in the 1D case, you may end up touching a large fraction of the elements in this 2D array.
+
+
+==> ended up touching
+
++ What did we end up touching in this case?
+
+-----
+
+So in this case, we ended up touching a bunch of different elements.
+
+
+==> end up touching , half the elements , touching half
+
++ What could you end up touching from the midpoint?
++ What could be the end result of touching half the elements?
+
+-----
+
+And it's quite possible that you could end up touching, starting from the midpoint, you could end up touching half the elements and, in some cases, touching all of the elements.
+
+
+==> worst case analysis , greedy ascent algorithm , direction of search , theta nm complexity
+
++ What would a greedy ascent algorithm have if you did a worst case analysis of the algorithm?
+
+-----
+
+So if you do a worst case analysis of this algorithm, a particular algorithm with particular choices in terms of the starting point and the direction of search, a greedy ascent algorithm would have theta nm complexity.
+
+
+==> squared complexity , theta n squared
+
++ What is theta n squared complexity?
++ What does n equal?
+
+-----
+
+And in the case where n equals m or m equals n, you'd have theta n squared complexity.
+
+
+==> divide and conquer , conquer versions , peak
+
++ What do I want to talk to you about for the 2D peak?
+
+-----
+
+I won't spend very much time on this because I want to talk to you about the divide and conquer versions of this algorithm for the 2D peak.
+
+
+==> worst case complexity
+
++ What is the worst case complexity?
+
+-----
+
+But hopefully you're all with me with respect to what the worst case complexity is.
+
+
+
+
+
+=====>] Paragraph 193 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 194 [<=====
+
+People buy that?
+
+
+==> People buy
+
++ What do people buy?
++ What is the name of the product?
+
+-----
+
+People buy that?
+
+
+
+
+
+=====>] Paragraph 195 [<=====
+
+Yeah, question back there.
+
+
+==> Yeah
+
++ What's the name of the question that's back there?
+
+-----
+
+Yeah, question back there.
+
+
+
+
+
+=====>] Paragraph 196 [<=====
+
+AUDIENCE 2 is that an approximation or can you actually get to n times m traversals?
+
+
+==> AUDIENCE , times m traversals
+
++ AUDIENCE 2 is that an approximation or can you actually get to n times m traversals?
+
+-----
+
+AUDIENCE 2 is that an approximation or can you actually get to n times m traversals?
+
+
+
+
+
+=====>] Paragraph 197 [<=====
+
+So if there are specific greedy ascent algorithms and specific matrices where if I give you the code for the algorithm and I give you a specific matrix, that I could make you touch all of these elements.
+
+
+==> greedy ascent algorithms , specific greedy ascent , make you touch
+
++ What would happen if I gave you the code for the algorithm and a specific matrix?
++ What could I make you touch all of these elements?
+
+-----
+
+So if there are specific greedy ascent algorithms and specific matrices where if I give you the code for the algorithm and I give you a specific matrix, that I could make you touch all of these elements.
+
+
+
+
+
+=====>] Paragraph 198 [<=====
+
+That's correct.
+
+
+==> correct
+
++ What is the correct answer to the question?
+
+-----
+
+That's correct.
+
+
+
+
+
+=====>] Paragraph 199 [<=====
+
+Certainly it's very easy to get to theta nm in terms of having some constant multiplying n times m. But you can definitely get to that constant being very close to 1, if not 1.
+
+
+==> worst case complexity
+
++ What are you being paranoid about when you talk about worst case complexity?
+
+-----
+
+So if you're talking about worst case, you're being very paranoid when you talk about worst case complexity.
+
+
+==> hand waving , waving a bit
+
++ Why am I hand waving a bit here?
+
+-----
+
+And so I'm hand waving a bit here simply because I haven't given you the specifics of the algorithm yet.
+
+
+==> set of algorithms
+
++ What is the name of the set of algorithms?
++ What has not been given to you?
+
+-----
+
+This is really a set of algorithms because I haven't given you the code.
+
+
+==> told
+
++ What hasn't I told you?
++ What direction does it go?
+
+-----
+
+I haven't told you where it starts and which direction it goes.
+
+
+==> worst case complexity
+
++ What would I be the person who tries to find the worst case complexity?
+
+-----
+
+But you go do that, fix it, and I would be the person who tries to find the worst case complexity.
+
+
+==> multiplying n times , constant multiplying , easy
+
++ What is a very easy way to get to theta nm in terms of having some constant multiplying n times m?
+
+-----
+
+Certainly it's very easy to get to theta nm in terms of having some constant multiplying n times m. But you can definitely get to that constant being very close to 1, if not 1.
+
+
+
+
+
+=====>] Paragraph 200 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 201 [<=====
+
+And I'm going to find a 1D peak using whatever algorithm I want and I'll probably end up using the more efficient algorithm, the binary search version that's gone all the way to the left of the board there.
+
+
+==> divide and conquer
+
++ What does divide and conquer stand for?
+
+-----
+
+So let's talk about divide and conquer.
+
+
+==> binary search algorithm , jam the binary
+
++ What did I just try to jam into the 2D version?
+
+-----
+
+Let's say that I did something like this where I just tried to jam the binary search algorithm into the 2D version.
+
+
+==> middle column , pick the middle
+
++ What's the name of the column that I'm going to pick?
++ What does j equal?
+
+-----
+
+So what I'm going to do is I'm going to pick the middle column, j equals m over 2.
+
+
+==> binary search version , efficient algorithm
+
++ What algorithm will I use to find a 1D peak?
++ What is the more efficient algorithm?
+
+-----
+
+And I'm going to find a 1D peak using whatever algorithm I want and I'll probably end up using the more efficient algorithm, the binary search version that's gone all the way to the left of the board there.
+
+
+==> find a binary
+
++ What is a binary peak?
++ What does ij do?
+
+-----
+
+And let's say I find a binary peak at ij.
+
+
+==> picked a column
+
++ What's the reason I'm just finding a 1D peak?
+
+-----
+
+Because I've picked a column and I'm just finding a 1D peak.
+
+
+
+
+
+=====>] Paragraph 202 [<=====
+
+So this is j equals m over 2.
+
+
+==> equals
+
++ What is the difference between j and m over 2?
+
+-----
+
+So this is j equals m over 2.
+
+
+
+
+
+=====>] Paragraph 203 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 204 [<=====
+
+Now I use ij, in particular, row i as a start to find a 1D peak on row i.
+
+
+==> start to find , peak on row
+
++ What do I use as a start to find a 1D peak on row i?
+
+-----
+
+Now I use ij, in particular, row i as a start to find a 1D peak on row i.
+
+
+
+
+
+=====>] Paragraph 205 [<=====
+
+And I stand up here and I'm really happy.
+
+
+==> happy
+
++ What's the name of the person who stands up here and is really happy?
+
+-----
+
+And I stand up here and I'm really happy.
+
+
+
+
+
+=====>] Paragraph 206 [<=====
+
+Because I say, wow, I picked a middle column.
+
+
+==> middle column
+
++ Why did I pick a middle column?
+
+-----
+
+Because I say, wow, I picked a middle column.
+
+
+
+
+
+=====>] Paragraph 207 [<=====
+
+I found a 1D peak.
+
+
+==> peak
+
++ What did I find?
++ What was the name of the peak?
+
+-----
+
+I found a 1D peak.
+
+
+
+
+
+=====>] Paragraph 208 [<=====
+
+That is theta n complexity to find a 1D peak, as we argued.
+
+
+==> peak
+
++ What is theta n complexity to find a 1D peak?
+
+-----
+
+That is theta n complexity to find a 1D peak, as we argued.
+
+
+
+
+
+=====>] Paragraph 209 [<=====
+
+And theta m is the log n complexity.
+
+
+==> log n complexity
+
++ What is the log n complexity?
+
+-----
+
+And theta m is the log n complexity.
+
+
+
+
+
+=====>] Paragraph 210 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 211 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 212 [<=====
+
+Log n complexity.
+
+
+==> Log n complexity
+
++ What does Log n complexity stand for?
+
+-----
+
+Log n complexity.
+
+
+
+
+
+=====>] Paragraph 213 [<=====
+
+Thanks, Eric.
+
+
+==> Eric
+
++ Thanks, Eric, what is the name of Eric's son?
+
+-----
+
+Thanks, Eric.
+
+
+
+
+
+=====>] Paragraph 214 [<=====
+
+And then once I do that, I can find a 1D peak on row i.
+
+In this case, the row i would be m wide, so it would be log m complexity.
+
+If n equals m, then I have a couple of steps of log n and I'm done.
+
+
+==> peak on row
+
++ What do I do when I find a 1D peak on row i?
+
+-----
+
+And then once I do that, I can find a 1D peak on row i.
+
+
+==> log m complexity , case
+
++ What would be the width of the row i?
++ What would the complexity be in this case?
+
+-----
+
+In this case, the row i would be m wide, so it would be log m complexity.
+
+
+==> couple of steps , steps of log
+
++ If n equals m, how many steps of log n do I have?
+
+-----
+
+If n equals m, then I have a couple of steps of log n and I'm done.
+
+
+
+
+
+=====>] Paragraph 215 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 216 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 217 [<=====
+
+Can someone tell me why I'm not done precisely?
+
+
+==> precisely
+
++ Can someone tell me why I'm not done precisely?
+
+-----
+
+Can someone tell me why I'm not done precisely?
+
+
+
+
+
+=====>] Paragraph 218 [<=====
+
+Yep.
+
+
+==> Yep
+
++ What is the answer to that question?
+
+-----
+
+Yep.
+
+
+
+
+
+=====>] Paragraph 219 [<=====
+
+Because when you do the second part, find the peak in row i, you might not have that column peak anymore.
+
+
+==> column peak anymore
+
++ When you do the second part, find the peak in row i, what might not have that column peak anymore?
+
+-----
+
+Because when you do the second part, find the peak in row i, you might not have that column peak anymore.
+
+
+==> column it anymore
+
++ What might not be able to column it anymore?
+
+-----
+
+You might not be able to column it anymore.
+
+
+
+
+
+=====>] Paragraph 220 [<=====
+
+That's exactly correct.
+
+So this algorithm is incorrect.
+
+
+==> correct
+
++ What is the correct answer to the question?
+
+-----
+
+That's exactly correct.
+
+
+==> algorithm is incorrect
+
++ What is the name of the algorithm that is incorrect?
+
+-----
+
+So this algorithm is incorrect.
+
+
+
+
+
+=====>] Paragraph 221 [<=====
+
+It's efficient but incorrect.
+
+
+==> work
+
++ What does not work?
++ What does it not work for?
+
+-----
+
+It doesn't work.
+
+
+==> efficient but incorrect
+
++ What's the name of the system that's not efficient?
+
+-----
+
+It's efficient but incorrect.
+
+
+==> correct
+
++ What do you want to be correct about?
+
+-----
+
+You want to be correct.
+
+
+
+
+
+=====>] Paragraph 222 [<=====
+
+So this is an efficient algorithm in the sense that it would only take log n time, but it doesn't work.
+
+
+==> incorrect and efficient
+
++ What is definitely better than being correct and inefficient?
+
+-----
+
+Being correct and inefficient is definitely better than being incorrect and efficient.
+
+
+==> log n time , efficient algorithm
+
++ What is an efficient algorithm in the sense that it would only take log n time?
++ What does not work?
+
+-----
+
+So this is an efficient algorithm in the sense that it would only take log n time, but it doesn't work.
+
+
+==> work
+
++ What's the name of the simple example where it doesn't work?
+
+-----
+
+And I'll give you a simple example here where it doesn't work.
+
+
+==> exist on row
+
++ What may not exist on row i?
+
+-----
+
+So the problem is a 2D peak may not exist on row i.
+
+
+
+
+
+=====>] Paragraph 223 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 224 [<=====
+
+Let's say that I started with this row.
+
+
+==> row
+
++ What is the name of the row that I started with?
+
+-----
+
+Let's say that I started with this row.
+
+
+
+
+
+=====>] Paragraph 225 [<=====
+
+Since I'm starting with the middle row and I could start with this one or that one, let's say I started with that one.
+
+
+==> middle row , starting
+
++ What is the middle row?
++ What could I start with?
+
+-----
+
+Since I'm starting with the middle row and I could start with this one or that one, let's say I started with that one.
+
+
+
+
+
+=====>] Paragraph 226 [<=====
+
+I end up finding a peak.
+
+
+==> finding a peak
+
++ What do I find when I find a peak?
+
+-----
+
+I end up finding a peak.
+
+
+
+
+
+=====>] Paragraph 227 [<=====
+
+And it's quite possible that I'd return 12 as a peak, even though 19 is bigger because 12 is a peak given 10 and 11 up here.
+
+
+==> choose
+
++ What would I choose as a peak if this were 10?
+
+-----
+
+And if this were 10 up here, I'd choose 12 as a peak.
+
+
+==> peak , return , bigger
+
++ What is a peak given 10 and 11 up here?
+
+-----
+
+And it's quite possible that I'd return 12 as a peak, even though 19 is bigger because 12 is a peak given 10 and 11 up here.
+
+
+==> find a peak , row
+
++ How many rows would I find a peak on?
++ What would be the peak on this row?
+
+-----
+
+And then when I choose this particular row and I find a peak on this row, it would be 14.
+
+
+==> peak
+
++ What is a 1D peak on this row?
++ What is not a 2D peak?
+
+-----
+
+That is a 1D peak on this row, but 14 is not a 2D peak.
+
+
+==> return
+
++ What would return 14 in this particular example?
++ How many times would 14 return?
++ What would happen if 14 returned 14?
+
+-----
+
+So this particular example, 14 would return 14.
+
+
+
+
+
+=====>] Paragraph 228 [<=====
+
+And 14 is not a 2D peak.
+
+
+==> peak
+
++ What is not a 2D peak?
+
+-----
+
+And 14 is not a 2D peak.
+
+
+
+
+
+=====>] Paragraph 229 [<=====
+
+You can collect your cushion after the class.
+
+
+==> collect your cushion
+
++ What is the name of the class that you can collect after the class?
+
+-----
+
+You can collect your cushion after the class.
+
+
+
+
+
+=====>] Paragraph 230 [<=====
+
+So not so good.
+
+
+==> good
+
++ What's the name of the game that's not so good?
+
+-----
+
+So not so good.
+
+
+
+
+
+=====>] Paragraph 231 [<=====
+
+Looked like an efficient algorithm, but doesn't work.
+
+So how can we get to something that actually works?
+
+
+==> efficient algorithm
+
++ What did the algorithm look like but didn't work?
+
+-----
+
+Looked like an efficient algorithm, but doesn't work.
+
+
+==> works
+
++ How can we get to something that actually works?
+
+-----
+
+So how can we get to something that actually works?
+
+
+
+
+
+=====>] Paragraph 232 [<=====
+
+So the last algorithm that I'm going to show you, and you'll see four different algorithms in your problem set that you'll have to analyze the complexity for and decide if they're efficient and if they're correct.
+
+
+==> problem set , analyze the complexity , correct , show
+
++ How many different algorithms will you have to analyze the complexity for?
++ How many algorithms are there in your problem set?
+
+-----
+
+So the last algorithm that I'm going to show you, and you'll see four different algorithms in your problem set that you'll have to analyze the complexity for and decide if they're efficient and if they're correct.
+
+
+==> greedy ascent algorithm
+
++ What is better in terms of complexity than the greedy ascent algorithm?
+
+-----
+
+But here's a recursive version that is better in terms of complexity than the greedy ascent algorithm.
+
+
+
+
+
+=====>] Paragraph 233 [<=====
+
+And this one works.
+
+
+==> works
+
++ What is the name of the one that works?
+
+-----
+
+And this one works.
+
+
+
+
+
+=====>] Paragraph 234 [<=====
+
+And that's going to be at i, j. I'm going to compare i, j minus 1, i, j, and i, j plus 1, which means that once I've found the maximum in this row, I'm going to look to the left and the right and compare.
+
+
+==> middle column , pick a middle
+
++ What's the name of the middle column I'm going to pick?
++ What does j equal?
+
+-----
+
+So what I'm going to do is pick a middle column, j equals m over 2 as before.
+
+
+==> find the global
+
++ What column will I find the global maximum on?
+
+-----
+
+I'm going to find the global maximum on column j.
+
+
+==> found the maximum , compare , minus , row
+
++ What is going to be at i, j minus 1?
++ What will I compare once I've found the maximum in this row?
+
+-----
+
+And that's going to be at i, j. I'm going to compare i, j minus 1, i, j, and i, j plus 1, which means that once I've found the maximum in this row, I'm going to look to the left and the right and compare.
+
+
+==> pick the left , left columns
+
++ What are the left columns if i, j minus 1 is greater than?
+
+-----
+
+I'm going to pick the left columns if i, j minus 1 is greater than i, j.
+
+
+
+
+
+=====>] Paragraph 235 [<=====
+
+And similarly for the right.
+
+
+==> similarly
+
++ What is a similar question for the left?
++ What is another question?
+
+-----
+
+And similarly for the right.
+
+
+
+
+
+=====>] Paragraph 236 [<=====
+
+And if in fact either of these two conditions don't fire, and what I have is i, j is greater than or equal to i, j minus 1 and i, j plus 1, then I'm done.
+
+Just like I had for the 1D version, if i, j is greater than or equal to i, j minus 1 and i, j plus 1, that implies i, j is a 2D peak.
+
+
+==> fire , minus , fact , conditions
+
++ What are the two conditions that don't fire?
++ What is the condition that is greater than or equal to i, j minus 1?
+
+-----
+
+And if in fact either of these two conditions don't fire, and what I have is i, j is greater than or equal to i, j minus 1 and i, j plus 1, then I'm done.
+
+
+==> version , peak , minus , greater
+
++ What does if i, j is greater than or equal to i minus 1 and j plus 1 mean?
++ What is a 2D peak?
+
+-----
+
+Just like I had for the 1D version, if i, j is greater than or equal to i, j minus 1 and i, j plus 1, that implies i, j is a 2D peak.
+
+
+
+
+
+=====>] Paragraph 237 [<=====
+
+And the reason that is the case is because i, j was the maximum element in that column.
+
+
+==> maximum element , column
+
++ Why was i, j the maximum element in the column?
+
+-----
+
+And the reason that is the case is because i, j was the maximum element in that column.
+
+
+
+
+
+=====>] Paragraph 238 [<=====
+
+So you know that you've compared it to all of the adjacent elements looking up and looking down.
+
+
+==> adjacent elements , compared
+
++ What do you compare it to all of the adjacent elements looking up and looking down?
+
+-----
+
+So you know that you've compared it to all of the adjacent elements looking up and looking down.
+
+
+
+
+
+=====>] Paragraph 239 [<=====
+
+That's the maximum element.
+
+
+==> maximum element
+
++ What is the maximum element?
+
+-----
+
+That's the maximum element.
+
+
+
+
+
+=====>] Paragraph 240 [<=====
+
+And in fact, it's greater than or equal to the elements on the left and the right.
+
+So in this case, when you pick the left or the right columns, you'll pick one of them.
+
+
+==> looked
+
++ What's the difference between the left and right?
+
+-----
+
+Now you've looked at the left and the right.
+
+
+==> fact , greater
+
++ What is greater than or equal to the elements on the left and the right?
+
+-----
+
+And in fact, it's greater than or equal to the elements on the left and the right.
+
+
+==> peak
+
++ What's the name of the 2D peak?
+
+-----
+
+And so therefore, it's a 2D peak.
+
+
+==> pick the left
+
++ When you pick the left or the right columns, you'll pick which one?
+
+-----
+
+So in this case, when you pick the left or the right columns, you'll pick one of them.
+
+
+==> number of columns
+
++ How many columns will you need to solve the new problem?
+
+-----
+
+You're going to solve the new problem with half the number of columns.
+
+
+==> algorithm is correct , argument to make
+
++ What do you have to go through to make sure that the algorithm is correct?
+
+-----
+
+And again, you have to go through an analysis or an argument to make sure that this algorithm is correct.
+
+
+
+
+
+=====>] Paragraph 241 [<=====
+
+But it's intuitively correct simply because it matches the 1D version much more closely.
+
+And you also have your condition where you break away right here where you have a 2D peak, just like the 1D version.
+
+
+==> intuitively correct simply
+
++ Why is it intuitively correct?
++ Why does it match the 1D version much more closely?
+
+-----
+
+But it's intuitively correct simply because it matches the 1D version much more closely.
+
+
+==> peak , version
+
++ What is the condition where you break away right here where you have a 2D peak?
++ What does the 1D version have?
+
+-----
+
+And you also have your condition where you break away right here where you have a 2D peak, just like the 1D version.
+
+
+==> half the size
+
++ What did you break up the matrix into half the size?
+
+-----
+
+And what you've done is break this matrix up into half the size.
+
+
+==> algorithm works
+
++ What is the main reason this algorithm works?
+
+-----
+
+And that's essentially why this algorithm works.
+
+
+
+
+
+=====>] Paragraph 242 [<=====
+
+When you have a single column, find the global maximum.
+
+
+==> single column
+
++ When you have a single column, what is the global maximum?
+
+-----
+
+When you have a single column, find the global maximum.
+
+
+
+
+
+=====>] Paragraph 243 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 244 [<=====
+
+So that's the base case.
+
+
+==> base case
+
++ What's the base case?
+
+-----
+
+So that's the base case.
+
+
+
+
+
+=====>] Paragraph 245 [<=====
+
+So let me end with just writing out what the recurrence relation for the complexity of this and argue what the overall complexity of this algorithm is.
+
+
+==> recurrence relation , complexity , end
+
++ What is the recurrence relation for the complexity of this algorithm?
+
+-----
+
+So let me end with just writing out what the recurrence relation for the complexity of this and argue what the overall complexity of this algorithm is.
+
+
+
+
+
+=====>] Paragraph 246 [<=====
+
+And then I'll give you the bad news.
+
+
+==> give
+
++ What's the name of the bad news that I'll give you?
+
+-----
+
+And then I'll give you the bad news.
+
+
+
+
+
+=====>] Paragraph 247 [<=====
+
+So overall, what you have is you have something like T of nm equals T of n m over 2 plus theta n. Why is that?
+
+Well, n is the number of rows.
+
+m is the number of columns.
+
+In one case, you will be breaking things down into half the number of columns, which is m over 2.
+
+And in order to find the global maximum, you'll be doing theta n work because you're finding the global maximum.
+
+
+==> equals , theta
+
++ What does T of nm equal?
++ What does theta n mean?
+
+-----
+
+So overall, what you have is you have something like T of nm equals T of n m over 2 plus theta n. Why is that?
+
+
+==> number of rows
+
++ What is the number of rows?
+
+-----
+
+Well, n is the number of rows.
+
+
+==> number of columns
+
++ What is the number of columns?
+
+-----
+
+m is the number of columns.
+
+
+==> number of columns , breaking things
+
++ How many columns will you be breaking things down into in one case?
++ What is the number of columns that you will be breaking down into half?
++ In one case, how many columns are there?
+
+-----
+
+In one case, you will be breaking things down into half the number of columns, which is m over 2.
+
+
+==> global maximum , find the global
+
++ In order to find the global maximum, you'll be doing what?
+
+-----
+
+And in order to find the global maximum, you'll be doing theta n work because you're finding the global maximum.
+
+
+
+
+
+=====>] Paragraph 248 [<=====
+
+You just have to scan it.
+
+
+==> scan
+
++ How do you scan a document?
++ What is the only way to scan it?
+
+-----
+
+You just have to scan it.
+
+
+
+
+
+=====>] Paragraph 249 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 250 [<=====
+
+And so if you do that and you go run it through, and you know that T of n1 is theta n, which is this last part over here.
+
+
+==> run , theta , part
+
++ What is T of n1?
++ What is theta n?
+
+-----
+
+And so if you do that and you go run it through, and you know that T of n1 is theta n, which is this last part over here.
+
+
+
+
+
+=====>] Paragraph 251 [<=====
+
+That's your base case.
+
+
+==> base case
+
++ What's your base case?
+
+-----
+
+That's your base case.
+
+
+
+
+
+=====>] Paragraph 252 [<=====
+
+You get T of n m is theta of n added to theta of n log of m times log 2 of m times, which is theta of n log 2 of n. All right?
+
+
+==> times log , added to theta
+
++ What is theta of n added to?
++ What is log 2 of m times?
+
+-----
+
+You get T of n m is theta of n added to theta of n log of m times log 2 of m times, which is theta of n log 2 of n. All right?
+
+
+
+
+
+=====>] Paragraph 253 [<=====
+
+I'm not going to give away what those algorithms are, but you'll have to recognize them.
+
+And your job is going to be to analyze the algorithms, as I said before, prove that one of them is correct, and find counter examples for the ones that aren't correct.
+
+The core staff will stick around here to answer questions, logistical questions, or questions about lecture.
+
+
+==> peak finding
+
++ What do you think you're not done with?
++ What's the point of peak finding?
+
+-----
+
+So you're not done with peak finding.
+
+
+==> coded in Python
+
++ How many algorithms are there?
++ What language are the algorithms coded in?
+
+-----
+
+What you'll see is four algorithms coded in Python.
+
+
+==> give , algorithms
+
++ What do you have to recognize to use the algorithms?
+
+-----
+
+I'm not going to give away what those algorithms are, but you'll have to recognize them.
+
+
+==> lecture
+
++ How many versions of algorithms have you seen in lecture?
+
+-----
+
+You will have seen versions of those algorithms already in lecture.
+
+
+==> analyze the algorithms , find counter , correct
+
++ What is the job of an algorithm analyst?
++ What is your job?
+
+-----
+
+And your job is going to be to analyze the algorithms, as I said before, prove that one of them is correct, and find counter examples for the ones that aren't correct.
+
+
+==> core staff , staff will stick
+
++ The core staff will stick around here to answer questions about what?
+
+-----
+
+The core staff will stick around here to answer questions, logistical questions, or questions about lecture.
+
+
+==> gentleman a cushion
+
++ What do I owe the gentleman?
+
+-----
+
+And I owe that gentleman a cushion.
