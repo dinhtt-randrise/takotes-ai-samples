@@ -6,4 +6,19 @@
 --------------------------------------------
   Takotes AI - Samples (English - YouTube)
 --------------------------------------------
+
+
+============================================
+MIT OpenCourseWare - 1. What is Computation?
+  ----------------------------------------
+
++ Lecture URL: https://www.youtube.com/watch?v=nykOeWgQcHM
+
++ Language: en
+
+  ----------------------------------------
+
++ Sample Info: https://github.com/dinhtt-randrise/takotes-ai-samples/blob/main/english/youtube/nykOeWgQcHM.md
+
+
 ```
