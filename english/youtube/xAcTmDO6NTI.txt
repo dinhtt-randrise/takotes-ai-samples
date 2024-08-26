@@ -1,0 +1,12231 @@
+=====>] TAKOTES AI (en): 2024.08.24 : 18.18.24 : https://www.youtube.com/watch?v=xAcTmDO6NTI [<=====
+
+
+
+
+=====>] Paragraph 1 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 2 [<=====
+
+So welcome to the first lecture of 6.100L.
+
+
+==> lecture
+
++ What is the name of the first lecture of 6.100L?
+
+-----
+
+So welcome to the first lecture of 6.100L.
+
+
+
+
+
+=====>] Paragraph 3 [<=====
+
+That's our new number.
+
+
+==> number
+
++ What's our new number?
+
+-----
+
+That's our new number.
+
+
+
+
+
+=====>] Paragraph 4 [<=====
+
+My name is Anna Bell.
+
+
+==> Anna Bell
+
++ What is my name?
++ What does Anna Bell stand for?
+
+-----
+
+My name is Anna Bell.
+
+
+
+
+
+=====>] Paragraph 5 [<=====
+
+That's two separate names.
+
+
+==> separate
+
++ How many separate names are there?
+
+-----
+
+That's two separate names.
+
+
+
+
+
+=====>] Paragraph 6 [<=====
+
+First name Anna, last name Bell.
+
+
+==> Anna
+
++ What is Anna's first name?
++ What is Bell's last name?
+
+-----
+
+First name Anna, last name Bell.
+
+
+
+
+
+=====>] Paragraph 7 [<=====
+
+So today what we're gonna do is go over a little bit of course administrative information, and then we'll dive right into just some thoughts about computers, high level, how they work, and then we'll start going into some Python basics.
+
+So I highly encourage you, since you're in this class, to download the lecture slides beforehand to take notes and run code when I do.
+
+
+==> Super confusing
+
++ What is super confusing?
+
+-----
+
+Super confusing.
+
+
+==> ECS department , ten years
+
++ How long have I been a lecturer in the ECS department?
++ What is the intro course that I've been doing?
+
+-----
+
+But I've been a lecturer here in the ECS department for probably almost ten years now, and I've been doing the intro course for a while.
+
+
+==> full semester version
+
++ What is the full semester version of 6.100A?
+
+-----
+
+I'm really happy to be teaching this full semester version of 6.100A.
+
+
+==> Python basics , high level , administrative information , thoughts about computers
+
++ What is the name of the class that we're going to go over today?
++ What will we start with?
+
+-----
+
+So today what we're gonna do is go over a little bit of course administrative information, and then we'll dive right into just some thoughts about computers, high level, how they work, and then we'll start going into some Python basics.
+
+
+==> gonna get coding
+
++ What's the name of the program that we're going to start with?
+
+-----
+
+So we're gonna get coding right away.
+
+
+==> highly encourage , download the lecture , lecture slides
+
++ What should you download to take notes and run code when you're in this class?
++ What is the purpose of downloading lecture slides?
+
+-----
+
+So I highly encourage you, since you're in this class, to download the lecture slides beforehand to take notes and run code when I do.
+
+
+==> lectures are interactive , coding
+
++ What are some of the lectures interactive?
++ What can you take a break to actually do?
+
+-----
+
+Some of the lectures are interactive, and we'll have breaks, so there will be a place where you can take a break to actually do some coding.
+
+
+
+
+
+=====>] Paragraph 8 [<=====
+
+And that's important.
+
+
+==> important
+
++ And that's important, right?
+
+-----
+
+And that's important.
+
+
+
+
+
+=====>] Paragraph 9 [<=====
+
+The main idea for lectures is, yes, I will do some teaching, but there will also be opportunities for questions and for you guys to try some programming right on the spot.
+
+Even if you don't finish writing a program that we start talking about, I will finish it and we can all kind of talk about it together and I'll kind of show you some pitfalls and things like that.
+
+There will be lots of opportunities to practice in this class through various degrees of granularity, and then there's also lots of opportunities that I have in the handouts to do extra practice at home and through a bunch of different resources as well.
+
+You can't just watch me type in a bunch of lines of code and then when it comes time to do the quiz, you automatically know how to do it.
+
+So the three big things you'll get out of this class are knowledge of concepts, obviously.
+
+
+==> breaks
+
++ What do I call you try breaks?
+
+-----
+
+I call them you try breaks.
+
+
+==> important to make , time
+
++ What's important to make sure that you're actually practicing what we are learning right at this time?
+
+-----
+
+That's important to make sure that you're actually practicing what we are learning right at this time.
+
+
+==> main idea , idea for lectures , opportunities for questions , teaching
+
++ What is the main idea for lectures?
++ What will you guys try on the spot?
+
+-----
+
+The main idea for lectures is, yes, I will do some teaching, but there will also be opportunities for questions and for you guys to try some programming right on the spot.
+
+
+==> writing a program , start talking , pitfalls and things , kind of talk
+
++ What will you do if you don't finish writing a program that we start talking about?
+
+-----
+
+Even if you don't finish writing a program that we start talking about, I will finish it and we can all kind of talk about it together and I'll kind of show you some pitfalls and things like that.
+
+
+==> lots of opportunities , degrees of granularity , extra practice , practice at home
+
++ What will be a lot of opportunities to practice in this class?
++ What are there opportunities to do extra practice at home?
+
+-----
+
+There will be lots of opportunities to practice in this class through various degrees of granularity, and then there's also lots of opportunities that I have in the handouts to do extra practice at home and through a bunch of different resources as well.
+
+
+==> stress participation , participation and practice , reason
+
++ Why do I emphasize participation and practice?
++ What is one reason you're here?
+
+-----
+
+The reason why I stress participation and practice is because part of the reason you're here is you want to learn how to program, right?
+
+
+==> program
+
++ What do you don't know about programming?
+
+-----
+
+You don't know how to program yet.
+
+
+==> skill
+
++ What is programming actually a skill?
+
+-----
+
+And programming is actually a skill.
+
+
+==> math or reading
+
++ What's the name of the game that's similar to math?
+
+-----
+
+It's like math or reading.
+
+
+==> practice
+
++ What is something that you have to practice?
+
+-----
+
+It's something that you have to practice.
+
+
+==> watch me type , bunch of lines , lines of code
+
++ What can't you watch me type in a bunch of lines of code and then automatically know how to do it?
+
+-----
+
+You can't just watch me type in a bunch of lines of code and then when it comes time to do the quiz, you automatically know how to do it.
+
+
+==> nature , sort
+
++ What do you need to do more and more so that it becomes a second nature?
+
+-----
+
+You need to do it often more and more so that it becomes sort of second nature.
+
+
+==> knowledge of concepts , big things
+
++ What are the three big things you'll get out of this class?
+
+-----
+
+So the three big things you'll get out of this class are knowledge of concepts, obviously.
+
+
+==> computer science ideas
+
++ What are we going to learn about computer science?
+
+-----
+
+We're gonna learn some computer science ideas.
+
+
+==> Programming skill
+
++ What skill does programming require?
+
+-----
+
+Programming skill.
+
+
+==> problem solving
+
++ What are two things you can do to solve a problem?
+
+-----
+
+And problem solving.
+
+
+==> Problem solving skills
+
++ What are problem solving skills?
+
+-----
+
+Problem solving skills.
+
+
+
+
+
+=====>] Paragraph 10 [<=====
+
+Basically help you with your knowledge of tests, your knowledge of concepts, and help you get knowledge of concepts.
+
+Basically if you're given an English version of a problem in English, how do you go from that to thinking about what computer science concepts can I apply?
+
+And throughout these lectures, you're gonna see some examples of us applying computation to a problem you might have already seen and maybe solved mathematically.
+
+
+==> Lectures and exams
+
++ What is the difference between lectures and exams?
+
+-----
+
+Lectures and exams.
+
+
+==> knowledge of concepts , knowledge of tests
+
++ Help you with your knowledge of tests, concepts, and help you get knowledge of concepts?
+
+-----
+
+Basically help you with your knowledge of tests, your knowledge of concepts, and help you get knowledge of concepts.
+
+
+==> Finger exercises give
+
++ Finger exercises give you what kind of programming skills?
+
+-----
+
+Finger exercises give you the programming skills.
+
+
+==> problem solving
+
++ What do the problem sets help you with?
+
+-----
+
+And the problem sets help you with problem solving.
+
+
+==> computer science concepts , English version
+
++ What is the English version of a problem?
++ How do you go from English to thinking about computer science concepts?
+
+-----
+
+Basically if you're given an English version of a problem in English, how do you go from that to thinking about what computer science concepts can I apply?
+
+
+==> computer science concepts
+
++ How do I take computer science concepts and actually do programming?
+
+-----
+
+And then after that, how do I take those computer science concepts and actually do the programming?
+
+
+==> covering
+
++ What are some of the topics that we'll be covering?
+
+-----
+
+So what are some topics we'll be covering?
+
+
+==> learning computational thinking
+
++ What will we be at the core of?
+
+-----
+
+We will be at the core of it learning computational thinking.
+
+
+==> encounter a problem
+
++ What do you do if you encounter a problem in the future?
+
+-----
+
+So in the future, when you encounter a problem, you can...
+
+
+==> brute force , kind of mathematically
+
++ What should your first thought not be?
+
+-----
+
+Your first thought shouldn't be how do I kind of mathematically solve this or how do I brute force, right?
+
+
+==> Manually solve
+
++ Manually solve what problem?
+
+-----
+
+Manually solve this problem.
+
+
+==> solve this problem
+
++ How can I apply computation to help me solve this problem?
+
+-----
+
+How can I apply computation to help me solve this problem?
+
+
+==> solved mathematically , applying computation , lectures
+
++ What are some examples of us applying computation to a problem you might have already seen?
+
+-----
+
+And throughout these lectures, you're gonna see some examples of us applying computation to a problem you might have already seen and maybe solved mathematically.
+
+
+==> pretty cool
+
++ What is the name of the thing that is pretty cool?
+
+-----
+
+Which is pretty cool.
+
+
+
+
+
+=====>] Paragraph 11 [<=====
+
+Lastly, towards the end of the class, we're gonna see algorithmic complexity, which basically means we're gonna start asking or trying to answer the question how do we know the programs we write are efficient?
+
+
+==> Python programming language
+
++ What programming language are we going to learn in order to get there?
+
+-----
+
+Obviously to get to that, we're gonna learn the Python programming language.
+
+
+==> start to structure , code dumped , structure our code , bunch of code
+
++ What are we going to see once we get the basics?
++ What will we see how we can start to structure our code?
+
+-----
+
+Once we get the basics, we're going to see how we can start to structure our code to look a little bit better so we don't just have a bunch of code dumped in a file.
+
+
+==> make it neat , gonna start
+
++ What are we gonna start to organize?
+
+-----
+
+We're gonna start to organize our code and see how we can make it neat, readable, and modular.
+
+
+==> class , algorithms , couple lectures
+
++ What are we going to look at in a couple of lectures?
++ What is the theme of this class?
+
+-----
+
+And then towards the... Not in this lecture, but in a couple lectures and as a theme throughout this class, we're going to look at some algorithms.
+
+
+==> super complicated , base algorithms , bunch of algorithms
+
++ What are the base algorithms for a bunch of algorithms you might see in the future?
+
+-----
+
+They're not super complicated, but they're kind of the base algorithms for a bunch of algorithms you might see in the future if you decide to take more CS classes.
+
+
+==> algorithmic complexity , write are efficient , gonna start , answer the question
+
++ What does algorithmic complexity mean at the end of the class?
++ How do we know programs are efficient?
+
+-----
+
+Lastly, towards the end of the class, we're gonna see algorithmic complexity, which basically means we're gonna start asking or trying to answer the question how do we know the programs we write are efficient?
+
+
+==> write programs , computer
+
++ How do we know that a program is fast?
++ What does a fast program take up in a computer?
+
+-----
+
+We can write programs, but how do we know that they're fast and how do we know that they don't take up all the memory in the computer?
+
+
+
+
+
+=====>] Paragraph 12 [<=====
+
+So if there's no questions... Again, as I said, a bunch of this information is already in the handout.
+
+
+==> Things
+
++ What kind of things do people do?
++ What type of questions do people have?
+
+-----
+
+Things like that.
+
+
+==> Comparing different algorithms
+
++ Comparing different algorithms that do the same thing against each other is called what?
+
+-----
+
+Comparing different algorithms that do the same thing against each other.
+
+
+==> questions , handout
+
++ What is already in the handout?
+
+-----
+
+So if there's no questions... Again, as I said, a bunch of this information is already in the handout.
+
+
+
+
+
+=====>] Paragraph 13 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 14 [<=====
+
+We can begin.
+
+
+==> begin
+
++ How do we begin?
+
+-----
+
+We can begin.
+
+
+
+
+
+=====>] Paragraph 15 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 16 [<=====
+
+Declarative knowledge is a statement of fact, and a lot of us probably in math and in the past have worked with declarative knowledge, but this is not how computer science, this is not how this class works.
+
+
+==> talking about knowledge
+
++ What is the first thing we'll talk about?
+
+-----
+
+So let's start by talking about knowledge.
+
+
+==> Declarative knowledge , statement of fact , computer science , class works
+
++ Declarative knowledge is a statement of what?
++ In math, a lot of us probably have worked with what type of knowledge?
++ What is not how computer science works?
+
+-----
+
+Declarative knowledge is a statement of fact, and a lot of us probably in math and in the past have worked with declarative knowledge, but this is not how computer science, this is not how this class works.
+
+
+==> computer science , imperative knowledge
+
++ In computer science, what do we work with?
++ What is imperative knowledge?
+
+-----
+
+In computer science, what we do is we work with imperative knowledge, which is basically a recipe.
+
+
+==> writing a recipe , programming
+
++ What are we doing when we're programming?
++ What is the recipe for the computer to do?
+
+-----
+
+And when we're programming, all we're doing is writing a recipe for the computer to do something.
+
+
+
+
+
+=====>] Paragraph 17 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 18 [<=====
+
+So here's a numerical example.
+
+
+==> numerical
+
++ What is an example of a numerical example?
+
+-----
+
+So here's a numerical example.
+
+
+
+
+
+=====>] Paragraph 19 [<=====
+
+The square root of a number X is Y, such that Y times Y is equal to X.
+
+What we need to do is tell the computer how to find the square root of a number, and then tell us what the square root of that number is.
+
+So the recipe, a really simple one for finding the square root of a number, is steps 1, 2, 3.
+
+
+==> declarative statement
+
++ What is the first statement a declarative statement?
+
+-----
+
+The first statement is a declarative statement, right?
+
+
+==> square root
+
++ What is the square root of a number X?
++ What is Y times Y equal to?
+
+-----
+
+The square root of a number X is Y, such that Y times Y is equal to X.
+
+
+==> true
+
++ How many possible values are there for X and Y that can be true?
+
+-----
+
+There are many possible values for X and Y that this statement can be true.
+
+
+==> gave that statement , computer
+
++ What would happen if we gave that statement to a computer?
+
+-----
+
+But if we gave that statement to a computer, it wouldn't know what to do with it.
+
+
+==> square root , find the square
+
++ What do we need to tell the computer how to find?
++ What is the square root of a number?
+
+-----
+
+What we need to do is tell the computer how to find the square root of a number, and then tell us what the square root of that number is.
+
+
+==> recipe
+
++ What does the computer need to make a recipe for?
+
+-----
+
+And so the computer then needs a recipe.
+
+
+==> finding the square , square root
+
++ What is the name of the recipe for finding the square root of a number?
++ How many steps are involved in the recipe?
+
+-----
+
+So the recipe, a really simple one for finding the square root of a number, is steps 1, 2, 3.
+
+
+==> find the square , square root
+
++ What is the square root of 16?
+
+-----
+
+So what we do is let's say we want to find the square root of 16.
+
+
+
+
+
+=====>] Paragraph 20 [<=====
+
+But the computer doesn't.
+
+
+==> computer
+
++ What does the computer do?
+
+-----
+
+But the computer doesn't.
+
+
+
+
+
+=====>] Paragraph 21 [<=====
+
+And so we give it an initial guess.
+
+
+==> initial guess
+
++ What is the name of the initial guess that we make?
+
+-----
+
+And so we give it an initial guess.
+
+
+
+
+
+=====>] Paragraph 22 [<=====
+
+Let's say the guess is 3.
+
+
+==> guess
+
++ What is the guess number for the guess?
+
+-----
+
+Let's say the guess is 3.
+
+
+
+
+
+=====>] Paragraph 23 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 24 [<=====
+
+So the steps we follow, step 1, if 3 times 3, 9, is close enough to 16, we can stop.
+
+
+==> times , steps we follow
+
++ What are the steps we follow?
++ How many times does it take to get to 16?
++ What is the number of steps we can stop?
+
+-----
+
+So the steps we follow, step 1, if 3 times 3, 9, is close enough to 16, we can stop.
+
+
+==> close
+
++ What's not close enough for me?
+
+-----
+
+It's not really close enough for me.
+
+
+==> Step
+
++ What is the second step in the process?
+
+-----
+
+Step 2.
+
+
+
+
+
+=====>] Paragraph 25 [<=====
+
+Otherwise, so we're going to make a new guess by averaging G, which is our original guess 3, and X over G, which is 16 over 3.
+
+
+==> original guess , guess by averaging
+
++ What is our original guess 3?
++ What is the difference between X and G?
+
+-----
+
+Otherwise, so we're going to make a new guess by averaging G, which is our original guess 3, and X over G, which is 16 over 3.
+
+
+==> wanted to find
+
++ What was the square root we wanted to find?
+
+-----
+
+16 was the square root we wanted to find.
+
+
+==> guess
+
++ What is our next guess?
+
+-----
+
+So our next guess is 4.17.
+
+
+
+
+
+=====>] Paragraph 26 [<=====
+
+Using the new guess, repeat the process until we are close enough.
+
+
+==> repeat the process
+
++ How many times do we repeat the process until we are close enough?
+
+-----
+
+Using the new guess, repeat the process until we are close enough.
+
+
+==> back to step
+
++ What is the first step in the process?
+
+-----
+
+So we go back to step 1.
+
+
+
+
+
+=====>] Paragraph 27 [<=====
+
+That's the first part of the process.
+
+
+==> process
+
++ What's the first part of the process?
+
+-----
+
+That's the first part of the process.
+
+
+
+
+
+=====>] Paragraph 28 [<=====
+
+We find guess squared.
+
+4.17 squared is 17.36.
+
+
+==> find guess squared
+
++ How do we find guess squared?
+
+-----
+
+We find guess squared.
+
+
+==> squared
+
++ How many squares is 17.36?
++ What is the square root of a square?
+
+-----
+
+4.17 squared is 17.36.
+
+
+
+
+
+=====>] Paragraph 29 [<=====
+
+So now we say, is that close enough?
+
+
+==> close
+
++ What do we say is close enough?
+
+-----
+
+So now we say, is that close enough?
+
+
+
+
+
+=====>] Paragraph 30 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 31 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 32 [<=====
+
+We make a new guess by averaging 4.17 and 16 divided by 4.17.
+
+That gives us our new guess, 4.0035.
+
+Next step, using the new guess, we repeat the process.
+
+
+==> guess by averaging
+
++ How do we make a new guess?
++ How many times do we divide by 4.17?
++ What is the average of our guesses?
+
+-----
+
+We make a new guess by averaging 4.17 and 16 divided by 4.17.
+
+
+==> guess
+
++ What is the new guess?
+
+-----
+
+That gives us our new guess, 4.0035.
+
+
+==> repeat the process
+
++ What do we do with the new guess?
+
+-----
+
+Next step, using the new guess, we repeat the process.
+
+
+
+
+
+=====>] Paragraph 33 [<=====
+
+So 4.0035 squared is 16.27.
+
+
+==> squared
+
++ How much squared is 16.27?
++ What is the squared value of 4.0035 squared?
+
+-----
+
+So 4.0035 squared is 16.27.
+
+
+
+
+
+=====>] Paragraph 34 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 35 [<=====
+
+I could stop there, because we're within sort of plus minus 1.
+
+
+==> close
+
++ Is it close enough to X?
+
+-----
+
+Is that close enough to X?
+
+
+==> Yeah
+
++ How could I be happy with this?
+
+-----
+
+Yeah, I could be happy with this.
+
+
+==> minus
+
++ What is a plus minus 1?
++ What is the minus one?
+
+-----
+
+I could stop there, because we're within sort of plus minus 1.
+
+
+
+
+
+=====>] Paragraph 36 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 37 [<=====
+
+But if we wanted to be within plus or minus 1 times 10 to the negative 6 or 7 or something like that, then we would continue the process.
+
+
+==> continue the process , times , minus
+
++ What would we do if we wanted to be within plus or minus 1 times 10 to the negative 6 or 7?
+
+-----
+
+But if we wanted to be within plus or minus 1 times 10 to the negative 6 or 7 or something like that, then we would continue the process.
+
+
+==> algorithm
+
++ What is the name of the algorithm that was used to create the algorithm?
+
+-----
+
+So really what we had there is an algorithm.
+
+
+==> step
+
++ What is a sequence of steps?
+
+-----
+
+It's a sequence of steps, step one, step two, step three.
+
+
+==> flow of control
+
++ What kind of flow of control is there?
+
+-----
+
+There's some sort of flow of control.
+
+
+==> guess is close , stop
+
++ Where did we say, if the guess is close enough, then we can stop?
+
+-----
+
+We had a place where we said, if the guess is close enough, then we can stop.
+
+
+==> repeat this thing
+
++ When did we say, repeat this thing?
+
+-----
+
+We had another flow of control where we said, repeat this thing.
+
+
+==> changing the flow
+
++ What kind of flow are we changing?
+
+-----
+
+So we're kind of not going linearly, but we're changing the flow.
+
+
+
+
+
+=====>] Paragraph 38 [<=====
+
+And the stopping point, I was kind of vague about it, but it could be when we were within plus or minus 1 of the actual answer.
+
+Or repeat this, you know, repeat sticking a toothpick to see if it comes out clean every minute or something like that.
+
+
+==> stop
+
++ What is a way to stop?
+
+-----
+
+And then lastly is a way to stop.
+
+
+==> forever
+
++ What do we don't want the algorithm to go on forever?
+
+-----
+
+We don't want the algorithm to go on forever.
+
+
+==> point
+
++ What would we like to stop doing?
++ When would we want to stop?
+
+-----
+
+We would like to stop at some point.
+
+
+==> stopping point , actual answer , kind of vague
+
++ What was the stopping point?
++ What did I say was the limit of the answer?
+
+-----
+
+And the stopping point, I was kind of vague about it, but it could be when we were within plus or minus 1 of the actual answer.
+
+
+==> basically algorithms
+
++ What are recipes?
+
+-----
+
+And so recipes are basically algorithms.
+
+
+==> basically teaching algorithms
+
++ What did my grandmother teach me when she would teach me to bake a cake?
+
+-----
+
+My grandmother was basically teaching algorithms when she would teach me to bake a cake.
+
+
+==> call
+
++ What did she call it?
++ What was the name of the song?
+
+-----
+
+She didn't call it that, but she was, really.
+
+
+==> structure
+
++ What do recipes have the same structure as?
+
+-----
+
+And so even recipes have that same structure.
+
+
+==> sequence of steps
+
++ What's the sequence of steps?
+
+-----
+
+There's a sequence of steps.
+
+
+==> flow of control
+
++ What's the flow of control?
+
+-----
+
+There's a flow of control.
+
+
+==> egg substitute
+
++ What do you use if you don't have eggs?
+
+-----
+
+If you don't have egg, use egg substitute.
+
+
+==> sticking a toothpick , clean every minute
+
++ How often do you stick a toothpick to see if it comes out clean?
+
+-----
+
+Or repeat this, you know, repeat sticking a toothpick to see if it comes out clean every minute or something like that.
+
+
+==> stop
+
++ What is there a way to stop?
+
+-----
+
+And then there's a way to stop.
+
+
+
+
+
+=====>] Paragraph 39 [<=====
+
+When the toothpick comes out clean, you take it out of the oven and you eat it.
+
+
+==> clean , toothpick
+
++ What happens when a toothpick comes out clean?
++ What happens to the toothpick when it comes out of the oven?
+
+-----
+
+When the toothpick comes out clean, you take it out of the oven and you eat it.
+
+
+==> execute these algorithms
+
++ Computer are machines that execute what kind of algorithms?
+
+-----
+
+And so computers are machines that execute these algorithms.
+
+
+==> dumb
+
++ What's the name of the person who's dumb?
+
+-----
+
+They're actually dumb, right?
+
+
+
+
+
+=====>] Paragraph 40 [<=====
+
+Computers are not very smart.
+
+
+==> Computers
+
++ Computers are not very smart, what are they?
+
+-----
+
+Computers are not very smart.
+
+
+
+
+
+=====>] Paragraph 41 [<=====
+
+Computers are good at storing lots and lots of data, right?
+
+
+==> make decisions
+
++ What do they don't make on their own?
+
+-----
+
+They don't make decisions on their own.
+
+
+==> follow these sequences
+
++ What do they do?
++ What are the sequences of steps that they follow?
+
+-----
+
+They just follow these sequences of steps that we told them to do.
+
+
+==> Computers are good
+
++ Computers are good at storing what kind of data?
+
+-----
+
+Computers are good at storing lots and lots of data, right?
+
+
+
+
+
+=====>] Paragraph 42 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 43 [<=====
+
+But computers can store gigabytes of storage, terabytes even.
+
+And computers can do operations really, really quickly, which is something we can't do.
+
+So before the 1940s, we had these things called fixed program computers.
+
+You could, you know, in the little screen, you could use parentheses to put a bunch of different operations together, but there was no way to sort of store all these operations together to, you know, later put in different inputs for that same sequence of operations.
+
+After the 1940s, stored programs computers came into play.
+
+
+==> gigabytes of storage
+
++ How many gigabytes of storage can computers store?
+
+-----
+
+But computers can store gigabytes of storage, terabytes even.
+
+
+==> quickly
+
++ What can computers do really, really quickly?
++ What can't computers do?
+
+-----
+
+And computers can do operations really, really quickly, which is something we can't do.
+
+
+==> things
+
++ What two things are they good at?
++ What are they not very smart?
+
+-----
+
+They're good at those two things, but they're not very smart.
+
+
+==> make decisions
+
++ Who can't make decisions unless they're told to make the decisions?
+
+-----
+
+They can't make decisions unless they're told to make the decisions.
+
+
+==> computer
+
++ What does the computer do when you tell it to?
+
+-----
+
+So really the computer only does what you tell it to do.
+
+
+==> big ideas
+
++ What is one of the big ideas that I want you to come away from this lecture with?
+
+-----
+
+And that's one of the big ideas that I want you to come away from this lecture with.
+
+
+==> Computer
+
++ Computer does what you tell it to do?
+
+-----
+
+Computer only does what you tell it to do.
+
+
+==> sequences of steps
+
++ What are the sequences of steps that you tell it to do?
+
+-----
+
+The sequences of steps that you tell it to do, that's the only thing it follows.
+
+
+==> Python programming language , programming Python programming
+
++ What is the name of the programming language that we're going to be using before we get started?
+
+-----
+
+So a little brief history just to kind of make you appreciate programming Python programming language before we actually get started with it.
+
+
+==> fixed program computers
+
++ Before the 1940s, what were fixed program computers called?
+
+-----
+
+So before the 1940s, we had these things called fixed program computers.
+
+
+==> pocket calculator
+
++ What is an example of a pocket calculator?
+
+-----
+
+Like a pocket calculator is an example of that.
+
+
+==> operation
+
++ What did every button do?
+
+-----
+
+Every button was an operation.
+
+
+==> sort of store , parentheses to put , put a bunch , sequence of operations
+
++ What could you use in the little screen to put a bunch of different operations together?
++ What was there no way to sort of store all these operations together to later put in different inputs for that same sequence of operations?
+
+-----
+
+You could, you know, in the little screen, you could use parentheses to put a bunch of different operations together, but there was no way to sort of store all these operations together to, you know, later put in different inputs for that same sequence of operations.
+
+
+==> single time
+
++ What did you have to input every single time?
+
+-----
+
+You had to input it every single time.
+
+
+==> Input those sequences
+
++ Input those sequences of operations every single time?
+
+-----
+
+Input those sequences of operations every single time.
+
+
+==> stored programs computers
+
++ What came into play after the 1940s?
++ When did computers come into play?
+
+-----
+
+After the 1940s, stored programs computers came into play.
+
+
+==> things as data
+
++ What were they able to store to do things?
+
+-----
+
+And they were able to store instructions to do things as data.
+
+
+
+
+
+=====>] Paragraph 44 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 45 [<=====
+
+And it knew how to follow simple sequences of steps when the program told it to go to a different location it did.
+
+Simple tests, like checking for equality between two values.
+
+
+==> special program called
+
++ What was the name of the program that executed the instructions?
++ What did an interpreter do?
+
+-----
+
+And there was a special program called an interpreter that executed these instructions.
+
+
+==> follow simple sequences
+
++ What did the program tell it to do when it was told to go to a different location?
+
+-----
+
+And it knew how to follow simple sequences of steps when the program told it to go to a different location it did.
+
+
+==> executing these instructions
+
++ What was the name of the program that executed the instructions?
+
+-----
+
+So it was basically executing these instructions.
+
+
+==> arithmetic and logical
+
++ What were the instructions that it did?
+
+-----
+
+And the instructions that it did were arithmetic and logical.
+
+
+==> subtraction
+
++ What do addition, subtraction, and other things like that do?
+
+-----
+
+So addition, subtraction, things like that.
+
+
+==> Simple tests
+
++ What are simple tests?
++ What is a simple test?
+
+-----
+
+Simple tests, like checking for equality between two values.
+
+
+
+
+
+=====>] Paragraph 46 [<=====
+
+And moving data.
+
+
+==> moving data
+
++ And moving data?
++ What is one of the things that moving data does?
+
+-----
+
+And moving data.
+
+
+
+
+
+=====>] Paragraph 47 [<=====
+
+And this is not super accurate, but it gives you a sense of how exactly things happen low level in the computer.
+
+So the computer basically has memory where things are stored.
+
+It knows how to add things, subtract things, multiply things, compare things.
+
+
+==> memory location
+
++ What do you do with the value?
++ Where is the value stored?
+
+-----
+
+So taking this value and putting it at a different memory location.
+
+
+==> wanted to give
+
++ What did I just want to give you a brief overview of?
+
+-----
+
+So I just wanted to give you a really brief overview.
+
+
+==> things happen low , happen low level
+
++ What does this give you a sense of?
+
+-----
+
+And this is not super accurate, but it gives you a sense of how exactly things happen low level in the computer.
+
+
+==> things are stored
+
++ What kind of memory does a computer have?
+
+-----
+
+So the computer basically has memory where things are stored.
+
+
+==> arithmetic logic unit
+
++ What does the arithmetic logic do?
+
+-----
+
+It has an arithmetic logic unit that does operations.
+
+
+==> subtract things
+
++ What does it know how to add, subtract, multiply, compare?
+
+-----
+
+It knows how to add things, subtract things, multiply things, compare things.
+
+
+==> counter is set
+
++ What is the name of the unit where the program counter is set?
+
+-----
+
+And then it has the control unit where this program counter is set.
+
+
+==> put a program
+
++ Where do you put a program?
+
+-----
+
+And this is where you put a program in.
+
+
+
+
+
+=====>] Paragraph 48 [<=====
+
+So let's see if this works.
+
+
+==> works
+
++ What do we see if this works?
+
+-----
+
+So let's see if this works.
+
+
+
+
+
+=====>] Paragraph 49 [<=====
+
+So we have a bunch of memory locations.
+
+
+==> program
+
++ What is the name of the program?
+
+-----
+
+This is a program.
+
+
+==> memory
+
++ What is up here?
++ What is our memory?
+
+-----
+
+And up here is our memory.
+
+
+==> memory locations
+
++ How many memory locations do we have?
+
+-----
+
+So we have a bunch of memory locations.
+
+
+
+
+
+=====>] Paragraph 50 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 51 [<=====
+
+And at each of these memory locations, we have some values stored.
+
+
+==> memory locations
+
++ What do we store at each of these memory locations?
+
+-----
+
+And at each of these memory locations, we have some values stored.
+
+
+
+
+
+=====>] Paragraph 52 [<=====
+
+Prefilled.
+
+
+==> Prefilled
+
++ What is the name of the container that is prefilled?
+
+-----
+
+Prefilled.
+
+
+
+
+
+=====>] Paragraph 53 [<=====
+
+So when we first run this program, what ends up happening is the interpreter sees the first instruction add the values at 3, 4, 5, 6 and 3, 4, 5, 7 together.
+
+So it goes to these memory locations here, grabs the 3 and the 4, and sends them to the arithmetic logic unit.
+
+
+==> run this program , ends up happening , instruction add
+
++ When does the interpreter see the first instruction add the values at 3, 4, 5, 6 and 3, 4 5, 7 together?
++ What happens when we first run this program?
+
+-----
+
+So when we first run this program, what ends up happening is the interpreter sees the first instruction add the values at 3, 4, 5, 6 and 3, 4, 5, 7 together.
+
+
+==> arithmetic logic unit
+
++ What does the arithmetic logic unit do with the 3 and 4?
+
+-----
+
+So it goes to these memory locations here, grabs the 3 and the 4, and sends them to the arithmetic logic unit.
+
+
+
+
+
+=====>] Paragraph 54 [<=====
+
+The ALU knows how to do the addition.
+
+
+==> ALU
+
++ What does the ALU know how to do?
+
+-----
+
+The ALU knows how to do the addition.
+
+
+
+
+
+=====>] Paragraph 55 [<=====
+
+So it adds 3 plus 4, 7, and sends the result back here.
+
+Now, we never told it to store that result anywhere.
+
+
+==> sends the result
+
++ What is the result of adding 3 plus 4 plus 7?
++ What does it send back?
+
+-----
+
+So it adds 3 plus 4, 7, and sends the result back here.
+
+
+==> store that result
+
++ What did we never tell it to store?
++ Where did it store that result?
+
+-----
+
+Now, we never told it to store that result anywhere.
+
+
+
+
+
+=====>] Paragraph 56 [<=====
+
+But the next instruction says store the value you just got back from the ALU at this memory location, 3, 4, 5, 8.
+
+So the next step basically takes that 7 and stores it at memory location 3, 4, 5, 8.
+
+
+==> memory location , instruction says store
+
++ Where does the next instruction store the value you just got back from the ALU?
+
+-----
+
+But the next instruction says store the value you just got back from the ALU at this memory location, 3, 4, 5, 8.
+
+
+==> memory location , step basically
+
++ What is the name of the memory location where the next step stores the memory?
++ Where is the memory located?
+
+-----
+
+So the next step basically takes that 7 and stores it at memory location 3, 4, 5, 8.
+
+
+
+
+
+=====>] Paragraph 57 [<=====
+
+Super tedious.
+
+All we did was add 3 plus 4.
+
+
+==> Super tedious
+
++ What is super tedious?
++ How long does it take to get to work?
+
+-----
+
+Super tedious.
+
+
+==> add
+
++ How many plus 4 did we add to the total?
++ What did we do?
+
+-----
+
+All we did was add 3 plus 4.
+
+
+
+
+
+=====>] Paragraph 58 [<=====
+
+We add the values at 7, 8, 8, 9, and 7, 8, 9, 0.
+
+
+==> add
+
++ How many values do we add at 7, 8, 8, 9 and 7, 8, 9?
++ What are the values of 7, 8, 9, and 7?
+
+-----
+
+We add the values at 7, 8, 8, 9, and 7, 8, 9, 0.
+
+
+
+
+
+=====>] Paragraph 59 [<=====
+
+And then the next instruction says compare the values at memory locations 3, 4, 5, 8 and 7, 8, 9, 1.
+
+
+==> ALU , memory
+
++ Where does the memory go?
++ Where does it send the memory to?
+
+-----
+
+So it goes in the memory, grabs the 5 and the 2, sends it to the ALU.
+
+
+==> brings it back
+
++ The ALU calculates it as what?
++ What does the ALU bring back?
+
+-----
+
+The ALU calculates it as 7, brings it back.
+
+
+==> location
+
++ What is the name of the location where we store the product?
++ Where is the store located?
+
+-----
+
+And then we store that in location 7, 8, 9, 1.
+
+
+==> additions
+
++ How many additions did we make after that?
++ What was the total number of additions?
+
+-----
+
+And then after that, all we've done is two additions.
+
+
+==> memory locations , instruction says compare
+
++ What does the next instruction say compare the values at memory locations 3, 4, 5, 8 and 7, 8, 9, 1?
+
+-----
+
+And then the next instruction says compare the values at memory locations 3, 4, 5, 8 and 7, 8, 9, 1.
+
+
+
+
+
+=====>] Paragraph 60 [<=====
+
+Again, super high level, but it kind of gives you an appreciation for programming languages these days.
+
+Alan Turing a long time ago showed that you can compute anything with actually a very an even more basic set of primitives, not addition, subtraction.
+
+But instead with a tape, you would actually have six primitives.
+
+Move the tape left, move the tape right, read the value at the tape, put a value on the tape, erase the value from the tape, and no operation.
+
+So if we had some program written in Java that basically boils down to, right, something super long, but something that is made up of these six primitives, that means that if we boil down this program to these six primitives, we can build back up the same program in a completely different language.
+
+We're gonna be using the Python primitives, which are more convenient, and they allow us to do a lot more things in much less time.
+
+So in English, some of the primitives might be words or even we can do letters or characters, but we can say it's words.
+
+With stories, we can build up books and things like that.
+
+In programming languages, the primitives are numbers, sequences of characters, operators like addition, multiplication, division, checking for equality, checking that something is greater than, things like that.
+
+So once we have these primitives in a language, we can start to build up the syntax of the language.
+
+So in English, having something like noun, noun, noun doesn't make any sense.
+
+
+==> compare
+
++ What is the difference between the 7 and the 7?
+
+-----
+
+So we're going to compare the 7 with the 7.
+
+
+==> ALU , equivalent
+
++ What does the ALU say about 7 and 7?
+
+-----
+
+The ALU again does this comparison and says, all right, well, 7 and 7 are equivalent.
+
+
+==> give back
+
++ What does it want to give back to the interpreter?
+
+-----
+
+So this is true or whatever it wants to give back to the interpreter.
+
+
+==> print the result
+
++ What is the last instruction to print the result of the comparison?
+
+-----
+
+And then the last instruction here we have is print the result of that comparison.
+
+
+==> print true
+
++ We print true because they were equal?
++ Why do we print true?
+
+-----
+
+So we print true because they were equal.
+
+
+==> super high level
+
++ What kind of level does it give you an appreciation for programming languages these days?
+
+-----
+
+Again, super high level, but it kind of gives you an appreciation for programming languages these days.
+
+
+==> tedious to write
+
++ What is very tedious to write if we had to write programs in this manner?
+
+-----
+
+This is very tedious to write if we had to write programs in this manner.
+
+
+==> long time ago , time ago showed , Alan Turing
+
++ Alan Turing a long time ago showed that you can compute anything with what?
+
+-----
+
+Alan Turing a long time ago showed that you can compute anything with actually a very an even more basic set of primitives, not addition, subtraction.
+
+
+==> tape
+
++ How many primitives would you have with a tape?
+
+-----
+
+But instead with a tape, you would actually have six primitives.
+
+
+==> Move the tape , tape left
+
++ What do you do when you move the tape left?
++ What does the tape read at the tape?
+
+-----
+
+Move the tape left, move the tape right, read the value at the tape, put a value on the tape, erase the value from the tape, and no operation.
+
+
+==> showed , result
+
++ What did he show the result of?
+
+-----
+
+And so since he showed this, what the result of it actually was is down here.
+
+
+==> programming language
+
++ What is computable in a language?
+
+-----
+
+Anything computable in one language is computable in any other programming language.
+
+
+==> written in Java , Java that basically , super long , completely different language , build back , basically boils
+
++ How many primitives are in a program written in Java?
++ What would happen if we boil down the program to six primitives?
+
+-----
+
+So if we had some program written in Java that basically boils down to, right, something super long, but something that is made up of these six primitives, that means that if we boil down this program to these six primitives, we can build back up the same program in a completely different language.
+
+
+==> powerful
+
++ What's the name of the song that's really powerful?
+
+-----
+
+And that's really powerful.
+
+
+==> cool statement
+
++ What is a really cool statement?
+
+-----
+
+That's a really cool statement.
+
+
+==> gonna be working
+
++ What kind of primitives are we going to be working with?
+
+-----
+
+Now we're not gonna be working with those primitives.
+
+
+==> Python primitives , lot more things
+
++ What are the Python primitives?
++ What do the Pythons allow us to do in much less time?
+
+-----
+
+We're gonna be using the Python primitives, which are more convenient, and they allow us to do a lot more things in much less time.
+
+
+==> Python with English , primitives of Python
+
++ What language do we talk about the primitives of Python with?
+
+-----
+
+I'm gonna do a little comparison as we talk about the primitives of Python with English.
+
+
+==> letters or characters , English
+
++ What are some of the primitives in English?
++ What can we say it's words?
+
+-----
+
+So in English, some of the primitives might be words or even we can do letters or characters, but we can say it's words.
+
+
+==> build up words
+
++ What can we build up with characters?
+
+-----
+
+With characters, we can build up words.
+
+
+==> build up sentences
+
++ With words, we can build up what?
+
+-----
+
+With words, we can build up sentences.
+
+
+==> build up stories
+
++ With sentences, what can we build up stories?
+
+-----
+
+With sentences, we can build up stories.
+
+
+==> build up books
+
++ With stories, we can build up books and what?
+
+-----
+
+With stories, we can build up books and things like that.
+
+
+==> sequences of characters , operators like addition , programming languages
+
++ What are the primitives in programming languages?
++ What are operators like addition, multiplication, division, checking for equality?
+
+-----
+
+In programming languages, the primitives are numbers, sequences of characters, operators like addition, multiplication, division, checking for equality, checking that something is greater than, things like that.
+
+
+==> start to build , language
+
++ What can we build up once we have primitives in a language?
+
+-----
+
+So once we have these primitives in a language, we can start to build up the syntax of the language.
+
+
+==> make any sense
+
++ What does not make sense in English?
++ What does the word noun mean?
+
+-----
+
+So in English, having something like noun, noun, noun doesn't make any sense.
+
+
+==> Cat dog boy
+
++ What kind of boy does a cat dog boy make little sense?
+
+-----
+
+Cat dog boy doesn't make much sense.
+
+
+
+
+
+=====>] Paragraph 61 [<=====
+
+It's not syntactically valid.
+
+But verb noun is syntactically valid.
+
+
+==> syntactically valid
+
++ What is not syntactically valid?
+
+-----
+
+It's not syntactically valid.
+
+
+==> syntactically valid
+
++ What is the meaning of a verb noun?
+
+-----
+
+But verb noun is syntactically valid.
+
+
+
+
+
+=====>] Paragraph 62 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 63 [<=====
+
+Similarly, in programming languages, we can have two objects kind of side by side.
+
+So here this is a sequence of characters H and I.
+
+And this is the number 5 right beside that sequence of characters.
+
+
+==> programming languages
+
++ In programming languages, we can have two objects kind of side by side?
+
+-----
+
+Similarly, in programming languages, we can have two objects kind of side by side.
+
+
+==> sequence of characters
+
++ What is the sequence of characters H and I?
+
+-----
+
+So here this is a sequence of characters H and I.
+
+
+==> sequence of characters
+
++ What is the number next to the sequence of characters?
+
+-----
+
+And this is the number 5 right beside that sequence of characters.
+
+
+
+
+
+=====>] Paragraph 64 [<=====
+
+But that doesn't make any sense.
+
+
+==> make any sense
+
++ What does not make any sense?
+
+-----
+
+But that doesn't make any sense.
+
+
+
+
+
+=====>] Paragraph 65 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 66 [<=====
+
+What does it mean to have this sequence of characters and that number right beside it?
+
+
+==> sequence of characters
+
++ What does it mean to have a sequence of characters and a number right beside it?
+
+-----
+
+What does it mean to have this sequence of characters and that number right beside it?
+
+
+
+
+
+=====>] Paragraph 67 [<=====
+
+It has no meaning in Python.
+
+
+==> meaning in Python
+
++ In Python, what is the meaning of the term "no meaning"?
+
+-----
+
+It has no meaning in Python.
+
+
+
+
+
+=====>] Paragraph 68 [<=====
+
+And in Python, the meaning to this is I want to repeat the sequence of characters high, H I, five times.
+
+
+==> add an operator , objects
+
++ What do we have to do instead of adding an operator between these two objects?
+
+-----
+
+Instead, what we have to do is we have to add an operator in between these two objects.
+
+
+==> star operator , sequence of characters
+
++ What operator is added between the sequence of characters high and the number 5?
+
+-----
+
+So here we add a little star operator in between the sequence of characters high and the number 5.
+
+
+==> characters high , repeat the sequence
+
++ What is the meaning of repeating the sequence of characters high, H I, five times in Python?
+
+-----
+
+And in Python, the meaning to this is I want to repeat the sequence of characters high, H I, five times.
+
+
+==> basically give
+
++ What would I get if I did this?
++ What would be the name of the product?
+
+-----
+
+So this would basically give me high, high, high, high, high.
+
+
+==> sentences in English , syntactically valid , static semantics
+
++ What can we talk about once we have sentences in English, right, and expressions that are syntactically valid?
+
+-----
+
+So once we have sentences in English, right, and expressions that are syntactically valid, we can now talk about the static semantics of the language.
+
+
+==> syntactically correct , English
+
++ What is a syntactically correct word in English?
++ What is not a static word?
+
+-----
+
+So in English, saying something like I are hungry is syntactically correct, but it's not static.
+
+
+
+
+
+=====>] Paragraph 69 [<=====
+
+It's not it doesn't have good static semantics.
+
+
+==> good static semantics
+
++ What does not have good static semantics?
+
+-----
+
+It's not it doesn't have good static semantics.
+
+
+
+
+
+=====>] Paragraph 70 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 71 [<=====
+
+There's no meaning there's no meaning to that.
+
+
+==> meaning
+
++ What is there no meaning to?
++ What does it mean?
+
+-----
+
+There's no meaning there's no meaning to that.
+
+
+
+
+
+=====>] Paragraph 72 [<=====
+
+Here, you know, in the previous slide, we saw that you can use the star operator between the sequence of characters and the number.
+
+But if we use a plus operator in between the sequence of characters and a number, that doesn't have any meaning in Python.
+
+
+==> plural
+
++ What does the R stand for?
++ What is plural?
+
+-----
+
+Because the R is for, you know, U or plural.
+
+
+==> differ depending
+
++ What will differ depending on what programming language you use?
+
+-----
+
+Similarly in programming languages, and this will differ depending on what programming language you use.
+
+
+==> previous slide , star operator , sequence of characters
+
++ In the previous slide, we saw that you can use what between the sequence of characters and the number?
+
+-----
+
+Here, you know, in the previous slide, we saw that you can use the star operator between the sequence of characters and the number.
+
+
+==> sequence many times
+
++ How many times did it take to repeat the sequence?
+
+-----
+
+And that meant repeat that sequence many times.
+
+
+==> meaning in Python , sequence of characters
+
++ What does a plus operator in between characters and a number not have in Python?
++ What is the meaning of using the plus operator?
+
+-----
+
+But if we use a plus operator in between the sequence of characters and a number, that doesn't have any meaning in Python.
+
+
+==> static semantic error
+
++ What is the semantic error?
++ What is it?
+
+-----
+
+So it has a static semantic error, even though it's syntactically valid.
+
+
+
+
+
+=====>] Paragraph 73 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 74 [<=====
+
+So so far we've been able to find really nice parallels with English, right?
+
+So in English, you can have many different meanings.
+
+
+==> object operator object
+
++ What is operator sorry?
++ What is object operator?
+
+-----
+
+We have operator sorry, object operator object.
+
+
+==> parallels with English
+
++ What languages have we been able to find really nice parallels with?
+
+-----
+
+So so far we've been able to find really nice parallels with English, right?
+
+
+==> English language
+
++ What is the English language?
++ What are the programming languages?
+
+-----
+
+The English language and the programming languages.
+
+
+==> things break
+
++ What is the name of the place where things break down?
+
+-----
+
+But this is kind of where things break down.
+
+
+==> language
+
++ When do we talk about the semantics of a language?
+
+-----
+
+When we talk about the semantics of a language.
+
+
+==> English
+
++ In English, what can you have many different meanings?
+
+-----
+
+So in English, you can have many different meanings.
+
+
+
+
+
+=====>] Paragraph 75 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 76 [<=====
+
+The chicken is ready to eat means let's eat this chicken.
+
+Or the chicken is ready to eat means the chicken wants to eat something.
+
+
+==> chicken is ready
+
++ What is ready to eat means let's eat this chicken?
+
+-----
+
+The chicken is ready to eat means let's eat this chicken.
+
+
+==> ready to eat
+
++ What does the chicken want to eat?
+
+-----
+
+Or the chicken is ready to eat means the chicken wants to eat something.
+
+
+
+
+
+=====>] Paragraph 77 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 78 [<=====
+
+Programming languages, there is no multiple meanings to a program that you write.
+
+Because the computer, the machine, the language follows a set of instructions to a T, there is no ambiguity about what it needs to do.
+
+
+==> Programming languages
+
++ In programming languages, there is no multiple meaning to a program that you write?
+
+-----
+
+Programming languages, there is no multiple meanings to a program that you write.
+
+
+==> set of instructions , computer , machine
+
++ What does the computer, the machine, the language follow to a T?
++ What is there no ambiguity about?
+
+-----
+
+Because the computer, the machine, the language follows a set of instructions to a T, there is no ambiguity about what it needs to do.
+
+
+
+
+
+=====>] Paragraph 79 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 80 [<=====
+
+And so programs only have one meaning, but the problem is it might not be the meaning that you intended it to have.
+
+Spelling errors, indentation errors, things like that.
+
+Like semantic errors are 90% probably easy to catch.
+
+
+==> end
+
++ What does it just follow the instructions and do to the end?
+
+-----
+
+It just follows the instructions and does what it needs to do to the end.
+
+
+==> terminates the program
+
++ What happens to a program until it reaches a certain point?
+
+-----
+
+Until it reaches, you know, it terminates the program.
+
+
+==> meaning , programs
+
++ What is the problem with a program that has only one meaning?
+
+-----
+
+And so programs only have one meaning, but the problem is it might not be the meaning that you intended it to have.
+
+
+==> things start
+
++ When do things start to go wrong?
+
+-----
+
+And that's when things start to go wrong.
+
+
+==> syntactic errors
+
++ What type of errors can occur in a program?
+
+-----
+
+We can have syntactic errors in our program.
+
+
+==> Spelling errors
+
++ What type of errors are there?
++ Spelling errors, indentation errors, etc.?
+
+-----
+
+Spelling errors, indentation errors, things like that.
+
+
+==> easy to catch
+
++ What is the name of the fish that is easy to catch?
+
+-----
+
+And those are easy to catch.
+
+
+==> easy to catch
+
++ What percentage of semantic errors are probably easy to catch?
+
+-----
+
+Like semantic errors are 90% probably easy to catch.
+
+
+==> semantics
+
++ What is the problem with semantics?
+
+-----
+
+But the problem comes in with the semantics.
+
+
+
+
+
+=====>] Paragraph 81 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 82 [<=====
+
+Because you write a program that you think is doing one thing, but instead either it crashes right away or it runs forever and doesn't really stop.
+
+So when we write programs, we're basically writing sequences of definitions and commands.
+
+And we're gonna write these either in a file editor or in a shell.
+
+The first, today, at least, we're writing in the shell directly.
+
+We're just gonna be I'm just gonna be showing you some really quick things that we can do with the Python programming language.
+
+
+==> intended this program , meaning
+
++ What might not be the meaning that you intended this program to have?
+
+-----
+
+The meaning that you intended this program to have might not be what it's actually doing.
+
+
+==> errors happen
+
++ Where do most of my errors happen?
+
+-----
+
+And that's where most of my errors happen.
+
+
+==> super frustrated
+
++ What do I get super frustrated with when I program?
+
+-----
+
+And that's where I get super frustrated when I program.
+
+
+==> super frustrated
+
++ What's the name of the place where you'll probably get super frustrated?
+
+-----
+
+And that's probably where you guys will get super frustrated, too.
+
+
+==> write a program , runs forever , thing
+
++ What happens when you write a program that you think is doing one thing?
++ What happens if the program crashes right away?
++ How long does it run and doesn't stop?
+
+-----
+
+Because you write a program that you think is doing one thing, but instead either it crashes right away or it runs forever and doesn't really stop.
+
+
+==> incorrect answer
+
++ What do you get if you don't get the correct answer to the question?
+
+-----
+
+Or it terminates, but it gives you an incorrect answer.
+
+
+==> expecting
+
++ What was not what you were expecting?
+
+-----
+
+It's not what you were expecting.
+
+
+==> lectures
+
++ What will we talk about in a few lectures?
+
+-----
+
+And we'll talk about this in a few lectures.
+
+
+==> basically writing sequences
+
++ What do we write when we write programs?
++ What are we writing?
+
+-----
+
+So when we write programs, we're basically writing sequences of definitions and commands.
+
+
+==> gonna write
+
++ What are the two ways we're going to write these?
+
+-----
+
+And we're gonna write these either in a file editor or in a shell.
+
+
+==> shell directly
+
++ What is the first thing we're writing in the shell?
+
+-----
+
+The first, today, at least, we're writing in the shell directly.
+
+
+==> half of tomorrow
+
++ How much of tomorrow will we write in the shell?
+
+-----
+
+And half of tomorrow we'll write in the shell.
+
+
+==> lines of code
+
++ We're not writing what?
++ Why are we not writing much code?
+
+-----
+
+Because we're not really writing any we're not really writing many lines of code.
+
+
+==> Python programming language
+
++ What programming language are we going to be showing you?
+
+-----
+
+We're just gonna be I'm just gonna be showing you some really quick things that we can do with the Python programming language.
+
+
+==> programming environment
+
++ How many of you have installed the programming environment?
+
+-----
+
+So hopefully you all have installed the programming environment.
+
+
+
+
+
+=====>] Paragraph 83 [<=====
+
+This is the code editor.
+
+
+==> code editor
+
++ What is the name of the editor?
+
+-----
+
+This is the code editor.
+
+
+
+
+
+=====>] Paragraph 84 [<=====
+
+I find the shell very useful if there's just something really quick that I want to check, that I don't want to write a program for and then run.
+
+It's just like a simple command that I want to check to make sure it's doing what I think it's doing before I insert it in my code editor.
+
+
+==> tomorrow we start
+
++ What day will we start working in here?
+
+-----
+
+So tomorrow we'll start working in here.
+
+
+==> gonna work
+
++ What's the name of the day we're gonna work in?
+
+-----
+
+But for today, we're really just gonna work in the shell.
+
+
+==> type commands
+
++ In the future, how can you type commands in the shell?
+
+-----
+
+And even in the future, you can still type commands in the shell.
+
+
+==> find the shell , write a program , check
+
++ What does the shell do if I want to check something quick?
++ What do I find the shell useful for?
+
+-----
+
+I find the shell very useful if there's just something really quick that I want to check, that I don't want to write a program for and then run.
+
+
+==> code editor , simple command , check to make
+
++ What is a simple command that I want to check before I insert it in my code editor?
+
+-----
+
+It's just like a simple command that I want to check to make sure it's doing what I think it's doing before I insert it in my code editor.
+
+
+
+
+
+=====>] Paragraph 85 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 86 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 87 [<=====
+
+So mine is I guess I'm using the white theme just because I find it easier for you guys to see.
+
+
+==> white theme , find it easier
+
++ Why am I using the white theme?
+
+-----
+
+So mine is I guess I'm using the white theme just because I find it easier for you guys to see.
+
+
+
+
+
+=====>] Paragraph 88 [<=====
+
+This is the file editor.
+
+
+==> file editor
+
++ What is the name of the file editor?
+
+-----
+
+This is the file editor.
+
+
+
+
+
+=====>] Paragraph 89 [<=====
+
+And this is just a bunch of expressions.
+
+
+==> bunch of expressions
+
++ What is just a bunch of expressions?
+
+-----
+
+And this is just a bunch of expressions.
+
+
+
+
+
+=====>] Paragraph 90 [<=====
+
+Yeah.
+
+
+==> Yeah
+
++ What is the answer to that question?
+
+-----
+
+Yeah.
+
+
+
+
+
+=====>] Paragraph 91 [<=====
+
+A bunch of code that we're gonna type in today.
+
+
+==> type in today
+
++ A bunch of code that we're gonna type in today?
+
+-----
+
+A bunch of code that we're gonna type in today.
+
+
+==> shell today
+
++ What are we going to type in the shell today?
+
+-----
+
+And we're gonna type it in the shell today.
+
+
+==> hand side
+
++ What is the thing on the right hand side?
+
+-----
+
+So the thing on the right hand side.
+
+
+
+
+
+=====>] Paragraph 92 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 93 [<=====
+
+At the base of it, we're going to create objects inside our programs.
+
+
+==> write a program
+
++ What do we do when we write a program?
+
+-----
+
+So what exactly do we do when we write a program?
+
+
+==> create objects inside
+
++ At the base of it, what are we going to create inside our programs?
+
+-----
+
+At the base of it, we're going to create objects inside our programs.
+
+
+==> manipulate
+
++ We're going to manipulate them, right?
+
+-----
+
+And we're going to manipulate them.
+
+
+
+
+
+=====>] Paragraph 94 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 95 [<=====
+
+That's what programming is mostly about.
+
+
+==> programming
+
++ What is the main focus of programming?
+
+-----
+
+That's what programming is mostly about.
+
+
+
+
+
+=====>] Paragraph 96 [<=====
+
+At its core.
+
+
+==> core
+
++ At its core, what is the core of the business?
+
+-----
+
+At its core.
+
+
+
+
+
+=====>] Paragraph 97 [<=====
+
+Now when we create objects, it's important.
+
+This is kind of something we're gonna come back to again and again in a kind of more high level setting.
+
+But right now, what I want you to understand is that when we create an object, an object has a type.
+
+
+==> create objects
+
++ When do we create objects?
+
+-----
+
+Now when we create objects, it's important.
+
+
+==> high level setting
+
++ What kind of setting are we going to come back to again and again?
+
+-----
+
+This is kind of something we're gonna come back to again and again in a kind of more high level setting.
+
+
+==> create an object
+
++ What does an object have when we create it?
++ What is the type of an object?
+
+-----
+
+But right now, what I want you to understand is that when we create an object, an object has a type.
+
+
+
+
+
+=====>] Paragraph 98 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 99 [<=====
+
+And the type that an object has tells Python the things you're allowed to do with that object.
+
+
+==> Python the things , things you allowed
+
++ What tells Python what you're allowed to do with an object?
+
+-----
+
+And the type that an object has tells Python the things you're allowed to do with that object.
+
+
+
+
+
+=====>] Paragraph 100 [<=====
+
+We can add it to another number.
+
+We can subtract it to another number.
+
+We can take some other number to this power of 30.
+
+
+==> number
+
++ What is the number 30?
++ How many people live in the United States?
+
+-----
+
+The number 30.
+
+
+==> number
+
++ What is a number?
+
+-----
+
+It's a number.
+
+
+==> type
+
++ The type, we'll talk about it in what?
+
+-----
+
+The type, we'll talk about it in a bit.
+
+
+==> integer
+
++ What is the type of the type?
+
+-----
+
+The type is an integer.
+
+
+==> number
+
++ What is a whole number?
+
+-----
+
+It's a whole number.
+
+
+==> integer
+
++ What are the things we can do with this integer?
+
+-----
+
+But basically what are the things we can do with this integer?
+
+
+==> number
+
++ What is the name of the number?
++ What does the number mean?
+
+-----
+
+With this number?
+
+
+==> number
+
++ What can we add to another number?
+
+-----
+
+We can add it to another number.
+
+
+==> number
+
++ What can we subtract to another number?
+
+-----
+
+We can subtract it to another number.
+
+
+==> power
+
++ What can we take it to another power?
+
+-----
+
+We can take it to another power.
+
+
+==> number
+
++ What is the power of 30?
+
+-----
+
+We can take some other number to this power of 30.
+
+
+
+
+
+=====>] Paragraph 101 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 102 [<=====
+
+A bunch of sort of mathematical operations.
+
+As you would expect.
+
+
+==> mathematical operations
+
++ A bunch of what kind of operations?
+
+-----
+
+A bunch of sort of mathematical operations.
+
+
+==> expect
+
++ As you would expect, what is the answer to the question?
++ What is the name of the company?
+
+-----
+
+As you would expect.
+
+
+
+
+
+=====>] Paragraph 103 [<=====
+
+So that's pretty straightforward.
+
+
+==> pretty straightforward
+
++ What's a pretty straightforward answer to the question?
+
+-----
+
+So that's pretty straightforward.
+
+
+
+
+
+=====>] Paragraph 104 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 105 [<=====
+
+This quotation, capital A, lowercase n, lowercase a quotation.
+
+And the characters, part of it are capital A, lowercase n, lowercase a.
+
+
+==> quotation
+
++ What is capital A?
++ What is lowercase n?
+
+-----
+
+This quotation, capital A, lowercase n, lowercase a quotation.
+
+
+==> lecture
+
++ When will we talk about this topic?
+
+-----
+
+So this is something we'll talk about next lecture.
+
+
+==> called a string
+
++ What is a string called?
+
+-----
+
+It's called a string.
+
+
+==> sequence of characters
+
++ What is the sequence of characters in the movie?
+
+-----
+
+And it's a sequence of characters.
+
+
+==> quotations tell Python
+
++ What tells Python it's a sequence of characters?
+
+-----
+
+The quotations tell Python it's a sequence of characters.
+
+
+==> lowercase
+
++ What are some of the characters?
++ What are the lowercase n and capital A?
+
+-----
+
+And the characters, part of it are capital A, lowercase n, lowercase a.
+
+
+==> kinds of things , things I allowed
+
++ What are the kinds of things I can do with a string different from the kinds I'm allowed to do with numbers?
+
+-----
+
+The kinds of things I can do with this string are not the same kinds of things I'm allowed to do with a number.
+
+
+
+
+
+=====>] Paragraph 106 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 107 [<=====
+
+If I tried to take Anna and divide it by the sequence of characters Bob, Python would complain very much.
+
+
+==> characters Bob , Python would complain
+
++ What would Python complain about if I tried to divide Anna by the sequence of characters?
+
+-----
+
+If I tried to take Anna and divide it by the sequence of characters Bob, Python would complain very much.
+
+
+
+
+
+=====>] Paragraph 108 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 109 [<=====
+
+Because you can't divide a string by another string.
+
+A sequence of characters doesn't make sense to divide it by another sequence of characters.
+
+Similarly, I can't take Anna to some power.
+
+
+==> divide a string
+
++ Why can't you divide a string by another string?
+
+-----
+
+Because you can't divide a string by another string.
+
+
+==> sequence of characters
+
++ What does not make sense to divide a sequence by another sequence of characters?
+
+-----
+
+A sequence of characters doesn't make sense to divide it by another sequence of characters.
+
+
+==> Similarly
+
++ What can't I take Anna to some power?
+
+-----
+
+Similarly, I can't take Anna to some power.
+
+
+
+
+
+=====>] Paragraph 110 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 111 [<=====
+
+I can't multiply or I can't multiply by itself.
+
+
+==> multiply
+
++ What do I can't do?
++ What can I'm not able to do?
+
+-----
+
+I can't multiply or I can't multiply by itself.
+
+
+
+
+
+=====>] Paragraph 112 [<=====
+
+But the kinds of things that I am allowed to do on a sequence of characters is different than the kinds of things I'm allowed to do on a number.
+
+So the things I can do with a sequence of characters is I can say, well, what's the character at the first position?
+
+
+==> Things
+
++ What kind of things do people do?
++ What type of questions do people have?
+
+-----
+
+Things like that.
+
+
+==> kinds of things , sequence of characters
+
++ What are the kinds of things that I am allowed to do on a sequence of characters different from?
+
+-----
+
+But the kinds of things that I am allowed to do on a sequence of characters is different than the kinds of things I'm allowed to do on a number.
+
+
+==> sequence of characters , position
+
++ What can I do with a sequence of characters?
+
+-----
+
+So the things I can do with a sequence of characters is I can say, well, what's the character at the first position?
+
+
+==> middle character
+
++ What's the middle character?
+
+-----
+
+What's the middle character?
+
+
+==> sequence of characters
+
++ How long is the sequence of characters?
+
+-----
+
+How long is the sequence of characters?
+
+
+
+
+
+=====>] Paragraph 113 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 114 [<=====
+
+How many characters do I have?
+
+
+==> characters
+
++ How many characters do I have?
+
+-----
+
+How many characters do I have?
+
+
+
+
+
+=====>] Paragraph 115 [<=====
+
+And so there's actually scalar objects, and these are Python's primitives.
+
+So for example, a list of numbers has a structure.
+
+There's a number at the beginning of the list, there's a number at the end of the list, things like that.
+
+
+==> important , type
+
++ What type of object is really important?
+
+-----
+
+And so now you can see that the type of the object is actually really important.
+
+
+==> kinds of operations
+
++ Python uses it to know what kind of operations you're allowed to do with it?
+
+-----
+
+Python uses it to know the kinds of operations you're allowed to do with it.
+
+
+==> Python primitives
+
++ What are scalar objects?
++ What are Python's primitives?
+
+-----
+
+And so there's actually scalar objects, and these are Python's primitives.
+
+
+==> Numbers and truth
+
++ What do numbers and truth values stand for?
+
+-----
+
+Numbers and truth values.
+
+
+==> non-scalar objects
+
++ What are non-scalar objects?
+
+-----
+
+And there are non-scalar objects.
+
+
+==> talking
+
++ We're not talking about what yet?
+
+-----
+
+We're not talking about these yet.
+
+
+==> lectures
+
++ What will we talk about in a few lectures?
+
+-----
+
+We'll talk about these in a few lectures.
+
+
+==> sort of structure
+
++ What do they have in common?
++ What is the structure?
+
+-----
+
+But these have some sort of structure.
+
+
+==> list of numbers
+
++ What type of structure does a list of numbers have?
+
+-----
+
+So for example, a list of numbers has a structure.
+
+
+==> list , number
+
++ Where is a number at the beginning of a list?
++ What is there at the end of the list?
+
+-----
+
+There's a number at the beginning of the list, there's a number at the end of the list, things like that.
+
+
+==> structure
+
++ What doesn't a number itself have?
+
+-----
+
+But a number itself doesn't have a structure.
+
+
+==> number
+
++ What's the name of the number?
+
+-----
+
+It's just the number.
+
+
+
+
+
+=====>] Paragraph 116 [<=====
+
+So what are the types of the scalar objects?
+
+What are the types of the primitives in Python?
+
+
+==> scalar objects
+
++ What are the types of scalar objects?
+
+-----
+
+So what are the types of the scalar objects?
+
+
+==> primitives in Python
+
++ What are the types of primitives in Python?
+
+-----
+
+What are the types of the primitives in Python?
+
+
+
+
+
+=====>] Paragraph 117 [<=====
+
+Integers.
+
+
+==> Integers
+
++ How many integers are there?
+
+-----
+
+Integers.
+
+
+
+
+
+=====>] Paragraph 118 [<=====
+
+So number 5, 0, negative 100, a million.
+
+
+==> negative
+
++ What is number 5?
++ What is negative 100?
++ How many people are there?
+
+-----
+
+So number 5, 0, negative 100, a million.
+
+
+
+
+
+=====>] Paragraph 119 [<=====
+
+Float is another type.
+
+It represents all the real numbers.
+
+
+==> Float
+
++ What is another type of float?
+
+-----
+
+Float is another type.
+
+
+==> real numbers
+
++ What represents all the real numbers?
+
+-----
+
+It represents all the real numbers.
+
+
+
+
+
+=====>] Paragraph 120 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 121 [<=====
+
+2.0 is a float, because it has a decimal number, even though to us that just means 2.
+
+But to Python, if you put in 2.0, it says that's a type float.
+
+
+==> decimal number , float
+
++ What is a float because it has a decimal number?
++ What does 2.0 mean to us?
+
+-----
+
+2.0 is a float, because it has a decimal number, even though to us that just means 2.
+
+
+==> type float
+
++ What does Python say if you put in 2.0?
+
+-----
+
+But to Python, if you put in 2.0, it says that's a type float.
+
+
+
+
+
+=====>] Paragraph 122 [<=====
+
+Negative 3.14159, things like that.
+
+
+==> Negative
+
++ What is a negative number?
++ What is the negative number of negative numbers?
+
+-----
+
+Negative 3.14159, things like that.
+
+
+
+
+
+=====>] Paragraph 123 [<=====
+
+Bool is a Boolean, it represents truth values, and there's only two possible values that a Boolean type has.
+
+So to figure out the type of an object, when you create that object, you use the type command.
+
+So we can say something like type, parentheses, and this is a command.
+
+So if we do type of 7, it tells me it's an int.
+
+And then if I want to do type of 0.0, it's a float.
+
+
+==> Boolean type , represents truth
+
++ What is a Boolean?
++ What does Bool represent?
+
+-----
+
+Bool is a Boolean, it represents truth values, and there's only two possible values that a Boolean type has.
+
+
+==> True and false
+
++ What is the difference between true and false?
+
+-----
+
+True and false.
+
+
+==> capital F false
+
++ What must be true and what must be false?
++ What has to be true?
+
+-----
+
+And it has to be capital T true and capital F false.
+
+
+==> type type
+
++ What is the last type of type?
+
+-----
+
+And the last one is this none type type.
+
+
+==> called none type
+
++ What's the literal name for none type?
+
+-----
+
+It's literally called none type.
+
+
+==> special
+
++ What is the special value of a currency?
++ How many special values does the currency have?
+
+-----
+
+And it has only one special value, none.
+
+
+==> gonna talk , bit
+
++ How long are we not going to talk about it?
+
+-----
+
+We're not gonna talk about it for a bit, but we will sometime in the future.
+
+
+==> type command , create that object
+
++ What does the type command do when you create an object?
+
+-----
+
+So to figure out the type of an object, when you create that object, you use the type command.
+
+
+==> parentheses
+
++ What is a command?
++ What can we say?
+
+-----
+
+So we can say something like type, parentheses, and this is a command.
+
+
+==> inside the parentheses
+
++ What do you want to find the type of?
+
+-----
+
+And inside the parentheses, you say what do you want to find the type of?
+
+
+==> int
+
++ What does it tell me if we type 7?
+
+-----
+
+So if we do type of 7, it tells me it's an int.
+
+
+==> wrote previously , automatically puts , arrow
+
++ What do you do if you want to do the same command again?
++ What does the up arrow do?
+
+-----
+
+And if you want to do the same command again, I hit the up arrow, and it automatically puts in what I wrote previously.
+
+
+==> float
+
++ What is a float if I want to do type of?
+
+-----
+
+And then if I want to do type of 0.0, it's a float.
+
+
+==> decimal point
+
++ Why is there a decimal point?
+
+-----
+
+Because there's a decimal point.
+
+
+
+
+
+=====>] Paragraph 124 [<=====
+
+So just to reiterate, int, float, bool, and none type are types of objects.
+
+So if you think about it, ints and floats, we basically have an infinite number of objects we can create of those types.
+
+
+==> basically
+
++ What did I say to you?
++ What did you say to me?
+
+-----
+
+So this is basically what I said.
+
+
+==> shell , type
+
++ What does the shell tell us about the output of the shell?
+
+-----
+
+So we type this in the shell, and the shell tells us what the output is.
+
+
+==> int
+
++ Int, float, bool, and none type are types of what?
+
+-----
+
+So just to reiterate, int, float, bool, and none type are types of objects.
+
+
+==> type
+
++ How many different objects can you create of that type?
+
+-----
+
+And there can be many different objects you can create of that type.
+
+
+==> ints and floats , infinite number
+
++ How many objects can we create of ints and floats?
+
+-----
+
+So if you think about it, ints and floats, we basically have an infinite number of objects we can create of those types.
+
+
+
+
+
+=====>] Paragraph 125 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 126 [<=====
+
+So there's almost an infinite number of values, objects that we can create of type int and float.
+
+
+==> million , negatives
+
++ Why can't we have 0, 1, 2, 3, 100, 200, 300, and all the negatives?
+
+-----
+
+Because we can have 0, 1, 2, 3, 100, 200, 300, a million, and all the negatives.
+
+
+==> int and float , infinite number
+
++ What are two types of objects that we can create?
+
+-----
+
+So there's almost an infinite number of values, objects that we can create of type int and float.
+
+
+==> bool
+
++ How many people are there?
+
+-----
+
+But bool, there's only two.
+
+
+==> true or false
+
++ What value does the truth value?
+
+-----
+
+The truth values true or false.
+
+
+==> type
+
++ What type of type is there?
+
+-----
+
+And the none type, there's only one.
+
+
+
+
+
+=====>] Paragraph 127 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 128 [<=====
+
+So that's the type.
+
+
+==> type
+
++ What's the type of type?
+
+-----
+
+So that's the type.
+
+
+
+
+
+=====>] Paragraph 129 [<=====
+
+And these are the possible values, possible objects we can create.
+
+
+==> create
+
++ What are the possible values, possible objects we can create?
+
+-----
+
+And these are the possible values, possible objects we can create.
+
+
+
+
+
+=====>] Paragraph 130 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 131 [<=====
+
+There's nothing to type unless you want to check yourself.
+
+
+==> answers
+
++ So you can just yell out the answers?
+
+-----
+
+So you can just yell out the answers.
+
+
+==> type
+
++ What do you type unless you want to check yourself?
+
+-----
+
+There's nothing to type unless you want to check yourself.
+
+
+
+
+
+=====>] Paragraph 132 [<=====
+
+So what is the type of 1234?
+
+
+==> type
+
++ What is the type of 1234?
+
+-----
+
+So what is the type of 1234?
+
+
+
+
+
+=====>] Paragraph 133 [<=====
+
+Int.
+
+
+==> Int
+
++ Int.?
+
+-----
+
+Int.
+
+
+
+
+
+=====>] Paragraph 134 [<=====
+
+Type of 8.99.
+
+Float type of 9.0.
+
+Float type of true.
+
+And type of false.
+
+
+==> Type
+
++ What is the Type of 8.99?
+
+-----
+
+Type of 8.99.
+
+
+==> Float type
+
++ What is the float type of 9.0?
+
+-----
+
+Float type of 9.0.
+
+
+==> Float type
+
++ What type of type of true?
+
+-----
+
+Float type of true.
+
+
+==> type of false
+
++ And type of false?
+
+-----
+
+And type of false.
+
+
+
+
+
+=====>] Paragraph 135 [<=====
+
+Cool.
+
+
+==> Cool
+
++ What is the name of the game?
+
+-----
+
+Cool.
+
+
+
+
+
+=====>] Paragraph 136 [<=====
+
+Perfect.
+
+
+==> Perfect
+
++ What do you think is perfect?
+
+-----
+
+Perfect.
+
+
+
+
+
+=====>] Paragraph 137 [<=====
+
+If you ever wonder what the type of something is, you type it in here.
+
+
+==> type
+
++ What do you do if you ever wonder what the type of something is?
+
+-----
+
+If you ever wonder what the type of something is, you type it in here.
+
+
+==> guys
+
++ What are you guys doing well at?
+
+-----
+
+You guys are doing well.
+
+
+
+
+
+=====>] Paragraph 138 [<=====
+
+Type of lowercase t true is an error.
+
+Just to reiterate the fact that capitalization matters in Python.
+
+
+==> Type is bool
+
++ What is the type of bool?
+
+-----
+
+Type is bool.
+
+
+==> Type of lowercase
+
++ What is an error?
++ What is a lowercase t true?
+
+-----
+
+Type of lowercase t true is an error.
+
+
+==> wanted to point
+
++ What did I just want to point out?
+
+-----
+
+Just wanted to point that out.
+
+
+==> matters in Python
+
++ What does capitalization matter in Python?
+
+-----
+
+Just to reiterate the fact that capitalization matters in Python.
+
+
+
+
+
+=====>] Paragraph 139 [<=====
+
+This is our first error, by the way, guys.
+
+
+==> guys
+
++ What was our first error?
++ What is the first error we made?
+
+-----
+
+This is our first error, by the way, guys.
+
+
+
+
+
+=====>] Paragraph 140 [<=====
+
+You also know that it's something special in Python when you have color coded stuff.
+
+So you see capital T true, capital F false are this dark blue here.
+
+
+==> exciting
+
++ What is the name of the game?
++ What is it called?
+
+-----
+
+Very exciting.
+
+
+==> error
+
++ What is the name of the error?
+
+-----
+
+The error is a name error.
+
+
+==> message
+
++ What is the message associated with it?
+
+-----
+
+And this is the message associated with it.
+
+
+==> color coded stuff
+
++ What kind of code does Python have?
++ What is a special feature of Python?
+
+-----
+
+You also know that it's something special in Python when you have color coded stuff.
+
+
+==> dark blue
+
++ What color are capital T true and capital F false?
++ What color is capital F true?
+
+-----
+
+So you see capital T true, capital F false are this dark blue here.
+
+
+
+
+
+=====>] Paragraph 141 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 142 [<=====
+
+Anything that's not special in Python is just black.
+
+
+==> special in Python
+
++ What's not special in Python?
++ What is black?
+
+-----
+
+Anything that's not special in Python is just black.
+
+
+
+
+
+=====>] Paragraph 143 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 144 [<=====
+
+So type is a special command.
+
+
+==> special command
+
++ What is a special command?
+
+-----
+
+So type is a special command.
+
+
+
+
+
+=====>] Paragraph 145 [<=====
+
+This is a float.
+
+
+==> float
+
++ What is the name of the float?
+
+-----
+
+This is a float.
+
+
+
+
+
+=====>] Paragraph 146 [<=====
+
+So you see they're color coded.
+
+
+==> color coded
+
++ What color codes are they?
++ What color code are they in?
+
+-----
+
+So you see they're color coded.
+
+
+
+
+
+=====>] Paragraph 147 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 148 [<=====
+
+So once we create objects, one thing we can do with these objects is to cast them to a different type.
+
+If we cast that integer to a float version of it, we're creating a new object in memory.
+
+
+==> create objects , type
+
++ What is one thing we can do with objects once they are created?
++ What type of object can we cast objects to?
+
+-----
+
+So once we create objects, one thing we can do with these objects is to cast them to a different type.
+
+
+==> bit maybe confusing
+
++ What is a little bit maybe confusing?
+
+-----
+
+Now, this is a little bit maybe confusing.
+
+
+==> changing the object
+
++ What's the reason we're not actually changing the object once we've created it?
+
+-----
+
+Because we're not actually changing the object once we've created it.
+
+
+==> create the integer
+
++ What's the name of the integer that's stored in memory?
++ What is the value of integer 3?
+
+-----
+
+So once we create the integer 3, it's there in memory.
+
+
+==> object in memory , cast that integer
+
++ If we cast an integer to a float version of it, we're creating what?
+
+-----
+
+If we cast that integer to a float version of it, we're creating a new object in memory.
+
+
+==> changing
+
++ What are we not changing?
++ What is the name of the game?
+
+-----
+
+We're not changing the 3.
+
+
+==> exists
+
++ How many people are there?
++ How many of them exist?
+
+-----
+
+The 3 already exists.
+
+
+
+
+
+=====>] Paragraph 149 [<=====
+
+We're just getting the float version of it and storing it as a new object in memory.
+
+So when we do float 3, this is a command that gets for me the float version of the integer 3.
+
+
+==> object in memory , float version
+
++ What's the name of the float version that we're storing?
+
+-----
+
+We're just getting the float version of it and storing it as a new object in memory.
+
+
+==> float version , integer
+
++ What is the float version of the integer 3?
++ When we do float 3, what does it get for me?
+
+-----
+
+So when we do float 3, this is a command that gets for me the float version of the integer 3.
+
+
+
+
+
+=====>] Paragraph 150 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 151 [<=====
+
+And it will give me 3.0.
+
+
+==> give
+
++ What will it give me?
++ What will I get from it?
+
+-----
+
+And it will give me 3.0.
+
+
+
+
+
+=====>] Paragraph 152 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 153 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 154 [<=====
+
+Float 3.
+
+
+==> Float
+
++ What is the name of the Float 3?
+
+-----
+
+Float 3.
+
+
+
+
+
+=====>] Paragraph 155 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 156 [<=====
+
+The output is 3.0.
+
+
+==> output
+
++ What is the output of the software?
+
+-----
+
+The output is 3.0.
+
+
+
+
+
+=====>] Paragraph 157 [<=====
+
+If I do int of 5.2, it truncates it and it gives me the integer portion of this float.
+
+If I do int of 5.9, it still truncates it and gives me the integer version of this float.
+
+
+==> integer portion , float
+
++ What does truncate if I do int of 5.2?
++ What gives me the integer portion of this float?
+
+-----
+
+If I do int of 5.2, it truncates it and it gives me the integer portion of this float.
+
+
+==> integer version , float
+
++ What does int of 5.9 still do?
++ What does truncate?
+
+-----
+
+If I do int of 5.9, it still truncates it and gives me the integer version of this float.
+
+
+==> round
+
++ What does not round?
+
+-----
+
+It doesn't round.
+
+
+
+
+
+=====>] Paragraph 158 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 159 [<=====
+
+Some operations, like round, is an operation we can do, has an implicit cast in it.
+
+So if I round 5.9, it's actually gonna round it to 6.0 and then cast it to an integer.
+
+
+==> integer version
+
++ What's the name of the float that I'm asking for?
+
+-----
+
+I'm just asking for the integer version of this float.
+
+
+==> implicit cast , round
+
++ What is an operation we can do that has an implicit cast in it?
+
+-----
+
+Some operations, like round, is an operation we can do, has an implicit cast in it.
+
+
+==> gonna round
+
++ What is a round of 5.9?
++ What is an integer?
+
+-----
+
+So if I round 5.9, it's actually gonna round it to 6.0 and then cast it to an integer.
+
+
+==> output
+
++ What does it not give me as an output 6.0?
+
+-----
+
+So notice it doesn't give me as an output 6.0.
+
+
+
+
+
+=====>] Paragraph 160 [<=====
+
+It then rounds it to just 6.
+
+
+==> rounds
+
++ What is the total number of rounds?
++ How many rounds does the formula round out?
+
+-----
+
+It then rounds it to just 6.
+
+
+
+
+
+=====>] Paragraph 161 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 162 [<=====
+
+So that's basically what I said in the example.
+
+
+==> basically
+
++ What did I say in the example?
+
+-----
+
+So that's basically what I said in the example.
+
+
+
+
+
+=====>] Paragraph 163 [<=====
+
+What are the types of the following?
+
+
+==> types
+
++ What are the types of the following?
+
+-----
+
+What are the types of the following?
+
+
+
+
+
+=====>] Paragraph 164 [<=====
+
+I don't need the values, but the types.
+
+
+==> types
+
++ I don't need the values, but what?
+
+-----
+
+I don't need the values, but the types.
+
+
+
+
+
+=====>] Paragraph 165 [<=====
+
+So if I get type of float of 123, what is the type of that?
+
+
+==> type of float
+
++ What is the type of float of 123?
+
+-----
+
+So if I get type of float of 123, what is the type of that?
+
+
+
+
+
+=====>] Paragraph 166 [<=====
+
+Float.
+
+
+==> Float
+
++ Float?
++ What is the term for floating?
+
+-----
+
+Float.
+
+
+
+
+
+=====>] Paragraph 167 [<=====
+
+Yeah, exactly.
+
+
+==> Yeah
+
++ What is the name of the game?
++ What is it called?
+
+-----
+
+Yeah, exactly.
+
+
+
+
+
+=====>] Paragraph 168 [<=====
+
+Yep.
+
+Yep.
+
+
+==> Yep
+
++ What is the answer to that question?
+
+-----
+
+Yep.
+
+
+==> Yep
+
++ What is the answer to that question?
+
+-----
+
+Yep.
+
+
+
+
+
+=====>] Paragraph 169 [<=====
+
+What's the type of the result?
+
+
+==> round
+
++ What happens if I round 7.9?
+
+-----
+
+What if I round 7.9?
+
+
+==> result
+
++ What's the type of the result?
+
+-----
+
+What's the type of the result?
+
+
+
+
+
+=====>] Paragraph 170 [<=====
+
+Int.
+
+
+==> Int
+
++ Int.?
+
+-----
+
+Int.
+
+
+
+
+
+=====>] Paragraph 171 [<=====
+
+Yep.
+
+
+==> Yep
+
++ What is the answer to that question?
+
+-----
+
+Yep.
+
+
+
+
+
+=====>] Paragraph 172 [<=====
+
+Create a float of the round of 7.2.
+
+
+==> Create a float
+
++ Create a float of the round of what?
+
+-----
+
+Create a float of the round of 7.2.
+
+
+
+
+
+=====>] Paragraph 173 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 174 [<=====
+
+Good.
+
+
+==> Good
+
++ What is good?
++ What is bad?
+
+-----
+
+Good.
+
+
+
+
+
+=====>] Paragraph 175 [<=====
+
+Float would be 7.0.
+
+
+==> Float
+
++ What would be the value of a float?
++ What would the value be?
+
+-----
+
+Float would be 7.0.
+
+
+
+
+
+=====>] Paragraph 176 [<=====
+
+And the int of 7.2?
+
+
+==> int
+
++ What is the int of 7.2?
+
+-----
+
+And the int of 7.2?
+
+
+
+
+
+=====>] Paragraph 177 [<=====
+
+Int.
+
+
+==> Int
+
++ Int.?
+
+-----
+
+Int.
+
+
+
+
+
+=====>] Paragraph 178 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 179 [<=====
+
+I want the type, not the value.
+
+
+==> type
+
++ What do I want the type, not the value?
+
+-----
+
+I want the type, not the value.
+
+
+
+
+
+=====>] Paragraph 180 [<=====
+
+And the int of 7.9 is an int.
+
+
+==> int
+
++ What is the int of 7.9?
++ What is an int?
+
+-----
+
+And the int of 7.9 is an int.
+
+
+
+
+
+=====>] Paragraph 181 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 182 [<=====
+
+Awesome.
+
+
+==> Awesome
+
++ What does Awesome stand for?
+
+-----
+
+Awesome.
+
+
+
+
+
+=====>] Paragraph 183 [<=====
+
+Good.
+
+
+==> Good
+
++ What is good?
++ What is bad?
+
+-----
+
+Good.
+
+
+
+
+
+=====>] Paragraph 184 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 185 [<=====
+
+So we've created a bunch of objects.
+
+
+==> bunch of objects
+
++ How many objects have we created?
+
+-----
+
+So we've created a bunch of objects.
+
+
+
+
+
+=====>] Paragraph 186 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 187 [<=====
+
+We know that we can create a bunch of objects in our programs.
+
+
+==> create a bunch
+
++ We know that we can create a bunch of objects in what?
+
+-----
+
+We know that we can create a bunch of objects in our programs.
+
+
+
+
+
+=====>] Paragraph 188 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 189 [<=====
+
+Well, we can combine them into expressions.
+
+
+==> expressions
+
++ How can we combine them into expressions?
+
+-----
+
+Well, we can combine them into expressions.
+
+
+
+
+
+=====>] Paragraph 190 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 191 [<=====
+
+I've got object, operator, object.
+
+
+==> operator
+
++ What's the name of the operator I've got?
+
+-----
+
+I've got object, operator, object.
+
+
+
+
+
+=====>] Paragraph 192 [<=====
+
+Cool?
+
+
+==> Cool
+
++ What is cool?
+
+-----
+
+Cool?
+
+
+
+
+
+=====>] Paragraph 193 [<=====
+
+Syntactically valid in Python and has no static semantic error.
+
+So if I do that in Python, it's going to be okay.
+
+
+==> static semantic error
+
++ What is the syntax of Python?
++ Python has no static semantic error?
+
+-----
+
+Syntactically valid in Python and has no static semantic error.
+
+
+==> Python
+
++ In Python, if I do that, it's going to be okay.?
+
+-----
+
+So if I do that in Python, it's going to be okay.
+
+
+
+
+
+=====>] Paragraph 194 [<=====
+
+And the type of 3 plus 2 is an integer.
+
+
+==> integer
+
++ What is the type of 3 plus 2?
+
+-----
+
+And the type of 3 plus 2 is an integer.
+
+
+
+
+
+=====>] Paragraph 195 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 196 [<=====
+
+So basically what I've done here, I've put an expression within this type command.
+
+
+==> type command
+
++ What's the name of the expression that I've put within the type command?
+
+-----
+
+So basically what I've done here, I've put an expression within this type command.
+
+
+
+
+
+=====>] Paragraph 197 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 198 [<=====
+
+So you can insert expressions in many, many different places.
+
+
+==> encouraged in Python
+
++ What is encouraged in Python?
++ What is the name of the Python language?
+
+-----
+
+That's, in fact, encouraged in Python.
+
+
+==> calculate
+
++ What do you don't want to do?
++ What are you going to do when you're done?
+
+-----
+
+You don't just want to calculate and then stick in.
+
+
+==> tedious
+
++ What would be very, very tedious?
+
+-----
+
+That would be very, very tedious.
+
+
+==> insert expressions
+
++ How many different places can expressions be used?
+
+-----
+
+So you can insert expressions in many, many different places.
+
+
+
+
+
+=====>] Paragraph 199 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 200 [<=====
+
+So here we have 3 plus 2, 5 divided by 3.
+
+Again we've got 5 divided by 3 has this decimal value.
+
+
+==> divided
+
++ How many plus 2 plus 5 divided by 3?
+
+-----
+
+So here we have 3 plus 2, 5 divided by 3.
+
+
+==> divided
+
++ What is the decimal value of 5 divided by 3?
++ How many decimal values do we have?
+
+-----
+
+Again we've got 5 divided by 3 has this decimal value.
+
+
+==> float
+
++ And the result has a float?
+
+-----
+
+And the result has a float.
+
+
+==> type float
+
++ Is of type float?
+
+-----
+
+Is of type float.
+
+
+
+
+
+=====>] Paragraph 201 [<=====
+
+So the important thing to remember when we're doing expressions is Python reads the expression, but it does not store the expression in memory.
+
+
+==> Python reads , important thing , thing to remember
+
++ Python reads the expression, but does not store it in what?
++ What is the important thing to remember when doing expressions?
+
+-----
+
+So the important thing to remember when we're doing expressions is Python reads the expression, but it does not store the expression in memory.
+
+
+
+
+
+=====>] Paragraph 202 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 203 [<=====
+
+What it does is it reads the expression, evaluates it to one single value, and then it stores the result value in memory.
+
+
+==> reads the expression , stores the result
+
++ What does it read, evaluate, and store?
++ What is the result value stored in?
+
+-----
+
+What it does is it reads the expression, evaluates it to one single value, and then it stores the result value in memory.
+
+
+==> stores the expression
+
++ What does not store the expression?
++ What does it never store?
+
+-----
+
+So it never stores the expression.
+
+
+==> evaluates the expression
+
++ What does it do with the expression?
++ What is the name of the program that stores the value?
+
+-----
+
+It evaluates the expression and then stores the value.
+
+
+
+
+
+=====>] Paragraph 204 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 205 [<=====
+
+And that's really... And the idea I said before, right, where Python stores values of expressions, not the expressions themselves, is really, really important.
+
+
+==> object , operator
+
++ What is the syntax for an expression, object, operator, object?
+
+-----
+
+And so this is the syntax for an expression, object, operator, object, as we just saw.
+
+
+==> Python stores , expressions
+
++ What does Python store values of?
++ What is really, really important?
+
+-----
+
+And that's really... And the idea I said before, right, where Python stores values of expressions, not the expressions themselves, is really, really important.
+
+
+
+
+
+=====>] Paragraph 206 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 207 [<=====
+
+I decided to insert these because I think they kind of stress the importance of several concepts.
+
+
+==> big idea slide
+
++ What is my first big idea slide?
+
+-----
+
+So this is my first big idea slide.
+
+
+==> decided to insert , kind of stress
+
++ Why did I choose to insert these?
++ What do I think they stress?
+
+-----
+
+I decided to insert these because I think they kind of stress the importance of several concepts.
+
+
+==> hope
+
++ What do you hope is a good idea?
++ What is the name of the book?
+
+-----
+
+So I hope this is one.
+
+
+
+
+
+=====>] Paragraph 208 [<=====
+
+So, you know, we're taking expressions.
+
+But basically, however complex that expression is, we evaluate it and we replace it with one value.
+
+This was a mathematical expression, but this is also an expression.
+
+
+==> taking expressions
+
++ What do you know, we're taking expressions?
+
+-----
+
+So, you know, we're taking expressions.
+
+
+==> complex
+
++ What can be as complex as you'd like?
+
+-----
+
+They can be as complex as you'd like.
+
+
+==> parentheses
+
++ What can we use a bunch of in parentheses?
+
+-----
+
+We can use parentheses, you know, a bunch of...
+
+
+==> operator object
+
++ What type of object does an operator object have to be?
++ What is the name of the object that the operator object has to have?
+
+-----
+
+It doesn't just have to be operator object, operator object.
+
+
+==> complex
+
++ What can be more complex than that?
+
+-----
+
+It can be more complex than that.
+
+
+==> complex that expression , basically
+
++ What do we replace an expression with?
+
+-----
+
+But basically, however complex that expression is, we evaluate it and we replace it with one value.
+
+
+==> expression
+
++ What can the expression be?
++ What can be something like?
+
+-----
+
+And the expression can be something like this.
+
+
+==> mathematical
+
++ What does a mathematician not have to be?
+
+-----
+
+It doesn't just have to be something that's mathematical.
+
+
+==> mathematical expression
+
++ What was a mathematical expression?
++ What is another term for 'expression'?
+
+-----
+
+This was a mathematical expression, but this is also an expression.
+
+
+
+
+
+=====>] Paragraph 209 [<=====
+
+So this entire thing evaluates to this word, which represents the type integer.
+
+
+==> evaluates
+
++ What does it evaluate?
+
+-----
+
+And it evaluates.
+
+
+==> entire thing evaluates
+
++ What is the type of integer?
++ What does the whole thing evaluate to?
+
+-----
+
+So this entire thing evaluates to this word, which represents the type integer.
+
+
+
+
+
+=====>] Paragraph 210 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 211 [<=====
+
+4 plus 2 times 6 minus 1 obviously gives us the number.
+
+
+==> parentheses
+
++ What are the examples with the parentheses?
+
+-----
+
+We've got these examples with the parentheses.
+
+
+==> times
+
++ What gives us the number 4 plus 2 times 6 minus 1?
+
+-----
+
+4 plus 2 times 6 minus 1 obviously gives us the number.
+
+
+
+
+
+=====>] Paragraph 212 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 213 [<=====
+
+And then we can insert expressions wherever we'd like.
+
+So here I'm inserting that specific expression in the type command.
+
+And this is also an expression, like I just said.
+
+And its result is int.
+
+
+==> insert expressions
+
++ Where can we insert expressions?
+
+-----
+
+And then we can insert expressions wherever we'd like.
+
+
+==> type command
+
++ What's the name of the specific expression that I'm inserting in the type command?
+
+-----
+
+So here I'm inserting that specific expression in the type command.
+
+
+==> expression
+
++ What is another expression?
++ What did I just say?
+
+-----
+
+And this is also an expression, like I just said.
+
+
+==> result is int
+
++ What is the result of int?
+
+-----
+
+And its result is int.
+
+
+
+
+
+=====>] Paragraph 214 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 215 [<=====
+
+And similarly, we can also insert that expression here, and then we can wrap that around cast.
+
+
+==> insert that expression , similarly
+
++ What can be done with the expression?
++ What can we do with cast?
+
+-----
+
+And similarly, we can also insert that expression here, and then we can wrap that around cast.
+
+
+==> float
+
++ What gives us a float?
+
+-----
+
+And it gives us a float.
+
+
+
+
+
+=====>] Paragraph 216 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 217 [<=====
+
+When you're inserting what?
+
+
+==> inserting
+
++ What do you insert when you're inserting?
+
+-----
+
+When you're inserting what?
+
+
+
+
+
+=====>] Paragraph 218 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 219 [<=====
+
+So in this particular case, the type and the float are not...
+
+
+==> Yeah
+
++ What's a good question to ask?
+
+-----
+
+Yeah, that's a good question.
+
+
+==> case
+
++ In this particular case, the type and the float are not what?
+
+-----
+
+So in this particular case, the type and the float are not...
+
+
+==> operator
+
++ Is there an operator in this particular case?
+
+-----
+
+There is no operator, I guess, in this particular case.
+
+
+==> output
+
++ What's more like a command that gives us an output?
+
+-----
+
+It's more like a command that gives us an output.
+
+
+==> output
+
++ What is the output that it gives us?
+
+-----
+
+There is still an output that it gives us.
+
+
+==> result
+
++ What can we do with the result of this?
++ Where can we save the result?
+
+-----
+
+So we can then take the result of this and save it somewhere else.
+
+
+
+
+
+=====>] Paragraph 220 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 221 [<=====
+
+Yeah.
+
+
+==> Yeah
+
++ What is the answer to that question?
+
+-----
+
+Yeah.
+
+
+
+
+
+=====>] Paragraph 222 [<=====
+
+So the example I gave on the previous slide was just an example of an expression, where we could do object operator object.
+
+
+==> object operator object , previous slide
+
++ What did I give on the previous slide?
++ What was the object operator object?
+
+-----
+
+So the example I gave on the previous slide was just an example of an expression, where we could do object operator object.
+
+
+
+
+
+=====>] Paragraph 223 [<=====
+
+Yeah.
+
+
+==> Yeah
+
++ What is the answer to that question?
+
+-----
+
+Yeah.
+
+
+
+
+
+=====>] Paragraph 224 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 225 [<=====
+
+Yeah.
+
+
+==> Yeah
+
++ What is the answer to that question?
+
+-----
+
+Yeah.
+
+
+
+
+
+=====>] Paragraph 226 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 227 [<=====
+
+Mathematical expressions work left to right, just like in math.
+
+If we have commands that have computations, then we have this command with the parentheses, and we evaluate what's inside the parentheses first.
+
+
+==> mathematical expressions
+
++ What kind of expressions does it work for?
+
+-----
+
+I guess it works for mathematical expressions.
+
+
+==> Mathematical expressions work
+
++ Mathematical expressions work what way?
+
+-----
+
+Mathematical expressions work left to right, just like in math.
+
+
+==> Parentheses can override
+
++ What can override certain precedents?
+
+-----
+
+Parentheses can override certain precedents.
+
+
+==> evaluate what inside , inside the parentheses
+
++ What do we do if we have commands that have computations?
++ What is the first thing we do?
+
+-----
+
+If we have commands that have computations, then we have this command with the parentheses, and we evaluate what's inside the parentheses first.
+
+
+==> case
+
++ How do we work our way in to out in this particular case?
+
+-----
+
+So we work our way in to out, in that particular case.
+
+
+==> console
+
++ What can we type in our console?
++ What is the name of the program that can be used to type these?
+
+-----
+
+So we can type these in our console.
+
+
+==> expressions
+
++ What are the values of the following expressions?
+
+-----
+
+What are the values of the following expressions?
+
+
+
+
+
+=====>] Paragraph 228 [<=====
+
+So 13 minus 4 divided by 12 times 12.
+
+
+==> minus
+
++ How many times is 12 divided by 12 times 12?
+
+-----
+
+So 13 minus 4 divided by 12 times 12.
+
+
+
+
+
+=====>] Paragraph 229 [<=====
+
+I don't know off the top of my head.
+
+So we'll have to type it in.
+
+
+==> head
+
++ What do I know off the top of my head?
+
+-----
+
+I don't know off the top of my head.
+
+
+==> type
+
++ What will we have to type in?
++ What is the name of the document that we'll have to enter?
+
+-----
+
+So we'll have to type it in.
+
+
+
+
+
+=====>] Paragraph 230 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 231 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 232 [<=====
+
+So the value of that expression is a float.
+
+
+==> float
+
++ What is the value of that expression?
++ What is a float?
+
+-----
+
+So the value of that expression is a float.
+
+
+
+
+
+=====>] Paragraph 233 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 234 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 235 [<=====
+
+What's the value of the expression type 4 times 3?
+
+
+==> expression type
+
++ What's the value of the expression type 4 times 3?
+
+-----
+
+What's the value of the expression type 4 times 3?
+
+
+
+
+
+=====>] Paragraph 236 [<=====
+
+Int.
+
+
+==> Int
+
++ Int.?
+
+-----
+
+Int.
+
+
+
+
+
+=====>] Paragraph 237 [<=====
+
+Yep.
+
+
+==> Yep
+
++ What is the answer to that question?
+
+-----
+
+Yep.
+
+
+
+
+
+=====>] Paragraph 238 [<=====
+
+What about the type of the expression 4.0 times 3?
+
+
+==> times
+
++ What is the type of the expression 4.0 times 3?
+
+-----
+
+What about the type of the expression 4.0 times 3?
+
+
+
+
+
+=====>] Paragraph 239 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 240 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 241 [<=====
+
+That's very good.
+
+
+==> good
+
++ What's a good thing about that?
++ What is a bad thing?
+
+-----
+
+That's very good.
+
+
+
+
+
+=====>] Paragraph 242 [<=====
+
+So the type of 4 times 3 is int, but 4.0 times 3 is a float.
+
+
+==> times , int
+
++ What is the type of 4 times 3?
++ What is a float?
+
+-----
+
+So the type of 4 times 3 is int, but 4.0 times 3 is a float.
+
+
+
+
+
+=====>] Paragraph 243 [<=====
+
+Good.
+
+
+==> Good
+
++ What is good?
++ What is bad?
+
+-----
+
+Good.
+
+
+
+
+
+=====>] Paragraph 244 [<=====
+
+And then what about int of a half?
+
+
+==> half
+
++ What does int of a half stand for?
+
+-----
+
+And then what about int of a half?
+
+
+
+
+
+=====>] Paragraph 245 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 246 [<=====
+
+Yeah, exactly.
+
+
+==> Yeah
+
++ What is the name of the game?
++ What is it called?
+
+-----
+
+Yeah, exactly.
+
+
+
+
+
+=====>] Paragraph 247 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 248 [<=====
+
+Yep.
+
+
+==> Yep
+
++ What is the answer to that question?
+
+-----
+
+Yep.
+
+
+
+
+
+=====>] Paragraph 249 [<=====
+
+So when we do operations with numbers, addition, subtraction, and multiplication, always yield an integer if both of the operators are integers.
+
+If one is a float or both are floats, then it gives me a float.
+
+
+==> truncate
+
++ Why do we truncate to 0?
++ Why is it 0.5?
+
+-----
+
+Because it's 0.5 and we truncate to 0.
+
+
+==> leads nicely
+
++ Why did I have this here?
++ What does this slide lead into?
+
+-----
+
+The reason I had this here is because it leads nicely into this slide.
+
+
+==> memorize these rules
+
++ What do you don't have to memorize?
+
+-----
+
+You don't have to memorize these rules.
+
+
+==> console
+
++ In which console can you always check out the game?
+
+-----
+
+You can always check it out in the console.
+
+
+==> resulting types
+
++ When do we do operations, what are there rules for?
+
+-----
+
+But there are some rules for the resulting types when we do operations.
+
+
+==> operations with numbers , addition
+
++ When do we do operations with numbers, addition, subtraction, and multiplication, always yield an integer if both of the operators are integers?
+
+-----
+
+So when we do operations with numbers, addition, subtraction, and multiplication, always yield an integer if both of the operators are integers.
+
+
+==> float
+
++ What gives me a float?
++ What is one of the two floats?
+
+-----
+
+If one is a float or both are floats, then it gives me a float.
+
+
+==> Division
+
++ What is different about division?
+
+-----
+
+Division is different.
+
+
+
+
+
+=====>] Paragraph 250 [<=====
+
+No matter what types you divide, you'll always get a float.
+
+
+==> types you divide
+
++ What type of float will you always get?
+
+-----
+
+No matter what types you divide, you'll always get a float.
+
+
+
+
+
+=====>] Paragraph 251 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 252 [<=====
+
+So when I do 5 divided by 3, it's this.
+
+
+==> slash slash
+
++ What is the difference between the slash and percent?
++ What does the percent mean?
++ How does the percentage compare to the other two?
+
+-----
+
+Now, what about this slash slash and this percent?
+
+
+==> operations
+
++ What are these operations actually useful for?
+
+-----
+
+These are actually useful operations.
+
+
+==> hand with division
+
++ What goes hand in hand with division?
+
+-----
+
+They kind of go hand in hand with division.
+
+
+==> divided
+
++ How many times do I divide by 3?
++ What is the result of the 5 divided by 3 calculation?
+
+-----
+
+So when I do 5 divided by 3, it's this.
+
+
+
+
+
+=====>] Paragraph 253 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 254 [<=====
+
+Slash slash is basically a floor.
+
+
+==> basically a floor
+
++ Slash slash is basically what?
+
+-----
+
+Slash slash is basically a floor.
+
+
+
+
+
+=====>] Paragraph 255 [<=====
+
+Or getting the integer portion of the division.
+
+
+==> integer portion
+
++ Or getting the integer portion of the division?
+
+-----
+
+Or getting the integer portion of the division.
+
+
+
+
+
+=====>] Paragraph 256 [<=====
+
+So 5 slash slash 3 gives me 1.
+
+
+==> slash slash
+
++ How many slashes slash 3 gives me 1?
+
+-----
+
+So 5 slash slash 3 gives me 1.
+
+
+
+
+
+=====>] Paragraph 257 [<=====
+
+So 5 percent 3 gives me the remainder when I divide 5 by 3.
+
+
+==> truncates the fraction
+
++ How does it truncate the fraction?
+
+-----
+
+It truncates the fraction.
+
+
+==> remainder
+
++ What percentage gives me the rest?
+
+-----
+
+The percent gives me the remainder.
+
+
+==> percent
+
++ What gives me the remainder when I divide 5 by 3?
+
+-----
+
+So 5 percent 3 gives me the remainder when I divide 5 by 3.
+
+
+==> gonna give
+
++ What's gonna give it to me in a whole number?
+
+-----
+
+So it's gonna give it to me in a whole number.
+
+
+==> gonna
+
++ What's gonna be the number of people who'll be able to do this?
+
+-----
+
+So that's gonna be 2.
+
+
+
+
+
+=====>] Paragraph 258 [<=====
+
+So these are pretty useful operations, the slash slash and the percent, when we do mathematical programs.
+
+
+==> left
+
++ How many left over when I divide 5 by 3?
++ Why are there 2 left over?
+
+-----
+
+Because there's 2 left over when I divide 5 by 3.
+
+
+==> pretty useful operations , mathematical programs
+
++ What are two operations that are useful when we do mathematical programs?
+
+-----
+
+So these are pretty useful operations, the slash slash and the percent, when we do mathematical programs.
+
+
+==> denote power
+
++ What is the last thing we use to denote power?
+
+-----
+
+The last thing is the star star is how we denote power.
+
+
+
+
+
+=====>] Paragraph 259 [<=====
+
+Exponentiation.
+
+
+==> Exponentiation
+
++ Exponentiation.?
+
+-----
+
+Exponentiation.
+
+
+
+
+
+=====>] Paragraph 260 [<=====
+
+Kind of different than you might be used to in math.
+
+
+==> Kind
+
++ What is different about math than you might be used to doing?
+
+-----
+
+Kind of different than you might be used to in math.
+
+
+
+
+
+=====>] Paragraph 261 [<=====
+
+So 2 to the power of 3.
+
+
+==> power
+
++ What is the ratio of 2 to the power of 3?
+
+-----
+
+So 2 to the power of 3.
+
+
+
+
+
+=====>] Paragraph 262 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 263 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 264 [<=====
+
+2 to the power of 3.0.
+
+
+==> power
+
++ How many to the power of 3.0?
+
+-----
+
+2 to the power of 3.0.
+
+
+
+
+
+=====>] Paragraph 265 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 266 [<=====
+
+And the rules for integer division, percent, and exponentiation are just like addition, subtraction, multiplication.
+
+If 1 is a float, then the result will be a float as well.
+
+
+==> integer division
+
++ What are the rules for integer division, percent, and exponentiation like?
+
+-----
+
+And the rules for integer division, percent, and exponentiation are just like addition, subtraction, multiplication.
+
+
+==> float
+
++ If 1 is a float, then the result will be what?
+
+-----
+
+If 1 is a float, then the result will be a float as well.
+
+
+
+
+
+=====>] Paragraph 267 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 268 [<=====
+
+Yeah.
+
+
+==> Yeah
+
++ What is the answer to that question?
+
+-----
+
+Yeah.
+
+
+
+
+
+=====>] Paragraph 269 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 270 [<=====
+
+The operator precedence is exponentiation and then multiplication, division, percent, remainder at the next level, and then addition, subtraction at the bottom.
+
+
+==> type of output
+
++ What did we talk about?
++ What was the type of output?
+
+-----
+
+And we talked about the type of output.
+
+
+==> briefly mentioned
+
++ What did I briefly mention?
++ What was the name of the thing I mentioned?
+
+-----
+
+So I think I briefly mentioned this.
+
+
+==> operator precedence , precedence is exponentiation
+
++ What is the operator precedence?
++ What is at the next level?
++ At the bottom, what is added?
+
+-----
+
+The operator precedence is exponentiation and then multiplication, division, percent, remainder at the next level, and then addition, subtraction at the bottom.
+
+
+==> parentheses
+
++ What do you can always override using parentheses?
+
+-----
+
+You can always override these using parentheses.
+
+
+
+
+
+=====>] Paragraph 271 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 272 [<=====
+
+Questions so far before we move on?
+
+
+==> Questions
+
++ How many questions are there before we move on?
+
+-----
+
+Questions so far before we move on?
+
+
+
+
+
+=====>] Paragraph 273 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 274 [<=====
+
+So why is division... Why does it always result in a float?
+
+Like, if you have 9 by 3, and that's why it's a float.
+
+
+==> division
+
++ What does division always result in?
+
+-----
+
+So why is division... Why does it always result in a float?
+
+
+==> float
+
++ How many by 3 is a float?
++ What is the difference between 9 by 3 and floats?
+
+-----
+
+Like, if you have 9 by 3, and that's why it's a float.
+
+
+
+
+
+=====>] Paragraph 275 [<=====
+
+If it didn't, I think the operation itself would have to do extra work to figure out whether it's a whole number or not.
+
+
+==> float
+
++ Why does it always result in a float?
+
+-----
+
+So the question is why does it always result in a float?
+
+
+==> extra work , work to figure , operation
+
++ What would the operation have to do if it wasn't a whole number?
+
+-----
+
+If it didn't, I think the operation itself would have to do extra work to figure out whether it's a whole number or not.
+
+
+==> float
+
++ What does it make it easier to have a float?
+
+-----
+
+So I think it's just easier that it gives us always a float.
+
+
+
+
+
+=====>] Paragraph 276 [<=====
+
+I guess.
+
+
+==> guess
+
++ What do you think is the answer to that?
+
+-----
+
+I guess.
+
+
+
+
+
+=====>] Paragraph 277 [<=====
+
+Which is super counterintuitive, because you would use that in your program and then you would basically integer divide and things would go wrong.
+
+
+==> integer division
+
++ In previous versions of Python, what was the slash?
++ What was the previous version of Python?
+
+-----
+
+Previous versions of Python, the slash was actually, I think, integer division.
+
+
+==> basically integer divide , super counterintuitive
+
++ What is super counterintuitive?
++ What would happen if you used integer divide in your program?
+
+-----
+
+Which is super counterintuitive, because you would use that in your program and then you would basically integer divide and things would go wrong.
+
+
+==> design choice
+
++ What is a design choice on behalf of programmers?
+
+-----
+
+But again, just a design choice on behalf of the programmers.
+
+
+
+
+
+=====>] Paragraph 278 [<=====
+
+Yeah.
+
+
+==> Yeah
+
++ What is the answer to that question?
+
+-----
+
+Yeah.
+
+
+
+
+
+=====>] Paragraph 279 [<=====
+
+Other questions so far?
+
+
+==> questions
+
++ What is the name of the other question that has been asked so far?
+
+-----
+
+Other questions so far?
+
+
+
+
+
+=====>] Paragraph 280 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 281 [<=====
+
+So we have a lot of objects, right?
+
+Objects have different types.
+
+Again, floats, integers, booleans.
+
+
+==> lot of objects
+
++ What do we have a lot of?
+
+-----
+
+So we have a lot of objects, right?
+
+
+==> Objects
+
++ Objects have different types of what?
+
+-----
+
+Objects have different types.
+
+
+==> floats
+
++ Floats, integers, and booleans are examples of what?
+
+-----
+
+Again, floats, integers, booleans.
+
+
+
+
+
+=====>] Paragraph 282 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 283 [<=====
+
+Basically trying to automate some things about these objects, manipulate them to help us achieve a more complicated and interesting program.
+
+
+==> kind , sitting
+
++ So far, they're sitting in what kind of place?
+
+-----
+
+So far, they're kind of just sitting in there and we can get properties about them.
+
+
+==> write programs
+
++ What do we want to do?
+
+-----
+
+But what we'd like to do is write programs.
+
+
+==> interesting program , automate some things
+
++ What is the purpose of manipulating objects to make them more complicated and interesting?
+
+-----
+
+Basically trying to automate some things about these objects, manipulate them to help us achieve a more complicated and interesting program.
+
+
+==> start assigning , objects
+
++ What can we do to get to that end?
++ What do we assign names to?
+
+-----
+
+So what we can do to get to that end is to start assigning names to some of these objects.
+
+
+
+
+
+=====>] Paragraph 284 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 285 [<=====
+
+If I want to use that number in many different places in my program, I'd have to copy and paste it a whole bunch of times.
+
+
+==> create an object
+
++ What do I create if I create an object for pi?
+
+-----
+
+If I create an object for pi, right?
+
+
+==> decimal places
+
++ In my program to what decimal places somehow?
+
+-----
+
+In my program to 20 decimal places somehow.
+
+
+==> program
+
++ What do I have in my program?
++ What does the number float in?
+
+-----
+
+And I have that number in my program, that float in my program.
+
+
+==> bunch of times , copy and paste , program
+
++ How many times would I have to copy and paste a number in a program?
+
+-----
+
+If I want to use that number in many different places in my program, I'd have to copy and paste it a whole bunch of times.
+
+
+
+
+
+=====>] Paragraph 286 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 287 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 288 [<=====
+
+Which is very tedious.
+
+
+==> tedious
+
++ What is the name of the thing that is very tedious?
+
+-----
+
+Which is very tedious.
+
+
+
+
+
+=====>] Paragraph 289 [<=====
+
+Lots of errors will happen.
+
+
+==> Lots of errors
+
++ What will happen to a lot of people?
+
+-----
+
+Lots of errors will happen.
+
+
+
+
+
+=====>] Paragraph 290 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 291 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 292 [<=====
+
+So instead what I can do is I can give a name to this ridiculously long value of pi, called pi, right?
+
+And then I can just use this name anywhere I want to grab that ridiculously long value for pi in my program.
+
+
+==> ridiculously long , called
+
++ What is the name of the ridiculously long value of pi?
+
+-----
+
+So instead what I can do is I can give a name to this ridiculously long value of pi, called pi, right?
+
+
+==> grab that ridiculously , ridiculously long
+
++ What is a ridiculously long value for pi in my program?
+
+-----
+
+And then I can just use this name anywhere I want to grab that ridiculously long value for pi in my program.
+
+
+
+
+
+=====>] Paragraph 293 [<=====
+
+So what we can do is we can start saying that the float point zero zero one will be referenced by the name small.
+
+So math variables come back to the idea of declarative knowledge.
+
+
+==> easier to read
+
++ What's a lot easier to read?
+
+-----
+
+It's a lot easier to read, right?
+
+
+==> write this program
+
++ How much easier was it for me to write this program?
+
+-----
+
+It's a lot easier for me to write this program.
+
+
+==> neat program
+
++ What kind of program does it lead to?
+
+-----
+
+And it leads to a really nice and neat program.
+
+
+==> float point , small , start
+
++ What can we start saying that the float point zero zero one will be referenced by the name small?
+
+-----
+
+So what we can do is we can start saying that the float point zero zero one will be referenced by the name small.
+
+
+==> hundred point
+
++ What will be referenced by the name temp?
+
+-----
+
+Or the hundred point four will be referenced by the name temp.
+
+
+==> things called variables
+
++ What do we want to create?
+
+-----
+
+So what we want to do is create these things called variables.
+
+
+==> computer science
+
++ What is different in computer science from a mathematical variable?
+
+-----
+
+And a variable is different in computer science from a mathematical variable.
+
+
+==> math
+
++ What are variables that you've known so far in math?
+
+-----
+
+Or variables that you've known so far in math.
+
+
+==> declarative knowledge
+
++ Math variables come back to what idea of declarative knowledge?
+
+-----
+
+So math variables come back to the idea of declarative knowledge.
+
+
+
+
+
+=====>] Paragraph 294 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 295 [<=====
+
+You can have something like A plus B is equal to B minus one in math.
+
+
+==> declarative statement
+
++ What is a declarative statement?
+
+-----
+
+A declarative statement.
+
+
+==> math , equal
+
++ A plus B is equal to B minus one in math?
+
+-----
+
+You can have something like A plus B is equal to B minus one in math.
+
+
+
+
+
+=====>] Paragraph 296 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 297 [<=====
+
+Or X is equal to X times X is equal to Y.
+
+
+==> equal
+
++ Or X is equal to X times what?
+
+-----
+
+Or X is equal to X times X is equal to Y.
+
+
+
+
+
+=====>] Paragraph 298 [<=====
+
+And that's perfectly okay.
+
+
+==> perfectly
+
++ What's perfectly okay?
+
+-----
+
+And that's perfectly okay.
+
+
+
+
+
+=====>] Paragraph 299 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 300 [<=====
+
+So what we can do in computer science is we're going to basically bind a value to a variable.
+
+Every time I want to grab this value, I'm going to invoke this variable name.
+
+
+==> variable X represents
+
++ In math, what represents all the square roots of Y?
++ What does X represent?
+
+-----
+
+In math, we basically say that variable X represents all the square roots of Y.
+
+
+==> computer science
+
++ In computer science, what is not going to fly?
+
+-----
+
+That's not going to fly in computer science.
+
+
+==> computer science
+
++ In computer science, we don't do what?
+
+-----
+
+In computer science, we don't do declarative knowledge.
+
+
+==> imperative knowledge
+
++ What do we do with impermanent knowledge?
+
+-----
+
+We do imperative knowledge.
+
+
+==> assignment statements
+
++ What kind of statements are we working with in computer science?
+
+-----
+
+So what we're working with in computer science is a bunch of assignment statements.
+
+
+==> computer science , basically bind
+
++ What can we do in computer science?
++ What do we bind a value to?
+
+-----
+
+So what we can do in computer science is we're going to basically bind a value to a variable.
+
+
+==> variable
+
++ What is the name of the variable that is bound to a value?
+
+-----
+
+So we're going to say this variable name is bound to this value.
+
+
+==> invoke this variable
+
++ What do I do every time I want to grab this value?
+
+-----
+
+Every time I want to grab this value, I'm going to invoke this variable name.
+
+
+
+
+
+=====>] Paragraph 301 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 302 [<=====
+
+I've got A is equal to B plus one.
+
+The thing on the right hand side will evaluate to some value as long as I have something that B has a value for.
+
+I've got here M is equal to 10.
+
+
+==> equal
+
++ What is equal to B plus one?
+
+-----
+
+I've got A is equal to B plus one.
+
+
+==> hand side , side will evaluate , thing
+
++ What will the thing on the right hand side evaluate to some value as long as I have something that B has value for?
+
+-----
+
+The thing on the right hand side will evaluate to some value as long as I have something that B has a value for.
+
+
+==> equal
+
++ What is M equal to?
++ What is 10?
+
+-----
+
+I've got here M is equal to 10.
+
+
+
+
+
+=====>] Paragraph 303 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 304 [<=====
+
+So M is a variable.
+
+
+==> variable
+
++ What is M?
++ What is a variable?
+
+-----
+
+So M is a variable.
+
+
+
+
+
+=====>] Paragraph 305 [<=====
+
+I've got F is equal to M times 9.98.
+
+
+==> times
+
++ How many times is F equal to M times 9.98?
+
+-----
+
+I've got F is equal to M times 9.98.
+
+
+
+
+
+=====>] Paragraph 306 [<=====
+
+So again, I have an expression on the right hand side, and that's okay.
+
+
+==> hand side
+
++ What's the expression on the right hand side?
+
+-----
+
+So again, I have an expression on the right hand side, and that's okay.
+
+
+
+
+
+=====>] Paragraph 307 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 308 [<=====
+
+Yeah?
+
+
+==> Yeah
+
++ What is the name of the game?
+
+-----
+
+Yeah?
+
+
+
+
+
+=====>] Paragraph 309 [<=====
+
+Can you put it so that like for F, is it like this one value of M or can you have it so it's going to do whatever M X and recently or like?
+
+
+==> put , recently
+
++ What can you put it so that like for F, is it like this one value of M or can you have it so it's going to do whatever M X?
+
+-----
+
+Can you put it so that like for F, is it like this one value of M or can you have it so it's going to do whatever M X and recently or like?
+
+
+
+
+
+=====>] Paragraph 310 [<=====
+
+Yeah.
+
+
+==> Yeah
+
++ What is the answer to that question?
+
+-----
+
+Yeah.
+
+
+
+
+
+=====>] Paragraph 311 [<=====
+
+But we'll see in a couple lectures that we can write like a loop where you change M and then every time you change M, you re-immediately calculate F. And then it will calculate F based on the new value of M. But if we just have these two lines, that's all there is.
+
+
+==> question
+
++ What is M?
++ What does M stand for?
+
+-----
+
+The question is, can you have M whatever it recently is?
+
+
+==> case , lines
+
++ How many lines do I have in this particular case?
+
+-----
+
+So in this particular case, I just have these two lines and M will be whatever 10 is.
+
+
+==> time you change , couple lectures , re-immediately calculate , calculate F based
+
++ What can we write like a loop where you change M and then re-immediately calculate F?
++ What does the loop calculate F based on?
+
+-----
+
+But we'll see in a couple lectures that we can write like a loop where you change M and then every time you change M, you re-immediately calculate F. And then it will calculate F based on the new value of M. But if we just have these two lines, that's all there is.
+
+
+
+
+
+=====>] Paragraph 312 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 313 [<=====
+
+Was there another question?
+
+
+==> question
+
++ Was there another question?
+
+-----
+
+Was there another question?
+
+
+
+
+
+=====>] Paragraph 314 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 315 [<=====
+
+So in computer science, variable, you have only one variable to the left of this equal sign called the assignment operator.
+
+And you have a value to the right-hand side of the equal sign, the assignment operator.
+
+So the way that we figure out the name with the value is, well, if we have this assignment statement here, we first look at the right-hand side.
+
+
+==> equal sign called , computer science
+
++ In computer science, what is the only variable to the left of the equal sign called?
+
+-----
+
+So in computer science, variable, you have only one variable to the left of this equal sign called the assignment operator.
+
+
+==> equal sign , assignment operator
+
++ What is a value to the right-hand side of equal sign?
++ What is the assignment operator?
+
+-----
+
+And you have a value to the right-hand side of the equal sign, the assignment operator.
+
+
+==> variable basically maps
+
++ How does one variable map to or bind to one value?
+
+-----
+
+So one variable basically maps to or binds to one value.
+
+
+==> assignment statement
+
++ What is an assignment statement?
+
+-----
+
+So the equal sign is an assignment statement.
+
+
+==> equality
+
++ What is the difference between equality and equality?
+
+-----
+
+It's not equality.
+
+
+==> type of situation
+
++ Is it a solve for X type of situation?
+
+-----
+
+It's not a solve for X type of situation.
+
+
+==> assignment
+
++ What's the name of the assignment?
+
+-----
+
+It's just an assignment.
+
+
+==> binds
+
++ What does it bind to this name?
+
+-----
+
+It binds this name to this value.
+
+
+==> right-hand side , assignment statement
+
++ What is the way that we figure out the name with the value?
++ What do we first look at if we have this assignment statement?
+
+-----
+
+So the way that we figure out the name with the value is, well, if we have this assignment statement here, we first look at the right-hand side.
+
+
+==> right-hand side
+
++ Where do we always start?
++ What do we evaluate?
+
+-----
+
+So we always start with the right-hand side and we evaluate it.
+
+
+==> Remember
+
++ What is the expression on the right?
+
+-----
+
+Remember, we have an expression on the right.
+
+
+
+
+
+=====>] Paragraph 316 [<=====
+
+We have to evaluate it to one value.
+
+
+==> evaluate
+
++ How many values do we have to evaluate it to?
+
+-----
+
+We have to evaluate it to one value.
+
+
+
+
+
+=====>] Paragraph 317 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 318 [<=====
+
+And then we take that value and bind it to the name pi.
+
+
+==> bind
+
++ What is the name of the value that is binded to the name pi?
+
+-----
+
+And then we take that value and bind it to the name pi.
+
+
+
+
+
+=====>] Paragraph 319 [<=====
+
+So any time I type in pi in my program from now on, Python will automatically grab 3.14159 from memory.
+
+
+==> Python will automatically , automatically grab
+
++ When I type in pi, Python will automatically grab what from memory?
+
+-----
+
+So any time I type in pi in my program from now on, Python will automatically grab 3.14159 from memory.
+
+
+==> bound
+
++ What's bound to that value now?
+
+-----
+
+So it's bound to that value now.
+
+
+
+
+
+=====>] Paragraph 320 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 321 [<=====
+
+There are some rules.
+
+
+==> rules
+
++ There are some rules, what are they?
+
+-----
+
+There are some rules.
+
+
+
+
+
+=====>] Paragraph 322 [<=====
+
+Did I have them on the previous one?
+
+
+==> previous
+
++ Did I have them on the previous one?
+
+-----
+
+Did I have them on the previous one?
+
+
+
+
+
+=====>] Paragraph 323 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 324 [<=====
+
+For now, I want you to tell me if any of the following are allowed.
+
+If I do x is equal to 6, is that allowed in Python?
+
+
+==> rules to variable
+
++ What are some rules to variable names?
+
+-----
+
+There are some rules to variable names.
+
+
+==> bit
+
++ What will we talk about in a bit?
+
+-----
+
+But we'll talk about that in a bit.
+
+
+==> allowed
+
++ What do you want me to know if you are allowed to do?
+
+-----
+
+For now, I want you to tell me if any of the following are allowed.
+
+
+==> allowed in Python
+
++ What does x equal to in Python?
++ What is allowed in Python if x is equal to 6?
+
+-----
+
+If I do x is equal to 6, is that allowed in Python?
+
+
+
+
+
+=====>] Paragraph 325 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 326 [<=====
+
+Good.
+
+
+==> Good
+
++ What is good?
++ What is bad?
+
+-----
+
+Good.
+
+
+
+
+
+=====>] Paragraph 327 [<=====
+
+Because I have one variable name bound to one value, 6.
+
+
+==> variable name bound
+
++ Why do I have one variable name bound to one value?
++ What is the value of a variable?
+
+-----
+
+Because I have one variable name bound to one value, 6.
+
+
+
+
+
+=====>] Paragraph 328 [<=====
+
+What about 6 equals x?
+
+
+==> equals
+
++ What about 6 equals x?
+
+-----
+
+What about 6 equals x?
+
+
+
+
+
+=====>] Paragraph 329 [<=====
+
+It's just backward.
+
+
+==> backward
+
++ What's the point of reversing the clock?
+
+-----
+
+It's just backward.
+
+
+
+
+
+=====>] Paragraph 330 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 331 [<=====
+
+Good.
+
+
+==> Good
+
++ What is good?
++ What is bad?
+
+-----
+
+Good.
+
+
+
+
+
+=====>] Paragraph 332 [<=====
+
+6 equals x is bad.
+
+
+==> equals
+
++ How many equals x is bad?
+
+-----
+
+6 equals x is bad.
+
+
+
+
+
+=====>] Paragraph 333 [<=====
+
+Syntax error.
+
+
+==> Syntax error
+
++ What type of error does Syntax error cause?
+
+-----
+
+Syntax error.
+
+
+
+
+
+=====>] Paragraph 334 [<=====
+
+How about x times y equals 3 plus 4?
+
+
+==> times y equals
+
++ How many times y equals 3 plus 4?
+
+-----
+
+How about x times y equals 3 plus 4?
+
+
+
+
+
+=====>] Paragraph 335 [<=====
+
+Nope.
+
+
+==> Nope
+
++ What is the answer to that question?
+
+-----
+
+Nope.
+
+
+
+
+
+=====>] Paragraph 336 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 337 [<=====
+
+Because the thing on the left has an operator in it, and operators are special.
+
+So you can't have a variable with that star as a name.
+
+
+==> operators are special
+
++ Why does the thing on the left have an operator in it?
++ Why are operators special?
+
+-----
+
+Because the thing on the left has an operator in it, and operators are special.
+
+
+==> variable
+
++ What can't be a variable with a star as a name?
+
+-----
+
+So you can't have a variable with that star as a name.
+
+
+
+
+
+=====>] Paragraph 338 [<=====
+
+How about xy equals 3 plus 4?
+
+
+==> equals
+
++ How about xy equals 3 plus 4?
+
+-----
+
+How about xy equals 3 plus 4?
+
+
+
+
+
+=====>] Paragraph 339 [<=====
+
+Allowed.
+
+
+==> Allowed
+
++ What is allowed?
++ What is permitted?
+
+-----
+
+Allowed.
+
+
+
+
+
+=====>] Paragraph 340 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 341 [<=====
+
+I was hoping to get you guys with that.
+
+
+==> hoping
+
++ What was I hoping to get you guys with?
+
+-----
+
+I was hoping to get you guys with that.
+
+
+
+
+
+=====>] Paragraph 342 [<=====
+
+Xy equals 3 plus 4 is okay.
+
+
+==> equals
+
++ Xy equals how many plus 4 is okay?
++ What does xy equal?
+
+-----
+
+Xy equals 3 plus 4 is okay.
+
+
+
+
+
+=====>] Paragraph 343 [<=====
+
+There was no error.
+
+
+==> error
+
++ There was no error in the report?
+
+-----
+
+There was no error.
+
+
+
+
+
+=====>] Paragraph 344 [<=====
+
+And then I can invoke the name of the variable I just created simply by typing it in.
+
+So if I type in xy, it gives me 7.
+
+
+==> created simply , simply by typing
+
++ How do I invoke the name of the variable I just created?
+
+-----
+
+And then I can invoke the name of the variable I just created simply by typing it in.
+
+
+==> type
+
++ What does it give me if I type in xy?
+
+-----
+
+So if I type in xy, it gives me 7.
+
+
+
+
+
+=====>] Paragraph 345 [<=====
+
+And then I can do operations with it.
+
+
+==> operations
+
++ What can I do with it?
+
+-----
+
+And then I can do operations with it.
+
+
+
+
+
+=====>] Paragraph 346 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 347 [<=====
+
+Yeah?
+
+Yeah?
+
+
+==> Yeah
+
++ What is the name of the game?
+
+-----
+
+Yeah?
+
+
+==> Yeah
+
++ What is the name of the game?
+
+-----
+
+Yeah?
+
+
+
+
+
+=====>] Paragraph 348 [<=====
+
+So those are strings, right?
+
+
+==> strings
+
++ What are strings?
+
+-----
+
+So those are strings, right?
+
+
+==> Sequences of characters
+
++ What are sequences of characters?
+
+-----
+
+Sequences of characters.
+
+
+
+
+
+=====>] Paragraph 349 [<=====
+
+Here, these are variables.
+
+So these are names that I'm giving to as a variable.
+
+
+==> variables
+
++ What are the variables in this example?
+
+-----
+
+Here, these are variables.
+
+
+==> variable
+
++ What are the names that I'm giving to as a variable?
+
+-----
+
+So these are names that I'm giving to as a variable.
+
+
+
+
+
+=====>] Paragraph 350 [<=====
+
+Yeah.
+
+
+==> Yeah
+
++ What is the answer to that question?
+
+-----
+
+Yeah.
+
+
+
+
+
+=====>] Paragraph 351 [<=====
+
+That's a great question.
+
+So this is going to be a string.
+
+And you notice it changed color, right?
+
+
+==> great question
+
++ What's a great question?
+
+-----
+
+That's a great question.
+
+
+==> string
+
++ What is going to be a string?
+
+-----
+
+So this is going to be a string.
+
+
+==> changed color
+
++ What color did it change?
++ What did you notice?
+
+-----
+
+And you notice it changed color, right?
+
+
+
+
+
+=====>] Paragraph 352 [<=====
+
+It has some meaning in Python.
+
+
+==> meaning in Python
+
++ What language does it have a certain meaning in?
+
+-----
+
+It has some meaning in Python.
+
+
+
+
+
+=====>] Paragraph 353 [<=====
+
+But xy is a variable that I create.
+
+
+==> create
+
++ What is the name of the variable that I create?
+
+-----
+
+But xy is a variable that I create.
+
+
+
+
+
+=====>] Paragraph 354 [<=====
+
+Yeah.
+
+
+==> Yeah
+
++ What is the answer to that question?
+
+-----
+
+Yeah.
+
+
+
+
+
+=====>] Paragraph 355 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 356 [<=====
+
+Because as I showed you with the Py example, it's a lot easier to write readable code if you have variable names within your programs.
+
+When you write programs, it's important to choose variable names wisely.
+
+Because you're going to want to reread these programs sometime in the future.
+
+Or others might want to read your programs sometime in the future.
+
+
+==> variables
+
++ Why do we want to give names to variables?
+
+-----
+
+So why do we want to give names to variables?
+
+
+==> write readable code , lot easier , easier to write
+
++ Why is it easier to write readable code if you have variable names within your programs?
+
+-----
+
+Because as I showed you with the Py example, it's a lot easier to write readable code if you have variable names within your programs.
+
+
+==> grab
+
++ What do you do when you grab?
+
+-----
+
+So when you grab...
+
+
+==> write programs
+
++ When you write programs, it's important to choose what name wisely?
+
+-----
+
+When you write programs, it's important to choose variable names wisely.
+
+
+==> single letters
+
++ What type of letters do you want to use?
+
+-----
+
+You don't want to use just single letters.
+
+
+==> program you writing
+
++ What do you don't want to name something that doesn't have something to do with the program you're writing?
+
+-----
+
+You don't want to name it something that doesn't have something to do with the program you're writing.
+
+
+==> reread these programs
+
++ Why are you going to want to reread these programs sometime in the future?
+
+-----
+
+Because you're going to want to reread these programs sometime in the future.
+
+
+==> read your programs
+
++ Who might want to read your programs sometime in the future?
+
+-----
+
+Or others might want to read your programs sometime in the future.
+
+
+==> nice program
+
++ What is an example of a nice program?
+
+-----
+
+So here's an example of a nice program.
+
+
+==> basically four assignment
+
++ How many assignment statements are there?
++ What do the assignment statements do?
+
+-----
+
+It's just basically four assignment statements that do some calculations.
+
+
+==> line
+
++ What is the first line of a program called?
+
+-----
+
+The first line of the program is not really a line.
+
+
+
+
+
+=====>] Paragraph 357 [<=====
+
+It's called a comment.
+
+
+==> called a comment
+
++ What is the term for a comment?
+
+-----
+
+It's called a comment.
+
+
+
+
+
+=====>] Paragraph 358 [<=====
+
+And it's basically text that you write that helps you or others figure out what the code is supposed to do.
+
+
+==> hash
+
++ What does a hash start with?
+
+-----
+
+They start with a hash.
+
+
+==> line that starts
+
++ What is a line that starts with a hash?
+
+-----
+
+It's a line that starts with a hash.
+
+
+==> basically text , code is supposed
+
++ What is a text that you write that helps you or others figure out what the code is supposed to do?
+
+-----
+
+And it's basically text that you write that helps you or others figure out what the code is supposed to do.
+
+
+==> comment sort
+
++ How often do we comment large chunks of code at a time?
+
+-----
+
+And usually we comment sort of large chunks of code at a time.
+
+
+
+
+
+=====>] Paragraph 359 [<=====
+
+Not line by line.
+
+
+==> line
+
++ What does not line by line mean?
+
+-----
+
+Not line by line.
+
+
+
+
+
+=====>] Paragraph 360 [<=====
+
+So here I'm defining variable named Py bound to the value here.
+
+
+==> equal
+
++ How many assignment statements are there?
+
+-----
+
+Then we have these four equal... Four assignment statements.
+
+
+==> defining variable named
+
++ What is the name of the variable I'm defining here?
++ What is Py bound to?
+
+-----
+
+So here I'm defining variable named Py bound to the value here.
+
+
+==> division
+
++ What is the division of 3.14159?
+
+-----
+
+So not the division, but 3.14159.
+
+
+
+
+
+=====>] Paragraph 361 [<=====
+
+And then I have a variable named area, which is bound to the result of this expression.
+
+So when Python sees my Py and my radius, it grabs them from memory, replaces them with the values, evaluates the expression, grabs that one value that we evaluated to, 15 point something, whatever this is, and binds the 15 point something to the name area.
+
+
+==> Variable named radius
+
++ What is the name of the variable that is bound to this float?
+
+-----
+
+Variable named radius bound to this float 2.2.
+
+
+==> variable named area
+
++ What is the name of the variable that is bound to the result of this expression?
+
+-----
+
+And then I have a variable named area, which is bound to the result of this expression.
+
+
+==> evaluates the expression , point , Python , grabs , radius
+
++ When Python sees my Py and my radius, what does it do?
++ What does Python replace the values with when it sees the Py and radius?
+
+-----
+
+So when Python sees my Py and my radius, it grabs them from memory, replaces them with the values, evaluates the expression, grabs that one value that we evaluated to, 15 point something, whatever this is, and binds the 15 point something to the name area.
+
+
+==> circumference
+
++ What is the same with circumference?
+
+-----
+
+And then the same with circumference.
+
+
+==> Code style
+
++ What is something that we're actually going to look at in your problem sets?
+
+-----
+
+Code style is something that we're actually gonna look at in your problem sets.
+
+
+==> wanted to quickly
+
++ What did I just want to quickly talk about?
+
+-----
+
+So I just wanted to quickly talk about that.
+
+
+
+
+
+=====>] Paragraph 362 [<=====
+
+But in case you haven't noticed, it's the same program as on the previous slide.
+
+But if I gave you this program straight off the bat, you probably wouldn't know what it's doing.
+
+
+==> bad style
+
++ What is the name of the program that has a really bad style?
+
+-----
+
+Here is a program that has really bad style.
+
+
+==> terrible
+
++ What should be terrible?
++ What should it be?
+
+-----
+
+It should be terrible or something like that.
+
+
+==> previous slide
+
++ What is the same program as on the previous slide?
+
+-----
+
+But in case you haven't noticed, it's the same program as on the previous slide.
+
+
+==> program straight , bat
+
++ What would you probably not know if I gave you this program straight off the bat?
+
+-----
+
+But if I gave you this program straight off the bat, you probably wouldn't know what it's doing.
+
+
+==> reusing
+
++ How many times is it reusing 355 over 113?
+
+-----
+
+It's reusing 355 over 113 twice here.
+
+
+==> variable
+
++ What are A and C?
++ What are the names of the variable names?
+
+-----
+
+It's using just A and C as variable names.
+
+
+==> calculations
+
++ What is the name of the program that does calculations?
+
+-----
+
+Its description is do calculations.
+
+
+==> pretty bad
+
++ What's the name of the game?
+
+-----
+
+So pretty bad.
+
+
+==> bit
+
++ What is a little bit better?
+
+-----
+
+This is a little bit better.
+
+
+
+
+
+=====>] Paragraph 363 [<=====
+
+I've recognized that 355 over 113 is being used twice, so I'm saving it as a variable.
+
+Here I'm commenting a chunk of code, and someone who doesn't want to read this chunk of code just reads the comment, and I already know that I'm calculating the area in circumference using an approximation for pi.
+
+So we can actually, once we create an object, a variable, sorry, once we create an object and bind it to a variable, we can change the bindings.
+
+So to rebind a variable, what that means is we're going to take the name, we're going to lose the binding to the previous value, and we're going to rebind it to a new value.
+
+I'm going to use this sort of cloud picture to represent what happens behind the scenes whenever we write programs, and it's like a little animation to help you understand line by line what's going on.
+
+I've got 2.2 as my value in memory, my object, and radius is the name for that object.
+
+
+==> variable , recognized
+
++ How many times is 355 over 113 being used twice?
++ What do I'm saving as a variable?
+
+-----
+
+I've recognized that 355 over 113 is being used twice, so I'm saving it as a variable.
+
+
+==> single characters
+
++ What are my variables still?
++ What do I call my variables?
+
+-----
+
+But my variables are still single characters.
+
+
+==> pretty bad
+
++ What is the name of the person who commented on my comments?
+
+-----
+
+And my comments are pretty bad.
+
+
+==> basically
+
++ What do I mean by that?
++ What is the code doing?
+
+-----
+
+I'm basically saying what the code is doing.
+
+
+==> times R times , equals P times
+
++ What does A equal?
++ What is the difference between P times R times R?
+
+-----
+
+We can see that A equals P times R times R. I see that I'm multiplying P with R squared.
+
+
+==> English
+
++ What language do I need to read this in?
+
+-----
+
+I don't need to read that in English.
+
+
+==> comment
+
++ What kind of comment would I like to see?
+
+-----
+
+What I would like to see is a comment like this.
+
+
+==> chunk of code , calculating the area , area in circumference , reads the comment
+
++ What does someone who doesn't want to read a chunk of code read?
++ What is the area in circumference using?
+
+-----
+
+Here I'm commenting a chunk of code, and someone who doesn't want to read this chunk of code just reads the comment, and I already know that I'm calculating the area in circumference using an approximation for pi.
+
+
+==> pretty nice comment
+
++ What kind of comment did you make?
++ What is the name of your comment?
+
+-----
+
+That's a pretty nice comment there.
+
+
+==> good descriptive
+
++ What are good descriptive names and all that?
+
+-----
+
+And good descriptive names and all that.
+
+
+==> create an object , change the bindings , variable
+
++ What can we do once we create an object and bind it to a variable?
+
+-----
+
+So we can actually, once we create an object, a variable, sorry, once we create an object and bind it to a variable, we can change the bindings.
+
+
+==> variable
+
++ What can we do with the variable name?
++ What is the name of the variable?
+
+-----
+
+So we can take that variable name and bind it to a completely different value.
+
+
+==> introduce control flow
+
++ What might not be useful right now?
++ What will be useful when we introduce control flow in our programs?
+
+-----
+
+This might not be useful right now, but it will be useful when we introduce control flow in our programs.
+
+
+==> lose the binding , rebind a variable
+
++ What does rebinding a variable mean?
++ What is the name of the variable?
+
+-----
+
+So to rebind a variable, what that means is we're going to take the name, we're going to lose the binding to the previous value, and we're going to rebind it to a new value.
+
+
+==> memory
+
++ What's the name of the video I'm going to show you?
+
+-----
+
+So I'm going to show you how this looks like in memory.
+
+
+==> write programs , sort of cloud , cloud picture , picture to represent
+
++ What kind of picture will I use to represent what happens behind the scenes whenever we write programs?
++ What is a little animation to help you understand?
+
+-----
+
+I'm going to use this sort of cloud picture to represent what happens behind the scenes whenever we write programs, and it's like a little animation to help you understand line by line what's going on.
+
+
+==> equals
+
++ What is the value of pi equal to?
+
+-----
+
+So here we have pi equals 3.14.
+
+
+==> green
+
++ What is my value in memory?
+
+-----
+
+So the green 3.14 is my value in memory.
+
+
+==> Cloud is memory
+
++ Cloud is what?
+
+-----
+
+Cloud is memory.
+
+
+==> memory
+
++ What is my value in memory?
+
+-----
+
+That's my value in memory.
+
+
+==> bound
+
++ What does pi stand for?
+
+-----
+
+And it's bound to this name pi.
+
+
+==> variable
+
++ What is the name of my variable?
+
+-----
+
+So this is my variable name.
+
+
+==> radius equals
+
++ What is the radius of the next line?
+
+-----
+
+The next line, radius equals 2.2, same thing.
+
+
+==> object , memory
+
++ What is my value in memory?
++ What is the name of my object?
+
+-----
+
+I've got 2.2 as my value in memory, my object, and radius is the name for that object.
+
+
+
+
+
+=====>] Paragraph 364 [<=====
+
+Area equals pi times radius squared.
+
+
+==> times radius squared
+
++ What does area equal?
++ What does squared mean?
+
+-----
+
+Area equals pi times radius squared.
+
+
+
+
+
+=====>] Paragraph 365 [<=====
+
+So what happens behind the scenes is it calculates this value, right?
+
+
+==> scenes
+
++ What happens behind the scenes when it calculates this value?
+
+-----
+
+So what happens behind the scenes is it calculates this value, right?
+
+
+
+
+
+=====>] Paragraph 366 [<=====
+
+It stores the value resulting from the calculation, and then it saves it or binds it to the name area.
+
+
+==> store the expression
+
++ What does not store the expression?
+
+-----
+
+It doesn't store the expression.
+
+
+==> calculation , area
+
++ What is the name of the file that stores the value resulting from the calculation?
+
+-----
+
+It stores the value resulting from the calculation, and then it saves it or binds it to the name area.
+
+
+
+
+
+=====>] Paragraph 367 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 368 [<=====
+
+We've seen this code before.
+
+
+==> code
+
++ We've seen what code before?
+
+-----
+
+We've seen this code before.
+
+
+
+
+
+=====>] Paragraph 369 [<=====
+
+Cool.
+
+
+==> Cool
+
++ What is the name of the game?
+
+-----
+
+Cool.
+
+
+
+
+
+=====>] Paragraph 370 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 371 [<=====
+
+We're following the rule, right, when we have an assignment that says look at the right hand side first and evaluate it.
+
+So if we look at the right hand side first, right, we see radius.
+
+
+==> Radius equals radius
+
++ Radius equals what?
++ Radius plus 1 equals radius plus 1.?
+
+-----
+
+Radius equals radius plus 1.
+
+
+==> math
+
++ In math, what does zero equal?
++ What is the difference between zero and 1?
+
+-----
+
+In math, that would say zero equals 1.
+
+
+==> math
+
++ What are we not in here?
+
+-----
+
+But we're not in math here, right?
+
+
+==> computer science
+
++ What field of study are we in?
+
+-----
+
+We're in computer science, and this is perfectly valid.
+
+
+==> hand side , rule
+
++ What do we do when we have an assignment that says look at the right hand side first?
+
+-----
+
+We're following the rule, right, when we have an assignment that says look at the right hand side first and evaluate it.
+
+
+==> left hand side
+
++ What do you do to the left hand side of the binder?
+
+-----
+
+And then bind it to the left hand side.
+
+
+==> hand side
+
++ What do we see if we look at the right hand side first?
+
+-----
+
+So if we look at the right hand side first, right, we see radius.
+
+
+
+
+
+=====>] Paragraph 372 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 373 [<=====
+
+We see add one to it, 3.2.
+
+
+==> add
+
++ What do we see add to it?
++ What does 3.2 mean?
+
+-----
+
+We see add one to it, 3.2.
+
+
+
+
+
+=====>] Paragraph 374 [<=====
+
+Save that in memory.
+
+And then we see the assignment.
+
+Now save it with the name radius.
+
+
+==> Save
+
++ What is the name of the file you saved in memory?
+
+-----
+
+Save that in memory.
+
+
+==> assignment
+
++ What do we see when we see the assignment?
+
+-----
+
+And then we see the assignment.
+
+
+==> radius
+
++ What is the name of the file that you saved?
+
+-----
+
+Now save it with the name radius.
+
+
+
+
+
+=====>] Paragraph 375 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 376 [<=====
+
+So we can only have one variable assigned to one value at a time, right?
+
+
+==> variable assigned
+
++ How many variables can be assigned to one value at a time?
+
+-----
+
+So we can only have one variable assigned to one value at a time, right?
+
+
+
+
+
+=====>] Paragraph 377 [<=====
+
+With this line of code, radius equals radius plus 1, we've lost the binding to 2.2, this object in memory, and we've rebound it to the value 3.2.
+
+
+==> math
+
++ What is not math?
+
+-----
+
+This is not math.
+
+
+==> computer science
+
++ What is computer science?
+
+-----
+
+This is computer science.
+
+
+==> radius
+
++ How many things at a time can you have radius.2?
+
+-----
+
+So you can only have radius .2 one thing at a time.
+
+
+==> radius equals radius , line of code , object in memory
+
++ What is the value of radius plus 1?
++ What object did we lose the binding to?
++ To what value did we rebound it?
+
+-----
+
+With this line of code, radius equals radius plus 1, we've lost the binding to 2.2, this object in memory, and we've rebound it to the value 3.2.
+
+
+
+
+
+=====>] Paragraph 378 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 379 [<=====
+
+And that's perfectly fine.
+
+
+==> perfectly fine
+
++ What's perfectly fine?
+
+-----
+
+And that's perfectly fine.
+
+
+
+
+
+=====>] Paragraph 380 [<=====
+
+Well, according to this, it's 15.1976, so it's using the old 2.2 value for radius.
+
+And that's okay, because the program never told never had a line that said recalculate area after we changed the radius.
+
+
+==> sitting in memory
+
++ What version of 2.2 is now sitting in memory?
+
+-----
+
+2.2 is now just sitting in memory.
+
+
+==> radius equals
+
++ What can't we say about radius equals 2.2?
+
+-----
+
+We can't get back to it unless we say maybe radius equals 2.2.
+
+
+==> sits in memory , reclaimed by garbage , garbage collection
+
++ What happens to a garbage collection?
++ What is the name of the collection company that collects garbage?
+
+-----
+
+It just sits in memory and then, you know, might be collected later on by or reclaimed by garbage collection or something like that.
+
+
+==> back
+
++ What can't we get back to for now?
+
+-----
+
+But for now, we can't get back to it.
+
+
+==> lines
+
++ What's the value for area at the end of these lines?
+
+-----
+
+Now what's the value for area at the end of these lines?
+
+
+==> radius
+
++ What is the old value for radius?
++ What year was the last time the radius was used?
+
+-----
+
+Well, according to this, it's 15.1976, so it's using the old 2.2 value for radius.
+
+
+==> changed the radius , program never told
+
++ What did the program never have a line that said recalculate area after we changed the radius?
+
+-----
+
+And that's okay, because the program never told never had a line that said recalculate area after we changed the radius.
+
+
+
+
+
+=====>] Paragraph 381 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 382 [<=====
+
+It doesn't know that, hey, if I change the radius, the user might want the area changed.
+
+
+==> dumb
+
++ What's the name of the program that follows a line by line?
+
+-----
+
+It's just following, dumb, line by line.
+
+
+==> change the radius , area changed
+
++ What would the user want if I changed the radius?
+
+-----
+
+It doesn't know that, hey, if I change the radius, the user might want the area changed.
+
+
+==> make those connections
+
++ What does not make those connections?
+
+-----
+
+It doesn't make those connections.
+
+
+
+
+
+=====>] Paragraph 383 [<=====
+
+It's just following instructions.
+
+
+==> instructions
+
++ What's the name of the program that you're using?
+
+-----
+
+It's just following instructions.
+
+
+
+
+
+=====>] Paragraph 384 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 385 [<=====
+
+If we wanted to change the area, we would have to copy this line and paste it after we've changed the radius.
+
+
+==> change the area , changed the radius
+
++ What would we have to do if we wanted to change the area?
+
+-----
+
+If we wanted to change the area, we would have to copy this line and paste it after we've changed the radius.
+
+
+==> area would change
+
++ What would happen to the area if the area was changed?
+
+-----
+
+And then the area would change as well.
+
+
+
+
+
+=====>] Paragraph 386 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 387 [<=====
+
+Does that make sense?
+
+
+==> make sense
+
++ Does that make sense?
+
+-----
+
+Does that make sense?
+
+
+
+
+
+=====>] Paragraph 388 [<=====
+
+That's kind of an important part of this lecture.
+
+
+==> important part
+
++ What's an important part of this lecture?
+
+-----
+
+That's kind of an important part of this lecture.
+
+
+
+
+
+=====>] Paragraph 389 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 390 [<=====
+
+Cool.
+
+
+==> Cool
+
++ What is the name of the game?
+
+-----
+
+Cool.
+
+
+
+
+
+=====>] Paragraph 391 [<=====
+
+So big idea here is that our lines are evaluated one after the other.
+
+
+==> big idea
+
++ What is the big idea here?
++ How are lines evaluated?
+
+-----
+
+So big idea here is that our lines are evaluated one after the other.
+
+
+
+
+
+=====>] Paragraph 392 [<=====
+
+What's the value for meters after we execute the first line?
+
+
+==> repeating things
+
++ What are we not skipping, we're not repeating?
+
+-----
+
+We're not skipping, we're not repeating things.
+
+
+==> gonna learn
+
++ What are we gonna learn about later?
+
+-----
+
+That's something we're gonna learn about later.
+
+
+==> line
+
++ What is the name of the line that is going to be used for the moment?
+
+-----
+
+But for now, line by line.
+
+
+==> executed in order
+
++ How many lines are executed in order?
+
+-----
+
+These three lines are executed in order.
+
+
+==> meters and feet
+
++ What are the values for meters and feet variables at each line?
+
+-----
+
+What are the values for meters and feet variables at each line?
+
+
+==> line
+
++ What is the name of the first line?
+
+-----
+
+So how about at the first line?
+
+
+==> line
+
++ What's the value for meters after we execute the first line?
+
+-----
+
+What's the value for meters after we execute the first line?
+
+
+
+
+
+=====>] Paragraph 393 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 394 [<=====
+
+What about feet?
+
+
+==> feet
+
++ What about feet?
+
+-----
+
+What about feet?
+
+
+
+
+
+=====>] Paragraph 395 [<=====
+
+So at the end of the first line, there is no value for feet yet.
+
+
+==> line
+
++ At the end of the first line, what is there no value for feet yet?
+
+-----
+
+So at the end of the first line, there is no value for feet yet.
+
+
+==> line
+
++ How about after the second line?
+
+-----
+
+How about after the second line?
+
+
+
+
+
+=====>] Paragraph 396 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 397 [<=====
+
+How about the value for meters?
+
+
+==> meters
+
++ What is the value for meters?
+
+-----
+
+How about the value for meters?
+
+
+
+
+
+=====>] Paragraph 398 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 399 [<=====
+
+And what about after the third line?
+
+
+==> line
+
++ What happens after the third line?
+
+-----
+
+And what about after the third line?
+
+
+
+
+
+=====>] Paragraph 400 [<=====
+
+I'm changing meters to 200.
+
+
+==> changing meters
+
++ How many meters do I'm changing to?
+
+-----
+
+I'm changing meters to 200.
+
+
+
+
+
+=====>] Paragraph 401 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 402 [<=====
+
+Yeah.
+
+
+==> Yeah
+
++ What is the answer to that question?
+
+-----
+
+Yeah.
+
+
+
+
+
+=====>] Paragraph 403 [<=====
+
+Meters is 200, but feet is still 328.08.
+
+
+==> Meters
+
++ Meters is 200, but feet is still 328.08?
+
+-----
+
+Meters is 200, but feet is still 328.08.
+
+
+
+
+
+=====>] Paragraph 404 [<=====
+
+Python Tutor is a nice website that allows you to step in your code, step through your code, step by step.
+
+
+==> guys today
+
++ What is something I want to show you guys today?
+
+-----
+
+And this is something I want to show you guys today.
+
+
+==> Python Tutor
+
++ What's the name of the Python Tutor that we're going to use in the future?
+
+-----
+
+And we're gonna use this Python Tutor a lot more in the future.
+
+
+==> Python Tutor , nice website
+
++ What is a nice website that allows you to step in your code?
+
+-----
+
+Python Tutor is a nice website that allows you to step in your code, step through your code, step by step.
+
+
+==> execute , code
+
++ What do you get to see at each line that you execute?
+
+-----
+
+So at each line that you execute, you get to see the values of all the variables in the code.
+
+
+==> debugging tool
+
++ What is a very useful debugging tool?
+
+-----
+
+A very useful debugging tool.
+
+
+==> finger exercises , Monday
+
++ What is the name of the exercise you can do on Monday if you're having trouble?
+
+-----
+
+I hope you'll try it out today and on Monday maybe for the finger exercises if you're having trouble.
+
+
+==> debug
+
++ What can you use it for to help you debug?
+
+-----
+
+You can use it for quizzes to help you debug.
+
+
+
+
+
+=====>] Paragraph 405 [<=====
+
+But I can just show you.
+
+It's pretty simple here, because it's just a step by step.
+
+So we step through.
+
+So the red says the line I'm going to execute.
+
+Green is the line I just executed.
+
+So I just executed meters 100.
+
+So here I have my meters variable with the value 100.
+
+Step through next.
+
+So I just executed feet equals this.
+
+So I now have a variable named feet with a value of 328.08.
+
+
+==> show
+
++ What can I just show you?
+
+-----
+
+But I can just show you.
+
+
+==> pretty simple
+
++ What's the name of the step by step guide?
+
+-----
+
+It's pretty simple here, because it's just a step by step.
+
+
+==> step
+
++ What do we step through?
+
+-----
+
+So we step through.
+
+
+==> execute
+
++ What color says the line I'm going to execute?
+
+-----
+
+So the red says the line I'm going to execute.
+
+
+==> Green
+
++ What is the color of the line I just executed?
+
+-----
+
+Green is the line I just executed.
+
+
+==> executed meters
+
++ What did I just execute meters 100?
+
+-----
+
+So I just executed meters 100.
+
+
+==> meters variable
+
++ What is the value of my meters variable?
+
+-----
+
+So here I have my meters variable with the value 100.
+
+
+==> Step
+
++ What is the next step in the process?
+
+-----
+
+Step through next.
+
+
+==> executed feet equals
+
++ What did I just executed feet equal?
+
+-----
+
+So I just executed feet equals this.
+
+
+==> variable named feet
+
++ What is the value of the variable feet?
+
+-----
+
+So I now have a variable named feet with a value of 328.08.
+
+
+
+
+
+=====>] Paragraph 406 [<=====
+
+Meters still 100.
+
+And then meters 200.
+
+Feet remained 328.08.
+
+
+==> Meters
+
++ Meters still how many?
+
+-----
+
+Meters still 100.
+
+
+==> meters
+
++ How many meters are there?
+
+-----
+
+And then meters 200.
+
+
+==> Feet remained
+
++ What percentage of feet remained 328.08?
++ What was the average number of feet?
+
+-----
+
+Feet remained 328.08.
+
+
+
+
+
+=====>] Paragraph 407 [<=====
+
+So obviously this is a pretty simple program to run the Python Tutor on, but you can imagine using it in more complex settings.
+
+
+==> Python Tutor , pretty simple program , run the Python
+
++ What is a pretty simple program to run on?
++ What can you imagine using it in more complex settings?
+
+-----
+
+So obviously this is a pretty simple program to run the Python Tutor on, but you can imagine using it in more complex settings.
+
+
+
+
+
+=====>] Paragraph 408 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 409 [<=====
+
+I want you to try to write a program that swaps the values of X and Y.
+
+So originally, and I'll draw this memory diagram real quick.
+
+
+==> write a program , program that swaps
+
++ What do you want to write a program that swaps the values of?
+
+-----
+
+I want you to try to write a program that swaps the values of X and Y.
+
+
+==> diagram real quick
+
++ What's the name of the memory diagram that I'll draw?
+
+-----
+
+So originally, and I'll draw this memory diagram real quick.
+
+
+==> memory
+
++ What is the name of our memory?
+
+-----
+
+So we have this is our memory.
+
+
+==> bound
+
++ What is bound to 1?
++ What is X bound to?
+
+-----
+
+We have X is bound to 1.
+
+
+
+
+
+=====>] Paragraph 410 [<=====
+
+Y is bound to 2.
+
+
+==> bound
+
++ What is Y bound to?
+
+-----
+
+Y is bound to 2.
+
+
+
+
+
+=====>] Paragraph 411 [<=====
+
+And what I want to do without saying X equals 2, Y equals 1, what I want to do is swap the values.
+
+
+==> equals , swap
+
++ What do I want to do without saying X equals 2 and Y equals 1?
+
+-----
+
+And what I want to do without saying X equals 2, Y equals 1, what I want to do is swap the values.
+
+
+
+
+
+=====>] Paragraph 412 [<=====
+
+But only using commands like this.
+
+And so the code here is buggy.
+
+That means it's wrong.
+
+It has an error in it.
+
+
+==> commands
+
++ What is the name of the command that can be used to do this?
+
+-----
+
+But only using commands like this.
+
+
+==> buggy
+
++ What is the problem with the code?
+
+-----
+
+And so the code here is buggy.
+
+
+==> wrong
+
++ What does that mean?
++ What does it mean it's wrong?
+
+-----
+
+That means it's wrong.
+
+
+==> error
+
++ What is the name of the document that has an error?
+
+-----
+
+It has an error in it.
+
+
+
+
+
+=====>] Paragraph 413 [<=====
+
+Because well, let's step through a little bit at a time.
+
+
+==> time
+
++ What's the name of the book that we're going to go through?
+
+-----
+
+Because well, let's step through a little bit at a time.
+
+
+
+
+
+=====>] Paragraph 414 [<=====
+
+Y equals X.
+
+What do I do when Y equals X here?
+
+
+==> equals
+
++ What does Y equal?
+
+-----
+
+Y equals X.
+
+
+==> equals
+
++ What do I do when Y equals X?
+
+-----
+
+What do I do when Y equals X here?
+
+
+
+
+
+=====>] Paragraph 415 [<=====
+
+Yeah, exactly.
+
+
+==> Yeah
+
++ What is the name of the game?
++ What is it called?
+
+-----
+
+Yeah, exactly.
+
+
+
+
+
+=====>] Paragraph 416 [<=====
+
+Y is going to move from 2 to 1.
+
+
+==> move
+
++ What is going to change from 2 to 1?
+
+-----
+
+Y is going to move from 2 to 1.
+
+
+
+
+
+=====>] Paragraph 417 [<=====
+
+Now what happens when I do X equals Y?
+
+
+==> equals
+
++ What happens when X equals Y?
+
+-----
+
+Now what happens when I do X equals Y?
+
+
+
+
+
+=====>] Paragraph 418 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 419 [<=====
+
+X stays the same.
+
+
+==> stays
+
++ What does X stay the same?
+
+-----
+
+X stays the same.
+
+
+
+
+
+=====>] Paragraph 420 [<=====
+
+My first line, Y equals X, lost the binding to 2.
+
+
+==> lost the binding
+
++ What did my first line lose the binding to?
++ What was the first line that lost the binding?
+
+-----
+
+My first line, Y equals X, lost the binding to 2.
+
+
+
+
+
+=====>] Paragraph 421 [<=====
+
+So instead, if you didn't understand this, you can click Python Tutor and just kind of step through step by step on your own.
+
+
+==> back
+
++ What's the name of the thing that's messed up?
++ Why can't I get it back?
+
+-----
+
+And now it's all messed up, because I can't get it back.
+
+
+==> click Python Tutor
+
++ What can you do if you didn't understand Python Tutor?
+
+-----
+
+So instead, if you didn't understand this, you can click Python Tutor and just kind of step through step by step on your own.
+
+
+
+
+
+=====>] Paragraph 422 [<=====
+
+But how can we fix this?
+
+
+==> fix
+
++ How can we fix this?
+
+-----
+
+But how can we fix this?
+
+
+
+
+
+=====>] Paragraph 423 [<=====
+
+Create a third variable?
+
+
+==> Create
+
++ What is the name of the third variable that can be created?
+
+-----
+
+Create a third variable?
+
+
+
+
+
+=====>] Paragraph 424 [<=====
+
+Yeah, that's a great idea.
+
+
+==> Yeah
+
++ What is a great idea?
+
+-----
+
+Yeah, that's a great idea.
+
+
+
+
+
+=====>] Paragraph 425 [<=====
+
+We can create a third variable.
+
+
+==> variable
+
++ What is the third variable that we can create?
+
+-----
+
+We can create a third variable.
+
+
+
+
+
+=====>] Paragraph 426 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 427 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 428 [<=====
+
+So we can create a third variable.
+
+What do you want to make the variable equal to?
+
+
+==> variable
+
++ What is the third variable that we can create?
+
+-----
+
+So we can create a third variable.
+
+
+==> make the variable
+
++ What do you want to make the variable equal to?
+
+-----
+
+What do you want to make the variable equal to?
+
+
+
+
+
+=====>] Paragraph 429 [<=====
+
+X or Y. Yeah, either one.
+
+So here I've got a temporary variable called temp.
+
+
+==> Yeah
+
++ What does X or Y stand for?
+
+-----
+
+X or Y. Yeah, either one.
+
+
+==> made
+
++ What did I make it Y?
+
+-----
+
+I made it Y.
+
+
+==> variable called temp
+
++ What is a temporary variable called?
+
+-----
+
+So here I've got a temporary variable called temp.
+
+
+
+
+
+=====>] Paragraph 430 [<=====
+
+And I made it equal to 2.
+
+
+==> made it equal
+
++ How many times did I make it equal to?
+
+-----
+
+And I made it equal to 2.
+
+
+
+
+
+=====>] Paragraph 431 [<=====
+
+Which one can I reassign now?
+
+
+==> reassign
+
++ Which one can I reassign now?
+
+-----
+
+Which one can I reassign now?
+
+
+
+
+
+=====>] Paragraph 432 [<=====
+
+X equals Y or Y equals X?
+
+
+==> equals
+
++ What does X equal?
++ What is the difference between X and Y?
+
+-----
+
+X equals Y or Y equals X?
+
+
+
+
+
+=====>] Paragraph 433 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 434 [<=====
+
+If I do X equals Y, I lose my binding to 1.
+
+
+==> equals
+
++ What does Y equal?
+
+-----
+
+Y equals X.
+
+
+==> lose my binding
+
++ What happens if I do X equals Y?
++ What happens to my binding to 1?
+
+-----
+
+If I do X equals Y, I lose my binding to 1.
+
+
+==> messed
+
++ What's the name of the thing that's messed up again?
+
+-----
+
+And I'm messed up again.
+
+
+
+
+
+=====>] Paragraph 435 [<=====
+
+So Y equals X is OK to do.
+
+
+==> equals
+
++ What does Y equal?
+
+-----
+
+So Y equals X is OK to do.
+
+
+
+
+
+=====>] Paragraph 436 [<=====
+
+So I'm going to lose the binding from Y from 2 and bind it up to 1.
+
+
+==> lose the binding
+
++ What will I lose from Y from 2 and bind it up to?
+
+-----
+
+So I'm going to lose the binding from Y from 2 and bind it up to 1.
+
+
+
+
+
+=====>] Paragraph 437 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 438 [<=====
+
+Yeah.
+
+
+==> Yeah
+
++ What is the answer to that question?
+
+-----
+
+Yeah.
+
+
+
+
+
+=====>] Paragraph 439 [<=====
+
+So I can say X is equal to temp because temp points to 2.
+
+
+==> safely reassign
+
++ How can I safely reassign X to temp?
+
+-----
+
+Now I can safely reassign X to temp.
+
+
+==> temp points
+
++ What point does temp point to?
++ Why can I say X is equal to temp?
+
+-----
+
+So I can say X is equal to temp because temp points to 2.
+
+
+==> make X point
+
++ What do I want to make X point to?
+
+-----
+
+And I want to make X point to 2 as well.
+
+
+
+
+
+=====>] Paragraph 440 [<=====
+
+So in terms of code, so that's sort of the diagram.
+
+
+==> terms of code
+
++ In terms of code, so that's sort of what?
+
+-----
+
+So in terms of code, so that's sort of the diagram.
+
+
+==> write the code
+
++ What is the name of the program that we can write?
+
+-----
+
+But we can write the code.
+
+
+
+
+
+=====>] Paragraph 441 [<=====
+
+We don't write it in here, but on your own.
+
+You can write it in here if you like.
+
+
+==> write
+
++ What do you write on your own?
++ What is the name of the site where you write it?
+
+-----
+
+We don't write it in here, but on your own.
+
+
+==> write
+
++ What can you write in here if you like?
+
+-----
+
+You can write it in here if you like.
+
+
+
+
+
+=====>] Paragraph 442 [<=====
+
+So X is equal, oops, X equals 1, Y equals 2.
+
+
+==> oops
+
++ What does Y equal?
++ What is X equal to?
+
+-----
+
+So X is equal, oops, X equals 1, Y equals 2.
+
+
+
+
+
+=====>] Paragraph 443 [<=====
+
+We wanted to assign it to whatever Y was.
+
+
+==> temp
+
++ What is the name of the thing that we had temp?
+
+-----
+
+And then we can have, we had temp.
+
+
+==> wanted to assign
+
++ What did we want to assign to whatever Y was?
+
+-----
+
+We wanted to assign it to whatever Y was.
+
+
+
+
+
+=====>] Paragraph 444 [<=====
+
+So we say temp is equal to Y.
+
+
+==> temp is equal
+
++ What do we say temp is equal to?
+
+-----
+
+So we say temp is equal to Y.
+
+
+
+
+
+=====>] Paragraph 445 [<=====
+
+And if you want to check the values of the variables, you can just invoke the names.
+
+
+==> variables , check
+
++ What can you do if you want to check the values of the variables?
+
+-----
+
+And if you want to check the values of the variables, you can just invoke the names.
+
+
+
+
+
+=====>] Paragraph 446 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 447 [<=====
+
+And temp should be whatever Y is, 2.
+
+
+==> temp
+
++ What should temp be?
+
+-----
+
+And temp should be whatever Y is, 2.
+
+
+
+
+
+=====>] Paragraph 448 [<=====
+
+Good so far.
+
+
+==> Good
+
++ So far, so good?
+
+-----
+
+Good so far.
+
+
+
+
+
+=====>] Paragraph 449 [<=====
+
+So now I'm at the step here, I think.
+
+I've just created this.
+
+
+==> step
+
++ What's the name of the step I'm at now?
+
+-----
+
+So now I'm at the step here, I think.
+
+
+==> created
+
++ What's the name of the website that I've created?
+
+-----
+
+I've just created this.
+
+
+
+
+
+=====>] Paragraph 450 [<=====
+
+And then the last thing I need to do is lose the binding from X to whatever temp is.
+
+
+==> lose the binding , thing
+
++ What is the last thing I need to do?
+
+-----
+
+And then the last thing I need to do is lose the binding from X to whatever temp is.
+
+
+==> operation
+
++ What is the name of the operation that I want to do?
+
+-----
+
+So I want to do this operation here.
+
+
+==> equal to temp
+
++ What do I want to assign to be equal to temp?
+
+-----
+
+Which means I want to assign X to be equal to temp.
+
+
+
+
+
+=====>] Paragraph 451 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 452 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 453 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 454 [<=====
+
+We can just start all over, right?
+
+
+==> start
+
++ What can we just start all over?
+
+-----
+
+We can just start all over, right?
+
+
+
+
+
+=====>] Paragraph 455 [<=====
+
+So Y equals temp, sorry, temp equals Y. Y equals X. Y is 1, X is 1.
+
+
+==> equals temp , temp equals
+
++ What does Y equal?
++ What is X?
++ How does X equal Y?
+
+-----
+
+So Y equals temp, sorry, temp equals Y. Y equals X. Y is 1, X is 1.
+
+
+==> equals temp
+
++ What does X equal?
+
+-----
+
+And then X equals temp.
+
+
+
+
+
+=====>] Paragraph 456 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 457 [<=====
+
+So it's okay if things go wrong.
+
+And also things like checking the types and other commands we've done earlier.
+
+
+==> things go wrong
+
++ Is it okay if things go wrong?
+
+-----
+
+So it's okay if things go wrong.
+
+
+==> wrong
+
++ What will happen if they go wrong?
+
+-----
+
+They will go wrong.
+
+
+==> case by redefining , redefining our variables
+
++ How can we start all over in this particular case?
+
+-----
+
+We can just start all over in this particular case by redefining our variables and just trying it out all over again.
+
+
+==> kind
+
++ What is the purpose of the shell?
+
+-----
+
+So that's kind of what the shell is for.
+
+
+==> future
+
++ What are we going to use it for in the future?
+
+-----
+
+That's what we're going to use it for in the future.
+
+
+==> quick things
+
++ Just to do quick things like this?
+
+-----
+
+Just to do quick things like this.
+
+
+==> things like checking
+
++ What do we do to check the types and other commands?
+
+-----
+
+And also things like checking the types and other commands we've done earlier.
+
+
+
+
+
+=====>] Paragraph 458 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 459 [<=====
+
+So any questions before we do the summary?
+
+
+==> summary
+
++ What do we need to know before we do the summary?
+
+-----
+
+So any questions before we do the summary?
+
+
+
+
+
+=====>] Paragraph 460 [<=====
+
+Was this all right pace?
+
+
+==> pace
+
++ Was this all right pace?
++ Was this pace all right?
+
+-----
+
+Was this all right pace?
+
+
+
+
+
+=====>] Paragraph 461 [<=====
+
+Or was it too fast?
+
+
+==> fast
+
++ What was the name of the game?
+
+-----
+
+Or was it too fast?
+
+
+
+
+
+=====>] Paragraph 462 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 463 [<=====
+
+Cool.
+
+
+==> Cool
+
++ What is the name of the game?
+
+-----
+
+Cool.
+
+
+
+
+
+=====>] Paragraph 464 [<=====
+
+Thumbs up is good.
+
+
+==> Thumbs
+
++ What is a good thing about a thumbs up?
+
+-----
+
+Thumbs up is good.
+
+
+
+
+
+=====>] Paragraph 465 [<=====
+
+So let's do a quick summary.
+
+
+==> quick summary
+
++ What is a quick summary of?
++ What is the purpose of this summary?
+
+-----
+
+So let's do a quick summary.
+
+
+
+
+
+=====>] Paragraph 466 [<=====
+
+We created objects in Python and we saw that objects have a particular type.
+
+
+==> manipulating objects
+
++ We saw that we can create programs by manipulating what?
+
+-----
+
+We saw that we can create programs by manipulating objects.
+
+
+==> created objects
+
++ In what language did we create objects?
++ What type of type did objects have?
+
+-----
+
+We created objects in Python and we saw that objects have a particular type.
+
+
+==> Python the things
+
++ What tells Python the things that you can do with an object?
++ What does the type of the object tell Python?
+
+-----
+
+The type that the object has tells Python the things that you can do with that object.
+
+
+
+
+
+=====>] Paragraph 467 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 468 [<=====
+
+So the equal sign, I showed you a couple of differences between math and computer science.
+
+The equal sign in math is declarative and the equal sign in computer science is an assignment.
+
+
+==> objects in expressions
+
++ How can we combine objects in expressions?
+
+-----
+
+We can combine objects in expressions.
+
+
+==> expressions evaluate
+
++ What do these expressions evaluate or boil down to?
+
+-----
+
+And these expressions evaluate or boil down to one particular value.
+
+
+==> stored in variables
+
++ Objects or values can be stored in what?
+
+-----
+
+Objects or values can be stored in variables.
+
+
+==> program , variables
+
++ What do these variables allow us to do later on in our program?
+
+-----
+
+And these variables allow us to access these values with nicer names later on in our program.
+
+
+==> write neater
+
++ What kind of programs are we able to write?
+
+-----
+
+And then we're able to write neater, more legible programs as well.
+
+
+==> equal sign , computer science
+
++ What is the difference between math and computer science?
+
+-----
+
+So the equal sign, I showed you a couple of differences between math and computer science.
+
+
+==> notable difference
+
++ What was one notable difference?
++ What was the difference between the two sign?
+
+-----
+
+The equal sign was one notable difference.
+
+
+==> equal sign , sign in math
+
++ What is the equal sign in math?
++ What is it called in computer science?
+
+-----
+
+The equal sign in math is declarative and the equal sign in computer science is an assignment.
+
+
+==> basically
+
++ What are you basically saying is associated with this?
+
+-----
+
+You're basically saying this is associated with this.
+
+
+
+
+
+=====>] Paragraph 469 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 470 [<=====
+
+And we're not doing any sort of equality in computer science.
+
+And yes, computers do what you tell them to do.
+
+
+==> computer science
+
++ What kind of equality are we not doing in computer science?
+
+-----
+
+And we're not doing any sort of equality in computer science.
+
+
+==> computers
+
++ Computers do what you tell them to do?
+
+-----
+
+And yes, computers do what you tell them to do.
+
+
+
+
+
+=====>] Paragraph 471 [<=====
+
+That's kind of the big thing here.
+
+
+==> big thing
+
++ What's the big thing here?
+
+-----
+
+That's kind of the big thing here.
+
+
+
+
+
+=====>] Paragraph 472 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 473 [<=====
+
+But next lecture we will see how we can insert decision points in our programs for the computer to either execute one set of code or another set of code.
+
+
+==> executes starting
+
++ What is the name of the program that executes line by line?
++ Where does the program start?
+
+-----
+
+Line by line, it executes starting from the top, goes line by line.
+
+
+==> makes a decision
+
++ Where does the computer make a decision?
+
+-----
+
+So far we haven't seen any places where the computer makes a decision.
+
+
+==> insert decision points , set of code
+
++ In what lecture will we see how we can insert decision points in our programs for the computer to execute one set of code or another?
+
+-----
+
+But next lecture we will see how we can insert decision points in our programs for the computer to either execute one set of code or another set of code.
+
+
+
+
+
+=====>] Paragraph 474 [<=====
+
+
+
+
+
+
+
+=====>] Paragraph 475 [<=====
+
+So that's the end of today's lecture.
+
+
+==> today lecture
+
++ What is the title of today's lecture?
+
+-----
+
+So that's the end of today's lecture.
+
+
+==> joining
+
++ Thank you all for joining us. What is the name of the group that you joined?
+
+-----
+
+Thank you all for joining.
+
+
+
+
+
+=====>] Paragraph 476 [<=====
+
+I will see you on Monday.
+
+
+==> Monday
+
++ What day will I see you?
+
+-----
+
+I will see you on Monday.
+
+
+
+
+
+=====>] Paragraph 477 [<=====
+
+Bye.
+
+Bye.
+
+
+==> Bye
+
++ Bye.?
+
+-----
+
+Bye.
+
+
+==> Bye
+
++ Bye.?
+
+-----
+
+Bye.
