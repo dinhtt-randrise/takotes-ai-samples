@@ -34,4 +34,17 @@ MIT OpenCourseWare - Lecture 1: Algorithmic Thinking, Peak Finding
 + Sample Info: https://github.com/dinhtt-randrise/takotes-ai-samples/blob/main/english/youtube/HtSuA80QTyo.md
 
 
+============================================
+MIT OpenCourseWare - Lecture 1: Introduction to CS and Programming Using Python
+  ----------------------------------------
+
++ Lecture URL: https://www.youtube.com/watch?v=xAcTmDO6NTI
+
++ Language: en
+
+  ----------------------------------------
+
++ Sample Info: https://github.com/dinhtt-randrise/takotes-ai-samples/blob/main/english/youtube/xAcTmDO6NTI.md
+
+
 ```
