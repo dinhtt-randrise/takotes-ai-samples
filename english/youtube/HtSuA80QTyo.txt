@@ -1,4 +1,4 @@
-=====>] TAKOTES AI (en): 2024.08.22 : 22.04.51 : https://www.youtube.com/watch?v=HtSuA80QTyo [<=====
+=====>] TAKOTES AI (en): 2024.09.02 : 15.30.03 : https://www.youtube.com/watch?v=HtSuA80QTyo [<=====
 
 
 
@@ -1631,14 +1631,6 @@ And there's many, many classes that you can possibly take if you want to continu
 
 =====>] Paragraph 49 [<=====
 
-
-
-
-
-
-
-=====>] Paragraph 50 [<=====
-
 So that's the story of the class, of the synopsis of the class.
 
 
@@ -1655,7 +1647,7 @@ So that's the story of the class, of the synopsis of the class.
 
 
 
-=====>] Paragraph 51 [<=====
+=====>] Paragraph 50 [<=====
 
 In particular, please read the collaboration policy and get a sense of what is expected of you, what the rules are in terms of doing the problem sets.
 
@@ -1693,23 +1685,7 @@ And the course grading breakdown and the grading policies are all listed on the 
 
 
 
-=====>] Paragraph 52 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 53 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 54 [<=====
+=====>] Paragraph 51 [<=====
 
 So let's get started.
 
@@ -1726,7 +1702,7 @@ So let's get started.
 
 
 
-=====>] Paragraph 55 [<=====
+=====>] Paragraph 52 [<=====
 
 But like a lot of toy problems, it's very evocative in that it points out the issues involved in designing efficient algorithms.
 
@@ -1817,7 +1793,7 @@ And the numbers are positive, negative.
 
 
 
-=====>] Paragraph 56 [<=====
+=====>] Paragraph 53 [<=====
 
 We'll just assume they're all positive.
 
@@ -1834,7 +1810,7 @@ We'll just assume they're all positive.
 
 
 
-=====>] Paragraph 57 [<=====
+=====>] Paragraph 54 [<=====
 
 It doesn't really matter.
 
@@ -1851,7 +1827,7 @@ It doesn't really matter.
 
 
 
-=====>] Paragraph 58 [<=====
+=====>] Paragraph 55 [<=====
 
 The algorithms we describe will work.
 
@@ -1868,7 +1844,7 @@ The algorithms we describe will work.
 
 
 
-=====>] Paragraph 59 [<=====
+=====>] Paragraph 56 [<=====
 
 And so we have this one-dimensional array that has nine different positions and A through I numbers.
 
@@ -1885,7 +1861,7 @@ And so we have this one-dimensional array that has nine different positions and 
 
 
 
-=====>] Paragraph 60 [<=====
+=====>] Paragraph 57 [<=====
 
 And we want to find a peak.
 
@@ -1913,7 +1889,7 @@ And so we have to define what we mean by a peak.
 
 
 
-=====>] Paragraph 61 [<=====
+=====>] Paragraph 58 [<=====
 
 And so in particular, as an example, position two is a peak if and only if B greater than or equal to A and B greater than or equal to C. So it's really a very local property corresponding to a peak.
 
@@ -1931,7 +1907,7 @@ And so in particular, as an example, position two is a peak if and only if B gre
 
 
 
-=====>] Paragraph 62 [<=====
+=====>] Paragraph 59 [<=====
 
 In the one-dimensional case, it's trivial.
 
@@ -1948,7 +1924,7 @@ In the one-dimensional case, it's trivial.
 
 
 
-=====>] Paragraph 63 [<=====
+=====>] Paragraph 60 [<=====
 
 Look to your left.
 
@@ -1965,7 +1941,7 @@ Look to your left.
 
 
 
-=====>] Paragraph 64 [<=====
+=====>] Paragraph 61 [<=====
 
 If you're equal or greater than both of the elements that you see on the left and the right, you're a peak.
 
@@ -1994,7 +1970,7 @@ And in the case of the edges, you only have to look to one side.
 
 
 
-=====>] Paragraph 65 [<=====
+=====>] Paragraph 62 [<=====
 
 So position nine is a peak if I greater than or equal to H. So you just have to look to your left there because you're all the way on the right-hand side.
 
@@ -2011,23 +1987,7 @@ So position nine is a peak if I greater than or equal to H. So you just have to 
 
 
 
-=====>] Paragraph 66 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 67 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 68 [<=====
+=====>] Paragraph 63 [<=====
 
 And the statement of the problem, the one-dimensional version, is find a peak if it exists.
 
@@ -2044,23 +2004,7 @@ And the statement of the problem, the one-dimensional version, is find a peak if
 
 
 
-=====>] Paragraph 69 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 70 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 71 [<=====
+=====>] Paragraph 64 [<=====
 
 You can imagine that the straightforward algorithm is something that just walks across the array.
 
@@ -2104,7 +2048,7 @@ But we need that as a starting point for building something more sophisticated.
 
 
 
-=====>] Paragraph 72 [<=====
+=====>] Paragraph 65 [<=====
 
 So let's say we start from left.
 
@@ -2121,7 +2065,7 @@ So let's say we start from left.
 
 
 
-=====>] Paragraph 73 [<=====
+=====>] Paragraph 66 [<=====
 
 And all we have is one traversal, really.
 
@@ -2138,7 +2082,7 @@ And all we have is one traversal, really.
 
 
 
-=====>] Paragraph 74 [<=====
+=====>] Paragraph 67 [<=====
 
 And then we have n minus 1 and n. What I'm interested in doing is not only coming up with a straightforward algorithm, but also precisely categorizing what its complexity is in relation to n, which is the number of inputs.
 
@@ -2165,7 +2109,7 @@ And then we have n minus 1 and n. What I'm interested in doing is not only comin
 
 
 
-=====>] Paragraph 75 [<=====
+=====>] Paragraph 68 [<=====
 
 Yeah, question?
 
@@ -2183,7 +2127,7 @@ Yeah, question?
 
 
 
-=====>] Paragraph 76 [<=====
+=====>] Paragraph 69 [<=====
 
 AUDIENCE 1.
 
@@ -2200,7 +2144,7 @@ AUDIENCE 1.
 
 
 
-=====>] Paragraph 77 [<=====
+=====>] Paragraph 70 [<=====
 
 Why do you say if it exists?
 
@@ -2217,7 +2161,7 @@ Why do you say if it exists?
 
 
 
-=====>] Paragraph 78 [<=====
+=====>] Paragraph 71 [<=====
 
 Like, here you have for a peak, or p guarantees a peak?
 
@@ -2234,23 +2178,7 @@ Like, here you have for a peak, or p guarantees a peak?
 
 
 
-=====>] Paragraph 79 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 80 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 81 [<=====
+=====>] Paragraph 72 [<=====
 
 So if you look at the definition of the peak, then what I have here is greater than or equal to.
 
@@ -2277,7 +2205,7 @@ And so that's a great question that was asked.
 
 
 
-=====>] Paragraph 82 [<=====
+=====>] Paragraph 73 [<=====
 
 Why is there if it exists in this problem?
 
@@ -2294,7 +2222,7 @@ Why is there if it exists in this problem?
 
 
 
-=====>] Paragraph 83 [<=====
+=====>] Paragraph 74 [<=====
 
 Now, in the case where I have greater than or equal to, then this is a homework question for you and for the rest of you.
 
@@ -2330,15 +2258,7 @@ Now, if you didn't have the greater than or equal to and you had a greater than,
 
 
 
-=====>] Paragraph 84 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 85 [<=====
+=====>] Paragraph 75 [<=====
 
 So great question.
 
@@ -2355,7 +2275,7 @@ So great question.
 
 
 
-=====>] Paragraph 86 [<=====
+=====>] Paragraph 76 [<=====
 
 But if I had a different definition of a peak, and this is part of algorithmic thinking, you want to be able to create algorithms that are general.
 
@@ -2421,7 +2341,7 @@ And if, in fact, you had a different definition, well, you would have to create 
 
 
 
-=====>] Paragraph 87 [<=====
+=====>] Paragraph 77 [<=====
 
 So that's really the general case.
 
@@ -2438,7 +2358,7 @@ So that's really the general case.
 
 
 
-=====>] Paragraph 88 [<=====
+=====>] Paragraph 78 [<=====
 
 Many a time, it's possible that you're asked to do something and you can't actually give an answer to the question or find something that satisfies all the constraints required.
 
@@ -2464,7 +2384,7 @@ And in that case, you want to be able to put up your hand and say, you know what
 
 
 
-=====>] Paragraph 89 [<=====
+=====>] Paragraph 79 [<=====
 
 Here's my argument that I searched exhaustively, and I couldn't find it.
 
@@ -2499,7 +2419,7 @@ Here's my argument that I searched exhaustively, and I couldn't find it.
 
 
 
-=====>] Paragraph 90 [<=====
+=====>] Paragraph 80 [<=====
 
 If you do that, you get to keep your job.
 
@@ -2516,7 +2436,7 @@ If you do that, you get to keep your job.
 
 
 
-=====>] Paragraph 91 [<=====
+=====>] Paragraph 81 [<=====
 
 Otherwise, there's always the case that you didn't search hard enough.
 
@@ -2542,7 +2462,7 @@ So it's nice to have that argument.
 
 
 
-=====>] Paragraph 92 [<=====
+=====>] Paragraph 82 [<=====
 
 All right, great.
 
@@ -2559,7 +2479,7 @@ All right, great.
 
 
 
-=====>] Paragraph 93 [<=====
+=====>] Paragraph 83 [<=====
 
 Thanks for the question.
 
@@ -2576,7 +2496,7 @@ Thanks for the question.
 
 
 
-=====>] Paragraph 94 [<=====
+=====>] Paragraph 84 [<=====
 
 Feel free to interrupt, raise your hand, and I'm watching you guys, and I'm happy to answer questions at any time.
 
@@ -2613,7 +2533,7 @@ The straightforward algorithm is something that starts from the left and just wa
 
 
 
-=====>] Paragraph 95 [<=====
+=====>] Paragraph 85 [<=====
 
 By this, I mean the numbers are increasing as you start from the left.
 
@@ -2653,7 +2573,7 @@ So in this case, this might be the peak.
 
 
 
-=====>] Paragraph 96 [<=====
+=====>] Paragraph 86 [<=====
 
 You also may have a situation where the peak is all the way on the right.
 
@@ -2670,7 +2590,7 @@ You also may have a situation where the peak is all the way on the right.
 
 
 
-=====>] Paragraph 97 [<=====
+=====>] Paragraph 87 [<=====
 
 You start it from the left, and it's 1, 2, 3, 4, 5, 6, literally in terms of the numbers.
 
@@ -2688,7 +2608,7 @@ You start it from the left, and it's 1, 2, 3, 4, 5, 6, literally in terms of the
 
 
 
-=====>] Paragraph 98 [<=====
+=====>] Paragraph 88 [<=====
 
 And the complexity, worst case complexity, is what we call theta n. And it's theta n because in the worst case, you may have to look at all n elements.
 
@@ -2753,7 +2673,7 @@ Big O of n is just the upper bound.
 
 
 
-=====>] Paragraph 99 [<=====
+=====>] Paragraph 89 [<=====
 
 And what we're saying here is we're saying this algorithm that starts from the left is going to essentially require, in the worst case, something that's a constant times n. And that constant could be 1.
 
@@ -2809,15 +2729,7 @@ And the asymptotic complexity of this algorithm is linear.
 
 
 
-=====>] Paragraph 100 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 101 [<=====
+=====>] Paragraph 90 [<=====
 
 That make sense?
 
@@ -2834,31 +2746,7 @@ That make sense?
 
 
 
-=====>] Paragraph 102 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 103 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 104 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 105 [<=====
+=====>] Paragraph 91 [<=====
 
 How can we lower the asymptotic complexity of a one-dimensional peak finder?
 
@@ -2875,7 +2763,7 @@ How can we lower the asymptotic complexity of a one-dimensional peak finder?
 
 
 
-=====>] Paragraph 106 [<=====
+=====>] Paragraph 92 [<=====
 
 Anybody want to take a stab at that?
 
@@ -2892,7 +2780,7 @@ Anybody want to take a stab at that?
 
 
 
-=====>] Paragraph 107 [<=====
+=====>] Paragraph 93 [<=====
 
 Whichever side is higher, you then put that in half because you know there's a peak.
 
@@ -2948,7 +2836,7 @@ Then you would just look at that because you know there's a peak somewhere in th
 
 
 
-=====>] Paragraph 108 [<=====
+=====>] Paragraph 94 [<=====
 
 And you continue cutting in half.
 
@@ -2965,7 +2853,7 @@ And you continue cutting in half.
 
 
 
-=====>] Paragraph 109 [<=====
+=====>] Paragraph 95 [<=====
 
 Excellent.
 
@@ -2995,15 +2883,7 @@ Excellent.
 
 
 
-=====>] Paragraph 110 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 111 [<=====
+=====>] Paragraph 96 [<=====
 
 Use a divide and conquer strategy and recursively break up this one-dimensional array into smaller arrays and try and get this complexity down.
 
@@ -3030,7 +2910,7 @@ Use a divide and conquer strategy and recursively break up this one-dimensional 
 
 
 
-=====>] Paragraph 112 [<=====
+=====>] Paragraph 97 [<=====
 
 Yeah?
 
@@ -3047,7 +2927,7 @@ Yeah?
 
 
 
-=====>] Paragraph 113 [<=====
+=====>] Paragraph 98 [<=====
 
 Are we assuming there's only one peak?
 
@@ -3064,15 +2944,7 @@ Are we assuming there's only one peak?
 
 
 
-=====>] Paragraph 114 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 115 [<=====
+=====>] Paragraph 99 [<=====
 
 It's find a peak if it exists.
 
@@ -3089,7 +2961,7 @@ It's find a peak if it exists.
 
 
 
-=====>] Paragraph 116 [<=====
+=====>] Paragraph 100 [<=====
 
 And in this case, it's find a peak because of the definition.
 
@@ -3107,7 +2979,7 @@ And in this case, it's find a peak because of the definition.
 
 
 
-=====>] Paragraph 117 [<=====
+=====>] Paragraph 101 [<=====
 
 We don't really need this as it was discussed.
 
@@ -3124,23 +2996,7 @@ We don't really need this as it was discussed.
 
 
 
-=====>] Paragraph 118 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 119 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 120 [<=====
+=====>] Paragraph 102 [<=====
 
 So that was a great answer.
 
@@ -3157,7 +3013,7 @@ So that was a great answer.
 
 
 
-=====>] Paragraph 121 [<=====
+=====>] Paragraph 103 [<=====
 
 And this class, after a while, is going to get boring, right?
 
@@ -3174,7 +3030,7 @@ And this class, after a while, is going to get boring, right?
 
 
 
-=====>] Paragraph 122 [<=====
+=====>] Paragraph 104 [<=====
 
 Every class gets boring.
 
@@ -3191,7 +3047,7 @@ Every class gets boring.
 
 
 
-=====>] Paragraph 123 [<=====
+=====>] Paragraph 105 [<=====
 
 So we try and break the monotony here a bit.
 
@@ -3208,7 +3064,7 @@ So we try and break the monotony here a bit.
 
 
 
-=====>] Paragraph 124 [<=====
+=====>] Paragraph 106 [<=====
 
 And then the other thing that we realized was that these seats you're sitting on, this is a nice classroom, but the seats you're sitting on are kind of hard.
 
@@ -3236,7 +3092,7 @@ So what Eric and I did was we decided we'll help you guys out, especially the on
 
 
 
-=====>] Paragraph 125 [<=====
+=====>] Paragraph 107 [<=====
 
 And we have these cushions that are 6006 cushions.
 
@@ -3254,7 +3110,7 @@ And we have these cushions that are 6006 cushions.
 
 
 
-=====>] Paragraph 126 [<=====
+=====>] Paragraph 108 [<=====
 
 And that's a 2 by 2 by 2 Rubik's Cube here.
 
@@ -3271,7 +3127,7 @@ And that's a 2 by 2 by 2 Rubik's Cube here.
 
 
 
-=====>] Paragraph 127 [<=====
+=====>] Paragraph 109 [<=====
 
 And since you answered the first question, you get a cushion.
 
@@ -3288,7 +3144,7 @@ And since you answered the first question, you get a cushion.
 
 
 
-=====>] Paragraph 128 [<=====
+=====>] Paragraph 110 [<=====
 
 This is kind of like a Frisbee, but not really.
 
@@ -3306,15 +3162,7 @@ This is kind of like a Frisbee, but not really.
 
 
 
-=====>] Paragraph 129 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 130 [<=====
+=====>] Paragraph 111 [<=====
 
 But the other thing I want to say is this is not a baseball game, right, where you just grab the balls that come by.
 
@@ -3332,7 +3180,7 @@ But the other thing I want to say is this is not a baseball game, right, where y
 
 
 
-=====>] Paragraph 131 [<=====
+=====>] Paragraph 112 [<=====
 
 This is meant for him, my friend in the red shirt.
 
@@ -3349,15 +3197,7 @@ This is meant for him, my friend in the red shirt.
 
 
 
-=====>] Paragraph 132 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 133 [<=====
+=====>] Paragraph 113 [<=====
 
 Too bad.
 
@@ -3374,7 +3214,7 @@ Too bad.
 
 
 
-=====>] Paragraph 134 [<=====
+=====>] Paragraph 114 [<=====
 
 It is soft, so it won't hurt you if it hits you.
 
@@ -3402,7 +3242,7 @@ So if you've got a bunch of these, raise your hands.
 
 
 
-=====>] Paragraph 135 [<=====
+=====>] Paragraph 115 [<=====
 
 There's some trivial questions that we're going to ask just to make sure you're awake.
 
@@ -3428,7 +3268,7 @@ So an answer to that doesn't get you a cushion.
 
 
 
-=====>] Paragraph 136 [<=====
+=====>] Paragraph 116 [<=====
 
 Jace, an answer like Jace just gave, that's a good answer to a non-trivial question.
 
@@ -3454,7 +3294,7 @@ Jace, an answer like Jace just gave, that's a good answer to a non-trivial quest
 
 
 
-=====>] Paragraph 137 [<=====
+=====>] Paragraph 117 [<=====
 
 That gets you a cushion.
 
@@ -3471,7 +3311,7 @@ That gets you a cushion.
 
 
 
-=====>] Paragraph 138 [<=====
+=====>] Paragraph 118 [<=====
 
 All right, great.
 
@@ -3488,7 +3328,7 @@ All right, great.
 
 
 
-=====>] Paragraph 139 [<=====
+=====>] Paragraph 119 [<=====
 
 So let's put up Jace's algorithm up here.
 
@@ -3505,7 +3345,7 @@ So let's put up Jace's algorithm up here.
 
 
 
-=====>] Paragraph 140 [<=====
+=====>] Paragraph 120 [<=====
 
 I'm going to write it out for the 1D version.
 
@@ -3522,7 +3362,7 @@ I'm going to write it out for the 1D version.
 
 
 
-=====>] Paragraph 141 [<=====
+=====>] Paragraph 121 [<=====
 
 So the picture you want to keep in your head is this picture that I've put up there.
 
@@ -3548,7 +3388,7 @@ So the picture you want to keep in your head is this picture that I've put up th
 
 
 
-=====>] Paragraph 142 [<=====
+=====>] Paragraph 122 [<=====
 
 And this is a divide and conquer algorithm.
 
@@ -3565,7 +3405,7 @@ And this is a divide and conquer algorithm.
 
 
 
-=====>] Paragraph 143 [<=====
+=====>] Paragraph 123 [<=====
 
 You're going to see this over and over, this paradigm, over and over in 6006.
 
@@ -3616,7 +3456,7 @@ And we're going to do that in sequence.
 
 
 
-=====>] Paragraph 144 [<=====
+=====>] Paragraph 124 [<=====
 
 So if a n over 2 is less than a n over 2 minus 1, then only look at the left half, 1 through n over 2 minus 1, to look for a peak.
 
@@ -3634,7 +3474,7 @@ So if a n over 2 is less than a n over 2 minus 1, then only look at the left hal
 
 
 
-=====>] Paragraph 145 [<=====
+=====>] Paragraph 125 [<=====
 
 So that's step one.
 
@@ -3651,7 +3491,7 @@ So that's step one.
 
 
 
-=====>] Paragraph 146 [<=====
+=====>] Paragraph 126 [<=====
 
 And I could have done the right-hand side or the left-hand side.
 
@@ -3668,7 +3508,7 @@ And I could have done the right-hand side or the left-hand side.
 
 
 
-=====>] Paragraph 147 [<=====
+=====>] Paragraph 127 [<=====
 
 I chose to do the left-hand side first, the left half.
 
@@ -3695,7 +3535,7 @@ I chose to do the left-hand side first, the left half.
 
 
 
-=====>] Paragraph 148 [<=====
+=====>] Paragraph 128 [<=====
 
 And so what I've done is through that one step, if in fact you have that condition a n over 2 is less than a n over 2 minus 1, then you move to your left and you work on one half of the problem.
 
@@ -3731,7 +3571,7 @@ So I haven't bothered writing out all the words.
 
 
 
-=====>] Paragraph 149 [<=====
+=====>] Paragraph 129 [<=====
 
 They're exactly the same as the left-hand side.
 
@@ -3748,7 +3588,7 @@ They're exactly the same as the left-hand side.
 
 
 
-=====>] Paragraph 150 [<=====
+=====>] Paragraph 130 [<=====
 
 You just look to the right-hand side.
 
@@ -3765,7 +3605,7 @@ You just look to the right-hand side.
 
 
 
-=====>] Paragraph 151 [<=====
+=====>] Paragraph 131 [<=====
 
 Otherwise, if both of these conditions don't fire, you're actually done.
 
@@ -3794,7 +3634,7 @@ That's actually the best case in terms of finishing early, at least in this recu
 
 
 
-=====>] Paragraph 152 [<=====
+=====>] Paragraph 132 [<=====
 
 Because what you've found is that the n over 2 position is greater than or equal to both of its adjacent positions.
 
@@ -3820,7 +3660,7 @@ Because what you've found is that the n over 2 position is greater than or equal
 
 
 
-=====>] Paragraph 153 [<=====
+=====>] Paragraph 133 [<=====
 
 And that's exactly the definition of a peak.
 
@@ -3837,15 +3677,7 @@ And that's exactly the definition of a peak.
 
 
 
-=====>] Paragraph 154 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 155 [<=====
+=====>] Paragraph 134 [<=====
 
 So all of this is good.
 
@@ -3862,7 +3694,7 @@ So all of this is good.
 
 
 
-=====>] Paragraph 156 [<=====
+=====>] Paragraph 135 [<=====
 
 You want to write an argument that this algorithm is correct.
 
@@ -3879,7 +3711,7 @@ You want to write an argument that this algorithm is correct.
 
 
 
-=====>] Paragraph 157 [<=====
+=====>] Paragraph 136 [<=====
 
 And I'm not going to bother with that.
 
@@ -3907,7 +3739,7 @@ I just waved my hands a bit.
 
 
 
-=====>] Paragraph 158 [<=====
+=====>] Paragraph 137 [<=====
 
 And you all nodded, so we're done with that.
 
@@ -3924,7 +3756,7 @@ And you all nodded, so we're done with that.
 
 
 
-=====>] Paragraph 159 [<=====
+=====>] Paragraph 138 [<=====
 
 But the point being, you will see in your problem set a precise argument for a more complicated algorithm, the 2D version of this.
 
@@ -3963,7 +3795,7 @@ And in this case, it's two, three lines of careful reasoning that essentially sa
 
 
 
-=====>] Paragraph 160 [<=====
+=====>] Paragraph 139 [<=====
 
 So we all believe that this algorithm is correct.
 
@@ -3980,7 +3812,7 @@ So we all believe that this algorithm is correct.
 
 
 
-=====>] Paragraph 161 [<=====
+=====>] Paragraph 140 [<=====
 
 Let's talk now about the complexity of this algorithm.
 
@@ -4009,15 +3841,7 @@ Because the whole point of this algorithm is because we didn't like this theta n
 
 
 
-=====>] Paragraph 162 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 163 [<=====
+=====>] Paragraph 141 [<=====
 
 So what I'd like to do is ask one of you to give me a recurrence relation of the kind t of n equals blah, blah, blah that would correspond to this recursive algorithm, this divide and conquer algorithm.
 
@@ -4046,7 +3870,7 @@ And then using that, I'd like to get to the actual complexity in terms of what t
 
 
 
-=====>] Paragraph 164 [<=====
+=====>] Paragraph 142 [<=====
 
 Yeah, back there.
 
@@ -4063,7 +3887,7 @@ Yeah, back there.
 
 
 
-=====>] Paragraph 165 [<=====
+=====>] Paragraph 143 [<=====
 
 So in the worst case scenario, the t of n is going to be some constant amount of time it takes to investigate whether a certain element is plus t of n over 2.
 
@@ -4080,7 +3904,7 @@ So in the worst case scenario, the t of n is going to be some constant amount of
 
 
 
-=====>] Paragraph 166 [<=====
+=====>] Paragraph 144 [<=====
 
 Great, exactly right.
 
@@ -4097,7 +3921,7 @@ Great, exactly right.
 
 
 
-=====>] Paragraph 167 [<=====
+=====>] Paragraph 145 [<=====
 
 And this theta 1 corresponds to the two comparisons that you do looking at, potentially the two comparisons that you do, looking at the left hand side and the right hand side.
 
@@ -4143,7 +3967,7 @@ So 2 is a constant, so that's why we put theta 1.
 
 
 
-=====>] Paragraph 168 [<=====
+=====>] Paragraph 146 [<=====
 
 All right, so you get equation 2.
 
@@ -4160,7 +3984,7 @@ All right, so you get equation 2.
 
 
 
-=====>] Paragraph 169 [<=====
+=====>] Paragraph 147 [<=====
 
 Watch out, guys.
 
@@ -4177,7 +4001,7 @@ Watch out, guys.
 
 
 
-=====>] Paragraph 170 [<=====
+=====>] Paragraph 148 [<=====
 
 Whoa.
 
@@ -4194,7 +4018,7 @@ Whoa.
 
 
 
-=====>] Paragraph 171 [<=====
+=====>] Paragraph 149 [<=====
 
 Actually, that wasn't so bad.
 
@@ -4212,7 +4036,7 @@ Actually, that wasn't so bad.
 
 
 
-=====>] Paragraph 172 [<=====
+=====>] Paragraph 150 [<=====
 
 We're left.
 
@@ -4240,7 +4064,7 @@ Eric, we're left.
 
 
 
-=====>] Paragraph 173 [<=====
+=====>] Paragraph 151 [<=====
 
 So if you take this and you start expanding it, eventually you're going to get to the base case, which is t of 1 is theta 1.
 
@@ -4276,7 +4100,7 @@ And so if you do that and you expand it all the way out, then you can write t of
 
 
 
-=====>] Paragraph 174 [<=====
+=====>] Paragraph 152 [<=====
 
 And adding these all up gives you a complexity theta log 2 of n. So now you compare this with that.
 
@@ -4320,7 +4144,7 @@ There's an exponential difference.
 
 
 
-=====>] Paragraph 175 [<=====
+=====>] Paragraph 153 [<=====
 
 If you coded up this algorithm in Python, and I did both these algorithms for the 1D version.
 
@@ -4360,7 +4184,7 @@ The theta n algorithm takes 13 seconds.
 
 
 
-=====>] Paragraph 176 [<=====
+=====>] Paragraph 154 [<=====
 
 Huge difference.
 
@@ -4378,7 +4202,7 @@ Huge difference.
 
 
 
-=====>] Paragraph 177 [<=====
+=====>] Paragraph 155 [<=====
 
 So there is a big difference between theta n and theta log n. It's literally the difference between 2 raised to n and n. It makes sense to try and reduce complexity, as you can see, especially if you're talking about large inputs.
 
@@ -4414,7 +4238,7 @@ The 1D is a straightforward problem.
 
 
 
-=====>] Paragraph 178 [<=====
+=====>] Paragraph 156 [<=====
 
 It gets a little more interesting.
 
@@ -4431,7 +4255,7 @@ It gets a little more interesting.
 
 
 
-=====>] Paragraph 179 [<=====
+=====>] Paragraph 157 [<=====
 
 The algorithms get a little more sophisticated when we look at a 2D version of peak finding.
 
@@ -4478,7 +4302,7 @@ And we'll say this thing has n rows and m columns.
 
 
 
-=====>] Paragraph 180 [<=====
+=====>] Paragraph 158 [<=====
 
 And now we have to define what a peak is.
 
@@ -4496,7 +4320,7 @@ And now we have to define what a peak is.
 
 
 
-=====>] Paragraph 181 [<=====
+=====>] Paragraph 159 [<=====
 
 And it's a hill.
 
@@ -4513,7 +4337,7 @@ And it's a hill.
 
 
 
-=====>] Paragraph 182 [<=====
+=====>] Paragraph 160 [<=====
 
 It's the obvious definition of a peak.
 
@@ -4530,7 +4354,7 @@ It's the obvious definition of a peak.
 
 
 
-=====>] Paragraph 183 [<=====
+=====>] Paragraph 161 [<=====
 
 So if you had a in here, c, b, d, e, then as you can guess, a is a 2D peak if and only if a greater than or equal to b, a greater than or equal to d, c, and e. So it's a little hill up there.
 
@@ -4558,7 +4382,7 @@ And again, I've used the greater than or equal to here.
 
 
 
-=====>] Paragraph 184 [<=====
+=====>] Paragraph 162 [<=====
 
 So that's similar to the 1D in the case that you'll always find a peak in any 2D matrix.
 
@@ -4575,7 +4399,7 @@ So that's similar to the 1D in the case that you'll always find a peak in any 2D
 
 
 
-=====>] Paragraph 185 [<=====
+=====>] Paragraph 163 [<=====
 
 And the greedy ascent algorithm essentially picks the direction and tries to follow that direction in order to find a peak.
 
@@ -4611,7 +4435,7 @@ And the greedy ascent algorithm essentially picks the direction and tries to fol
 
 
 
-=====>] Paragraph 186 [<=====
+=====>] Paragraph 164 [<=====
 
 So for example, if I had this particular matrix, 14, 13, 12, 15, 9, 11, then what might happen is if I started at some arbitrary midpoint, so the greedy ascent algorithm has to make choices as to where to start.
 
@@ -4629,7 +4453,7 @@ So for example, if I had this particular matrix, 14, 13, 12, 15, 9, 11, then wha
 
 
 
-=====>] Paragraph 187 [<=====
+=====>] Paragraph 165 [<=====
 
 Just like we had different cases here, you have to make a choice as to where to start.
 
@@ -4679,7 +4503,7 @@ You just keep going left or keep going right.
 
 
 
-=====>] Paragraph 188 [<=====
+=====>] Paragraph 166 [<=====
 
 And if you hit an edge, you go down.
 
@@ -4696,7 +4520,7 @@ And if you hit an edge, you go down.
 
 
 
-=====>] Paragraph 189 [<=====
+=====>] Paragraph 167 [<=====
 
 And so if you say you want to start with 12, you're going to go look for something to your left.
 
@@ -4744,7 +4568,7 @@ If it's less, then you're going to go in the other direction in this case, for e
 
 
 
-=====>] Paragraph 190 [<=====
+=====>] Paragraph 168 [<=====
 
 So in this case, you'll go 12, 13, 14, 15, 16, 17, 19, and 20.
 
@@ -4761,7 +4585,7 @@ So in this case, you'll go 12, 13, 14, 15, 16, 17, 19, and 20.
 
 
 
-=====>] Paragraph 191 [<=====
+=====>] Paragraph 169 [<=====
 
 And you'll find this peak.
 
@@ -4778,7 +4602,7 @@ And you'll find this peak.
 
 
 
-=====>] Paragraph 192 [<=====
+=====>] Paragraph 170 [<=====
 
 But I think if you look at the worst case possibilities here with respect to a given matrix and for any given starting point and for any given strategy in terms of choosing left first versus right first or down first versus up first, you will have a situation where, just like we had in the 1D case, you may end up touching a large fraction of the elements in this 2D array.
 
@@ -4863,15 +4687,7 @@ But hopefully you're all with me with respect to what the worst case complexity 
 
 
 
-=====>] Paragraph 193 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 194 [<=====
+=====>] Paragraph 171 [<=====
 
 People buy that?
 
@@ -4889,7 +4705,7 @@ People buy that?
 
 
 
-=====>] Paragraph 195 [<=====
+=====>] Paragraph 172 [<=====
 
 Yeah, question back there.
 
@@ -4906,7 +4722,7 @@ Yeah, question back there.
 
 
 
-=====>] Paragraph 196 [<=====
+=====>] Paragraph 173 [<=====
 
 AUDIENCE 2 is that an approximation or can you actually get to n times m traversals?
 
@@ -4923,7 +4739,7 @@ AUDIENCE 2 is that an approximation or can you actually get to n times m travers
 
 
 
-=====>] Paragraph 197 [<=====
+=====>] Paragraph 174 [<=====
 
 So if there are specific greedy ascent algorithms and specific matrices where if I give you the code for the algorithm and I give you a specific matrix, that I could make you touch all of these elements.
 
@@ -4941,7 +4757,7 @@ So if there are specific greedy ascent algorithms and specific matrices where if
 
 
 
-=====>] Paragraph 198 [<=====
+=====>] Paragraph 175 [<=====
 
 That's correct.
 
@@ -4958,7 +4774,7 @@ That's correct.
 
 
 
-=====>] Paragraph 199 [<=====
+=====>] Paragraph 176 [<=====
 
 Certainly it's very easy to get to theta nm in terms of having some constant multiplying n times m. But you can definitely get to that constant being very close to 1, if not 1.
 
@@ -5022,15 +4838,7 @@ Certainly it's very easy to get to theta nm in terms of having some constant mul
 
 
 
-=====>] Paragraph 200 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 201 [<=====
+=====>] Paragraph 177 [<=====
 
 And I'm going to find a 1D peak using whatever algorithm I want and I'll probably end up using the more efficient algorithm, the binary search version that's gone all the way to the left of the board there.
 
@@ -5095,7 +4903,7 @@ Because I've picked a column and I'm just finding a 1D peak.
 
 
 
-=====>] Paragraph 202 [<=====
+=====>] Paragraph 178 [<=====
 
 So this is j equals m over 2.
 
@@ -5112,15 +4920,7 @@ So this is j equals m over 2.
 
 
 
-=====>] Paragraph 203 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 204 [<=====
+=====>] Paragraph 179 [<=====
 
 Now I use ij, in particular, row i as a start to find a 1D peak on row i.
 
@@ -5137,7 +4937,7 @@ Now I use ij, in particular, row i as a start to find a 1D peak on row i.
 
 
 
-=====>] Paragraph 205 [<=====
+=====>] Paragraph 180 [<=====
 
 And I stand up here and I'm really happy.
 
@@ -5154,7 +4954,7 @@ And I stand up here and I'm really happy.
 
 
 
-=====>] Paragraph 206 [<=====
+=====>] Paragraph 181 [<=====
 
 Because I say, wow, I picked a middle column.
 
@@ -5171,7 +4971,7 @@ Because I say, wow, I picked a middle column.
 
 
 
-=====>] Paragraph 207 [<=====
+=====>] Paragraph 182 [<=====
 
 I found a 1D peak.
 
@@ -5189,7 +4989,7 @@ I found a 1D peak.
 
 
 
-=====>] Paragraph 208 [<=====
+=====>] Paragraph 183 [<=====
 
 That is theta n complexity to find a 1D peak, as we argued.
 
@@ -5206,7 +5006,7 @@ That is theta n complexity to find a 1D peak, as we argued.
 
 
 
-=====>] Paragraph 209 [<=====
+=====>] Paragraph 184 [<=====
 
 And theta m is the log n complexity.
 
@@ -5223,23 +5023,7 @@ And theta m is the log n complexity.
 
 
 
-=====>] Paragraph 210 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 211 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 212 [<=====
+=====>] Paragraph 185 [<=====
 
 Log n complexity.
 
@@ -5256,7 +5040,7 @@ Log n complexity.
 
 
 
-=====>] Paragraph 213 [<=====
+=====>] Paragraph 186 [<=====
 
 Thanks, Eric.
 
@@ -5273,7 +5057,7 @@ Thanks, Eric.
 
 
 
-=====>] Paragraph 214 [<=====
+=====>] Paragraph 187 [<=====
 
 And then once I do that, I can find a 1D peak on row i.
 
@@ -5313,23 +5097,7 @@ If n equals m, then I have a couple of steps of log n and I'm done.
 
 
 
-=====>] Paragraph 215 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 216 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 217 [<=====
+=====>] Paragraph 188 [<=====
 
 Can someone tell me why I'm not done precisely?
 
@@ -5346,7 +5114,7 @@ Can someone tell me why I'm not done precisely?
 
 
 
-=====>] Paragraph 218 [<=====
+=====>] Paragraph 189 [<=====
 
 Yep.
 
@@ -5363,7 +5131,7 @@ Yep.
 
 
 
-=====>] Paragraph 219 [<=====
+=====>] Paragraph 190 [<=====
 
 Because when you do the second part, find the peak in row i, you might not have that column peak anymore.
 
@@ -5389,7 +5157,7 @@ You might not be able to column it anymore.
 
 
 
-=====>] Paragraph 220 [<=====
+=====>] Paragraph 191 [<=====
 
 That's exactly correct.
 
@@ -5417,7 +5185,7 @@ So this algorithm is incorrect.
 
 
 
-=====>] Paragraph 221 [<=====
+=====>] Paragraph 192 [<=====
 
 It's efficient but incorrect.
 
@@ -5453,7 +5221,7 @@ You want to be correct.
 
 
 
-=====>] Paragraph 222 [<=====
+=====>] Paragraph 193 [<=====
 
 So this is an efficient algorithm in the sense that it would only take log n time, but it doesn't work.
 
@@ -5498,15 +5266,7 @@ So the problem is a 2D peak may not exist on row i.
 
 
 
-=====>] Paragraph 223 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 224 [<=====
+=====>] Paragraph 194 [<=====
 
 Let's say that I started with this row.
 
@@ -5523,7 +5283,7 @@ Let's say that I started with this row.
 
 
 
-=====>] Paragraph 225 [<=====
+=====>] Paragraph 195 [<=====
 
 Since I'm starting with the middle row and I could start with this one or that one, let's say I started with that one.
 
@@ -5541,7 +5301,7 @@ Since I'm starting with the middle row and I could start with this one or that o
 
 
 
-=====>] Paragraph 226 [<=====
+=====>] Paragraph 196 [<=====
 
 I end up finding a peak.
 
@@ -5558,7 +5318,7 @@ I end up finding a peak.
 
 
 
-=====>] Paragraph 227 [<=====
+=====>] Paragraph 197 [<=====
 
 And it's quite possible that I'd return 12 as a peak, even though 19 is bigger because 12 is a peak given 10 and 11 up here.
 
@@ -5615,7 +5375,7 @@ So this particular example, 14 would return 14.
 
 
 
-=====>] Paragraph 228 [<=====
+=====>] Paragraph 198 [<=====
 
 And 14 is not a 2D peak.
 
@@ -5632,7 +5392,7 @@ And 14 is not a 2D peak.
 
 
 
-=====>] Paragraph 229 [<=====
+=====>] Paragraph 199 [<=====
 
 You can collect your cushion after the class.
 
@@ -5649,7 +5409,7 @@ You can collect your cushion after the class.
 
 
 
-=====>] Paragraph 230 [<=====
+=====>] Paragraph 200 [<=====
 
 So not so good.
 
@@ -5666,7 +5426,7 @@ So not so good.
 
 
 
-=====>] Paragraph 231 [<=====
+=====>] Paragraph 201 [<=====
 
 Looked like an efficient algorithm, but doesn't work.
 
@@ -5694,7 +5454,7 @@ So how can we get to something that actually works?
 
 
 
-=====>] Paragraph 232 [<=====
+=====>] Paragraph 202 [<=====
 
 So the last algorithm that I'm going to show you, and you'll see four different algorithms in your problem set that you'll have to analyze the complexity for and decide if they're efficient and if they're correct.
 
@@ -5721,7 +5481,7 @@ But here's a recursive version that is better in terms of complexity than the gr
 
 
 
-=====>] Paragraph 233 [<=====
+=====>] Paragraph 203 [<=====
 
 And this one works.
 
@@ -5738,7 +5498,7 @@ And this one works.
 
 
 
-=====>] Paragraph 234 [<=====
+=====>] Paragraph 204 [<=====
 
 And that's going to be at i, j. I'm going to compare i, j minus 1, i, j, and i, j plus 1, which means that once I've found the maximum in this row, I'm going to look to the left and the right and compare.
 
@@ -5784,7 +5544,7 @@ I'm going to pick the left columns if i, j minus 1 is greater than i, j.
 
 
 
-=====>] Paragraph 235 [<=====
+=====>] Paragraph 205 [<=====
 
 And similarly for the right.
 
@@ -5802,7 +5562,7 @@ And similarly for the right.
 
 
 
-=====>] Paragraph 236 [<=====
+=====>] Paragraph 206 [<=====
 
 And if in fact either of these two conditions don't fire, and what I have is i, j is greater than or equal to i, j minus 1 and i, j plus 1, then I'm done.
 
@@ -5832,7 +5592,7 @@ Just like I had for the 1D version, if i, j is greater than or equal to i, j min
 
 
 
-=====>] Paragraph 237 [<=====
+=====>] Paragraph 207 [<=====
 
 And the reason that is the case is because i, j was the maximum element in that column.
 
@@ -5849,7 +5609,7 @@ And the reason that is the case is because i, j was the maximum element in that 
 
 
 
-=====>] Paragraph 238 [<=====
+=====>] Paragraph 208 [<=====
 
 So you know that you've compared it to all of the adjacent elements looking up and looking down.
 
@@ -5866,7 +5626,7 @@ So you know that you've compared it to all of the adjacent elements looking up a
 
 
 
-=====>] Paragraph 239 [<=====
+=====>] Paragraph 209 [<=====
 
 That's the maximum element.
 
@@ -5883,7 +5643,7 @@ That's the maximum element.
 
 
 
-=====>] Paragraph 240 [<=====
+=====>] Paragraph 210 [<=====
 
 And in fact, it's greater than or equal to the elements on the left and the right.
 
@@ -5947,7 +5707,7 @@ And again, you have to go through an analysis or an argument to make sure that t
 
 
 
-=====>] Paragraph 241 [<=====
+=====>] Paragraph 211 [<=====
 
 But it's intuitively correct simply because it matches the 1D version much more closely.
 
@@ -5995,7 +5755,7 @@ And that's essentially why this algorithm works.
 
 
 
-=====>] Paragraph 242 [<=====
+=====>] Paragraph 212 [<=====
 
 When you have a single column, find the global maximum.
 
@@ -6012,15 +5772,7 @@ When you have a single column, find the global maximum.
 
 
 
-=====>] Paragraph 243 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 244 [<=====
+=====>] Paragraph 213 [<=====
 
 So that's the base case.
 
@@ -6037,7 +5789,7 @@ So that's the base case.
 
 
 
-=====>] Paragraph 245 [<=====
+=====>] Paragraph 214 [<=====
 
 So let me end with just writing out what the recurrence relation for the complexity of this and argue what the overall complexity of this algorithm is.
 
@@ -6054,7 +5806,7 @@ So let me end with just writing out what the recurrence relation for the complex
 
 
 
-=====>] Paragraph 246 [<=====
+=====>] Paragraph 215 [<=====
 
 And then I'll give you the bad news.
 
@@ -6071,7 +5823,7 @@ And then I'll give you the bad news.
 
 
 
-=====>] Paragraph 247 [<=====
+=====>] Paragraph 216 [<=====
 
 So overall, what you have is you have something like T of nm equals T of n m over 2 plus theta n. Why is that?
 
@@ -6135,7 +5887,7 @@ And in order to find the global maximum, you'll be doing theta n work because yo
 
 
 
-=====>] Paragraph 248 [<=====
+=====>] Paragraph 217 [<=====
 
 You just have to scan it.
 
@@ -6153,15 +5905,7 @@ You just have to scan it.
 
 
 
-=====>] Paragraph 249 [<=====
-
-
-
-
-
-
-
-=====>] Paragraph 250 [<=====
+=====>] Paragraph 218 [<=====
 
 And so if you do that and you go run it through, and you know that T of n1 is theta n, which is this last part over here.
 
@@ -6179,7 +5923,7 @@ And so if you do that and you go run it through, and you know that T of n1 is th
 
 
 
-=====>] Paragraph 251 [<=====
+=====>] Paragraph 219 [<=====
 
 That's your base case.
 
@@ -6196,7 +5940,7 @@ That's your base case.
 
 
 
-=====>] Paragraph 252 [<=====
+=====>] Paragraph 220 [<=====
 
 You get T of n m is theta of n added to theta of n log of m times log 2 of m times, which is theta of n log 2 of n. All right?
 
@@ -6214,7 +5958,7 @@ You get T of n m is theta of n added to theta of n log of m times log 2 of m tim
 
 
 
-=====>] Paragraph 253 [<=====
+=====>] Paragraph 221 [<=====
 
 I'm not going to give away what those algorithms are, but you'll have to recognize them.
 
